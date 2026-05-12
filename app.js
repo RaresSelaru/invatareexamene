@@ -1,0 +1,414 @@
+(function () {
+  const packs = Array.isArray(window.QUIZ_PACKS) ? window.QUIZ_PACKS : [];
+  const dailyTarget = 20;
+  const letters = ["A", "B", "C", "D", "E", "F"];
+
+  const elements = {
+    packSelect: document.querySelector("#packSelect"),
+    packPicker: document.querySelector(".pack-picker"),
+    questionTitle: document.querySelector("#questionTitle"),
+    currentNumber: document.querySelector("#currentNumber"),
+    totalNumber: document.querySelector("#totalNumber"),
+    progressFill: document.querySelector("#progressFill"),
+    answers: document.querySelector("#answers"),
+    prevButton: document.querySelector("#prevButton"),
+    nextButton: document.querySelector("#nextButton"),
+    modeButtons: document.querySelector("#modeButtons"),
+    shuffleQuestions: document.querySelector("#shuffleQuestions"),
+    shuffleAnswers: document.querySelector("#shuffleAnswers"),
+    attemptedStat: document.querySelector("#attemptedStat"),
+    accuracyStat: document.querySelector("#accuracyStat"),
+    masteredStat: document.querySelector("#masteredStat"),
+    todayStat: document.querySelector("#todayStat"),
+    questionMap: document.querySelector("#questionMap"),
+    resetButton: document.querySelector("#resetButton"),
+  };
+
+  const state = {
+    packId: packs[0]?.id || "",
+    mode: "all",
+    queue: [],
+    cursor: 0,
+    emptyFilter: false,
+    answered: false,
+    selectedOriginalIndex: null,
+    optionOrders: new Map(),
+    progress: {},
+  };
+
+  function storageKey(packId) {
+    return `grile-progress:v1:${packId}`;
+  }
+
+  function todayKey() {
+    return new Date().toISOString().slice(0, 10);
+  }
+
+  function defaultProgress() {
+    return {
+      byQuestion: {},
+      daily: {},
+    };
+  }
+
+  function loadProgress(packId) {
+    try {
+      const saved = localStorage.getItem(storageKey(packId));
+      return saved ? { ...defaultProgress(), ...JSON.parse(saved) } : defaultProgress();
+    } catch {
+      return defaultProgress();
+    }
+  }
+
+  function saveProgress() {
+    localStorage.setItem(storageKey(state.packId), JSON.stringify(state.progress));
+  }
+
+  function currentPack() {
+    return packs.find((pack) => pack.id === state.packId) || packs[0];
+  }
+
+  function questionStats(questionId) {
+    const id = String(questionId);
+    if (!state.progress.byQuestion[id]) {
+      state.progress.byQuestion[id] = {
+        attempts: 0,
+        correct: 0,
+        wrong: 0,
+        streak: 0,
+        lastCorrect: false,
+      };
+    }
+    return state.progress.byQuestion[id];
+  }
+
+  function existingStats(questionId) {
+    return state.progress.byQuestion[String(questionId)] || null;
+  }
+
+  function isMastered(question) {
+    const stats = existingStats(question.id);
+    return Boolean(stats && stats.streak >= 2 && stats.correct >= 2);
+  }
+
+  function answeredCorrect(question) {
+    const stats = existingStats(question.id);
+    return Boolean(stats && stats.lastCorrect);
+  }
+
+  function needsFocus(question) {
+    const stats = existingStats(question.id);
+    return !stats || stats.streak < 2;
+  }
+
+  function wasMissed(question) {
+    const stats = existingStats(question.id);
+    return Boolean(stats && stats.wrong > 0 && stats.streak < 2);
+  }
+
+  function shuffle(items) {
+    const copy = [...items];
+    for (let index = copy.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+    }
+    return copy;
+  }
+
+  function buildQueue() {
+    const pack = currentPack();
+    if (!pack) {
+      state.queue = [];
+      return;
+    }
+
+    let queue = pack.questions.map((_, index) => index);
+    if (state.mode === "focus") {
+      queue = queue.filter((index) => needsFocus(pack.questions[index]));
+    }
+    if (state.mode === "missed") {
+      queue = queue.filter((index) => wasMissed(pack.questions[index]));
+    }
+    state.emptyFilter = queue.length === 0;
+    state.queue = elements.shuffleQuestions.checked ? shuffle(queue) : queue;
+    state.cursor = 0;
+    state.answered = false;
+    state.selectedOriginalIndex = null;
+    state.optionOrders = new Map();
+  }
+
+  function optionOrder(question) {
+    if (!elements.shuffleAnswers.checked) {
+      return question.options.map((_, index) => index);
+    }
+    if (!state.optionOrders.has(question.id)) {
+      state.optionOrders.set(question.id, shuffle(question.options.map((_, index) => index)));
+    }
+    return state.optionOrders.get(question.id);
+  }
+
+  function renderEmpty() {
+    elements.questionTitle.textContent = "Nu am găsit grile în data/grile.js";
+    elements.currentNumber.textContent = "0";
+    elements.totalNumber.textContent = "0";
+    elements.progressFill.style.width = "0%";
+    elements.answers.innerHTML = '<div class="empty-state">Adaugă un pachet de grile în fișierul de date.</div>';
+    elements.prevButton.disabled = true;
+    elements.nextButton.disabled = true;
+  }
+
+  function renderNoQuestions(pack) {
+    const modeLabel = state.mode === "missed" ? "greșite" : "neștiute";
+    elements.questionTitle.textContent = `Nu există întrebări ${modeLabel}`;
+    elements.currentNumber.textContent = "0";
+    elements.totalNumber.textContent = "0";
+    elements.progressFill.style.width = "0%";
+    elements.answers.innerHTML = '<div class="empty-state">Schimbă filtrul sau alege o întrebare din hartă.</div>';
+    elements.prevButton.disabled = true;
+    elements.nextButton.disabled = true;
+    renderStats();
+    renderMap();
+    refreshIcons();
+  }
+
+  function renderQuestion() {
+    const pack = currentPack();
+    if (!pack) {
+      renderEmpty();
+      return;
+    }
+    if (state.emptyFilter || !state.queue.length) {
+      renderNoQuestions(pack);
+      return;
+    }
+
+    const questionIndex = state.queue[state.cursor];
+    const question = pack.questions[questionIndex];
+    const order = optionOrder(question);
+    const progressPercent = ((state.cursor + 1) / state.queue.length) * 100;
+
+    elements.questionTitle.textContent = question.text;
+    elements.currentNumber.textContent = String(state.cursor + 1);
+    elements.totalNumber.textContent = String(state.queue.length);
+    elements.progressFill.style.width = `${progressPercent}%`;
+    elements.prevButton.disabled = state.cursor === 0;
+    elements.nextButton.disabled = false;
+    elements.nextButton.innerHTML = state.cursor === state.queue.length - 1
+      ? 'Reia seria <i data-lucide="refresh-cw" aria-hidden="true"></i>'
+      : 'Următoarea <i data-lucide="arrow-right" aria-hidden="true"></i>';
+
+    elements.answers.innerHTML = "";
+    order.forEach((originalIndex, visibleIndex) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "answer-option";
+      button.dataset.originalIndex = String(originalIndex);
+      button.innerHTML = `
+        <span class="answer-letter">${letters[visibleIndex]}</span>
+        <span class="answer-text">${escapeHtml(question.options[originalIndex])}</span>
+      `;
+      button.addEventListener("click", () => answerQuestion(originalIndex));
+      elements.answers.appendChild(button);
+    });
+
+    state.answered = false;
+    state.selectedOriginalIndex = null;
+    renderStats();
+    renderMap();
+    refreshIcons();
+  }
+
+  function answerQuestion(originalIndex) {
+    if (state.answered) {
+      return;
+    }
+    const pack = currentPack();
+    const question = pack.questions[state.queue[state.cursor]];
+    const correct = originalIndex === question.answerIndex;
+    const stats = questionStats(question.id);
+    const today = todayKey();
+
+    stats.attempts += 1;
+    stats.correct += correct ? 1 : 0;
+    stats.wrong += correct ? 0 : 1;
+    stats.streak = correct ? stats.streak + 1 : 0;
+    stats.lastCorrect = correct;
+    stats.lastSeen = new Date().toISOString();
+    state.progress.daily[today] = (state.progress.daily[today] || 0) + 1;
+
+    state.answered = true;
+    state.selectedOriginalIndex = originalIndex;
+    saveProgress();
+
+    [...elements.answers.children].forEach((button) => {
+      const optionIndex = Number(button.dataset.originalIndex);
+      button.disabled = true;
+      if (optionIndex === question.answerIndex) {
+        button.classList.add("correct");
+      }
+      if (optionIndex === originalIndex && !correct) {
+        button.classList.add("wrong");
+      }
+    });
+
+    renderStats();
+    renderMap();
+  }
+
+  function renderStats() {
+    const pack = currentPack();
+    if (!pack) {
+      return;
+    }
+    const stats = Object.values(state.progress.byQuestion || {});
+    const attempts = stats.reduce((sum, item) => sum + (item.attempts || 0), 0);
+    const correct = stats.reduce((sum, item) => sum + (item.correct || 0), 0);
+    const mastered = pack.questions.filter(isMastered).length;
+    const today = state.progress.daily?.[todayKey()] || 0;
+
+    elements.attemptedStat.textContent = String(attempts);
+    elements.accuracyStat.textContent = attempts ? `${Math.round((correct / attempts) * 100)}%` : "0%";
+    elements.masteredStat.textContent = `${mastered}/${pack.questions.length}`;
+    elements.todayStat.textContent = `${today}/${dailyTarget}`;
+  }
+
+  function renderMap() {
+    const pack = currentPack();
+    if (!pack) {
+      return;
+    }
+    const activeQuestionIndex = state.queue[state.cursor];
+    elements.questionMap.innerHTML = "";
+
+    pack.questions.forEach((question, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "map-button";
+      button.textContent = question.id;
+      button.setAttribute("aria-label", `Întrebarea ${question.id}`);
+      if (answeredCorrect(question)) {
+        button.classList.add("correct");
+      } else if (isMastered(question)) {
+        button.classList.add("mastered");
+      } else if (wasMissed(question)) {
+        button.classList.add("missed");
+      }
+      if (index === activeQuestionIndex) {
+        button.classList.add("current");
+      }
+      button.addEventListener("click", () => {
+        const queuePosition = state.queue.indexOf(index);
+        if (queuePosition >= 0) {
+          state.cursor = queuePosition;
+        } else {
+          state.queue = [index, ...state.queue];
+          state.cursor = 0;
+        }
+        state.emptyFilter = false;
+        renderQuestion();
+      });
+      elements.questionMap.appendChild(button);
+    });
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function refreshIcons() {
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  }
+
+  function bindEvents() {
+    elements.packSelect.addEventListener("change", () => {
+      state.packId = elements.packSelect.value;
+      state.progress = loadProgress(state.packId);
+      buildQueue();
+      renderQuestion();
+    });
+
+    elements.modeButtons.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-mode]");
+      if (!button) {
+        return;
+      }
+      state.mode = button.dataset.mode;
+      [...elements.modeButtons.children].forEach((child) => child.classList.toggle("active", child === button));
+      buildQueue();
+      renderQuestion();
+    });
+
+    elements.shuffleQuestions.addEventListener("change", () => {
+      buildQueue();
+      renderQuestion();
+    });
+
+    elements.shuffleAnswers.addEventListener("change", () => {
+      state.optionOrders = new Map();
+      renderQuestion();
+    });
+
+    elements.prevButton.addEventListener("click", () => {
+      if (state.cursor > 0) {
+        state.cursor -= 1;
+        renderQuestion();
+      }
+    });
+
+    elements.nextButton.addEventListener("click", () => {
+      if (state.cursor === state.queue.length - 1) {
+        buildQueue();
+      } else {
+        state.cursor += 1;
+      }
+      renderQuestion();
+    });
+
+    elements.resetButton.addEventListener("click", () => {
+      const pack = currentPack();
+      if (!pack) {
+        return;
+      }
+      const confirmed = window.confirm(`Resetezi progresul pentru "${pack.title}"?`);
+      if (!confirmed) {
+        return;
+      }
+      state.progress = defaultProgress();
+      saveProgress();
+      buildQueue();
+      renderQuestion();
+    });
+  }
+
+  function init() {
+    if (!packs.length) {
+      renderEmpty();
+      refreshIcons();
+      return;
+    }
+
+    packs.forEach((pack) => {
+      const option = document.createElement("option");
+      option.value = pack.id;
+      option.textContent = pack.title;
+      elements.packSelect.appendChild(option);
+    });
+
+    elements.packPicker.classList.toggle("hidden", packs.length <= 1);
+
+    elements.packSelect.value = state.packId;
+    state.progress = loadProgress(state.packId);
+    bindEvents();
+    buildQueue();
+    renderQuestion();
+  }
+
+  init();
+})();

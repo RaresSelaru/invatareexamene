@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grile | Antrenor de învățare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="data/grile.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <div>
+            <strong>Grile</strong>
+            <span>Antrenament constant</span>
+          </div>
+        </div>
+
+        <label class="pack-picker">
+          <span>Materie</span>
+          <select id="packSelect"></select>
+        </label>
+      </header>
+
+      <main class="workspace">
+        <section class="quiz-panel" aria-labelledby="questionTitle">
+          <div class="quiz-topline">
+            <div>
+              <h1 id="questionTitle">Se încarcă grilele...</h1>
+            </div>
+            <div class="question-count" aria-live="polite">
+              <span id="currentNumber">0</span>
+              <span>/</span>
+              <span id="totalNumber">0</span>
+            </div>
+          </div>
+
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressFill"></span>
+          </div>
+
+          <div class="answer-list" id="answers" role="list"></div>
+
+          <div class="quiz-actions">
+            <button class="ghost-button" id="prevButton" type="button">
+              <i data-lucide="arrow-left" aria-hidden="true"></i>
+              Înapoi
+            </button>
+            <button class="primary-button" id="nextButton" type="button">
+              Următoarea
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </section>
+
+        <aside class="control-panel" aria-label="Control grile">
+          <section class="tool-section">
+            <div class="section-heading">
+              <i data-lucide="sliders-horizontal" aria-hidden="true"></i>
+              <h2>Sesiune</h2>
+            </div>
+            <div class="segmented" id="modeButtons" role="tablist" aria-label="Mod de lucru">
+              <button class="segment active" type="button" data-mode="all">Toate</button>
+              <button class="segment" type="button" data-mode="focus">Neștiute</button>
+              <button class="segment" type="button" data-mode="missed">Greșite</button>
+            </div>
+            <label class="toggle-row">
+              <input id="shuffleQuestions" type="checkbox" checked>
+              <span>Amestecă întrebările</span>
+            </label>
+            <label class="toggle-row">
+              <input id="shuffleAnswers" type="checkbox">
+              <span>Amestecă variantele</span>
+            </label>
+          </section>
+
+          <section class="tool-section stats-grid">
+            <div class="stat-box">
+              <span>Rezolvate</span>
+              <strong id="attemptedStat">0</strong>
+            </div>
+            <div class="stat-box">
+              <span>Acuratețe</span>
+              <strong id="accuracyStat">0%</strong>
+            </div>
+            <div class="stat-box">
+              <span>Stăpânite</span>
+              <strong id="masteredStat">0</strong>
+            </div>
+            <div class="stat-box">
+              <span>Azi</span>
+              <strong id="todayStat">0/20</strong>
+            </div>
+          </section>
+
+          <section class="tool-section">
+            <div class="section-heading">
+              <i data-lucide="map" aria-hidden="true"></i>
+              <h2>Hartă</h2>
+            </div>
+            <div class="question-map" id="questionMap"></div>
+          </section>
+
+          <section class="tool-section compact-actions">
+            <button class="ghost-button danger" id="resetButton" type="button">
+              <i data-lucide="rotate-ccw" aria-hidden="true"></i>
+              Resetează progresul
+            </button>
+          </section>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
