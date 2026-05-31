@@ -1,6 +1,6 @@
-# Site grile
+# Site Grile
 
-Site static pentru rezolvat grile cu progres salvat în browser. Întrebările stau separat în `data/grile.js`, ca să poți adăuga rapid alte materii.
+Site static pentru rezolvat grile cu progres salvat în browser. Întrebările stau separat în `data/grile.js`, ca să poți schimba rapid materia.
 
 ## Rulează local
 
@@ -31,7 +31,13 @@ Apoi deschide `http://localhost:4173`.
 }
 ```
 
-Pentru PDF-uri similare, unde răspunsurile corecte sunt bold, extractorul poate genera fișierul de date:
+Pentru DOCX-uri în care răspunsurile corecte sunt italic și highlighted:
+
+```bash
+/Users/raresselaru/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/extract-highlighted-docx-quiz.py "/cale/catre/grile.docx" --title "Managementul Vânzărilor" --output data/grile.js
+```
+
+Pentru PDF-uri similare, unde răspunsurile corecte sunt bold:
 
 ```bash
 /Users/raresselaru/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/extract-bold-pdf-quiz.py /cale/catre/grile.pdf --title "Titlu materie" --output data/grile.js

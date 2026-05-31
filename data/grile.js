@@ -1,729 +1,361 @@
 window.QUIZ_PACKS = [
 {
-  "id": "management-antreprenorial",
-  "title": "Management antreprenorial",
-  "subject": "Plan de afaceri și IMM",
-  "source": "Grile.pdf",
+  "id": "vanzari-examen",
+  "title": "Managementul Vânzărilor",
+  "subject": "Managementul Vânzărilor",
+  "source": "grile vanzari (4) (1).docx",
   "questions": [
     {
       "id": 1,
-      "text": "Ce este planul de afaceri?",
+      "text": "Devizul reprezintă:",
       "options": [
-        "Un instrument decizional dinamic",
-        "Un contract juridic",
-        "Un raport contabil",
-        "O strategie de marketing",
-        "Un bilanț financiar"
+        "O estimare cifrică precisă a prestaţiilor propuse clientului",
+        "Dovada creanţei furnizorului",
+        "Dovada datoriei clientului",
+        "Acordul cu clientul asupra unei cantităţi cumpărate la un preţ dat şi în funcţie de condiţiile comerciale acceptate de cele două părţi"
       ],
       "answerIndex": 0
     },
     {
       "id": 2,
-      "text": "Cui se adresează planul de afaceri?",
+      "text": "Bonul de comandă:",
       "options": [
-        "Doar managerilor",
-        "Managerilor și partenerilor (investitori, bănci etc.)",
-        "Doar angajaților",
-        "Doar clienților",
-        "Doar statului"
+        "este transmis imediat serviciului contabil pentru facturare, apoi întreprinderii pentru executarea ordinului clientului",
+        "este transmis imediat întreprinderii pentru executarea ordinului clientului, apoi serviciului contabil pentru facturare",
+        "este întocmit frecvent, atunci când contractul necesită o descriere a operaţiilor de efectuat de către furnizor",
+        "este întocmit frecvent atunci când clientul nu poate vedea produsul pe care-l cumpără în momentul efectuării tranzacţiei"
       ],
       "answerIndex": 1
     },
     {
       "id": 3,
-      "text": "Care este scopul principal al planului de afaceri?",
+      "text": "Remizele sunt:",
       "options": [
-        "Creșterea numărului de angajați",
-        "Extinderea pieței",
-        "Reducerea costurilor",
-        "Determinarea profitabilității afacerii",
-        "Crearea unui brand"
+        "destinate fidelizării clientului",
+        "reduceri acordate la sfârşitul perioadei (an, trimestru) asupra cifrei de afaceri nete fără taxe realizată în cursul unei perioade",
+        "reduceri acordate pentru a ţine seama de un defect, pentru o întârziere a livrării, pentru mărfuri deteriorate, pentru sfârşit de sezon etc.",
+        "reduceri acordate pentru cantităţile vândute, pentru calitatea clientului (client foarte important, client fidel, client profesionist) sau în cadrul unei operaţiuni profesionale"
       ],
       "answerIndex": 3
     },
     {
       "id": 4,
-      "text": "Planul de afaceri este:",
+      "text": "Valoarea adăugată se calculează astfel:",
       "options": [
-        "Doar un document static",
-        "Doar un plan financiar",
-        "O strategie de marketing",
-        "Un contract comercial",
-        "O metodă antreprenorial-managerială"
+        "Valoarea bunurilor şi serviciilor cumpărate de întreprindere – Valoarea bunurilor şi serviciilor vândute de întreprindere",
+        "Valoarea bunurilor şi serviciilor vândute de întreprindere",
+        "Valoarea bunurilor şi serviciilor cumpărate de întreprindere",
+        "Valoarea bunurilor şi serviciilor vândute de întreprindere - Valoarea bunurilor şi serviciilor cumpărate de întreprindere"
       ],
-      "answerIndex": 4
+      "answerIndex": 3
     },
     {
       "id": 5,
-      "text": "Ce demonstrează planul de afaceri?",
+      "text": "Indicele de marcă se determină prin următoarea formulă:",
       "options": [
-        "Capacitatea de producție",
-        "Profitabilitatea și viabilitatea afacerii",
-        "Nivelul salariilor",
-        "Numărul de clienți",
-        "Structura organizatorică"
+        "Preţul de vânzare / Marja comercială",
+        "Marja comercială / Preţul de vânzare",
+        "Marja comercială / Costul de cumpărare",
+        "Costul de cumpărare / Marja comercială"
       ],
       "answerIndex": 1
     },
     {
       "id": 6,
-      "text": "Care este unul dintre rolurile planului de afaceri?",
+      "text": "Indicele de marjă se determină prin următoarea formulă:",
       "options": [
-        "Stabilirea salariilor",
-        "Angajarea personalului",
-        "Previzionarea activității firmei",
-        "Reducerea taxelor",
-        "Stabilirea prețurilor"
+        "Marja comercială / Preţul de vânzare",
+        "Costul de cumpărare / Marja comercială",
+        "Marja comercială / Costul de cumpărare",
+        "Preţul de vânzare / Marja comercială"
       ],
       "answerIndex": 2
     },
     {
       "id": 7,
-      "text": "Ce oferă planul de afaceri finanțatorilor?",
+      "text": "contul client conţine:",
       "options": [
-        "Contracte",
-        "Produse",
-        "Resurse umane",
-        "Argumente pentru finanțare",
-        "Servicii"
+        "istoricul relaţiilor comerciale care rezultă din notarea fiecărei vizite şi a rezultatului obţinut în urma acesteia",
+        "vânzările care conduc la întocmirea de facturi înregistrate în debitul contului",
+        "frecvenţa şi natura cumpărărilor",
+        "articolele cele mai comandate"
       ],
-      "answerIndex": 3
+      "answerIndex": 0
     },
     {
       "id": 8,
-      "text": "Ce trebuie să demonstreze planul pentru obținerea unui credit?",
+      "text": "Informaţiile generale grupate în contul client sunt:",
       "options": [
-        "Numărul angajaților",
-        "Strategia de marketing",
-        "Structura firmei",
-        "Locația firmei",
-        "Profitabilitatea și cash-flow-ul pozitiv"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 9,
-      "text": "Planul de afaceri ajută la:",
-      "options": [
-        "Stabilirea taxelor",
-        "Crearea produselor",
-        "Publicitate",
-        "Organizarea și controlul activităților",
-        "Vânzări directe"
+        "informaţii generale asupra întreprinderii",
+        "istoricul relaţiilor comerciale care rezultă din notarea fiecărei vizite şi a rezultatului obţinut în urma acesteia",
+        "cereri specifice formulate de client faţă de vânzător",
+        "nume şi coordonate ale interlocutorului"
       ],
       "answerIndex": 3
     },
     {
-      "id": 10,
-      "text": "Care este un scop al planului de afaceri?",
+      "id": 9,
+      "text": "Clasificarea clienţilor în 3 categorii (A, B şi C) corespunde:",
       "options": [
-        "Reducerea personalului",
-        "Creșterea salariilor",
-        "Obținerea finanțării",
-        "Creșterea taxelor",
-        "Stabilirea programului"
+        "analizei 20 / 80",
+        "analizei ABC",
+        "analizei 80 / 20",
+        "analizei ACB"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "Conform analizei 20 / 80, „marii clienţi” sunt:",
+      "options": [
+        "sunt grupaţi în categoria 80%",
+        "realizează minimul cifrei de afaceri",
+        "sunt grupaţi în categoria 20%",
+        "sunt grupaţi în categoria 70%"
       ],
       "answerIndex": 2
     },
     {
       "id": 11,
-      "text": "Ce este alianța strategică?",
+      "text": "Cheltuielile variabile:",
       "options": [
-        "Fuziune completă",
-        "Contract temporar",
-        "Colaborare pe termen lung între firme",
-        "Achiziție",
-        "Privatizare"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 12,
-      "text": "Ce trebuie evitat în planul de afaceri?",
-      "options": [
-        "Analiza pieței",
-        "Calculul profitului",
-        "Stabilirea obiectivelor",
-        "Planificarea",
-        "Înfrumusețarea datelor"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 13,
-      "text": "Ce reprezintă planul de afaceri pentru antreprenor?",
-      "options": [
-        "O obligație legală",
-        "Un document fiscal",
-        "O strategie publicitară",
-        "Un ghid decizional și acțional",
-        "O analiză contabilă"
+        "sunt independente de volumul sau nivelul activităţii întreprinderii",
+        "sunt cheltuielile legate de dobânzile plătite la credite lunare",
+        "sunt amortismentele practicate asupra imobilizărilor",
+        "sunt dependente de volumul sau nivelul activităţii întreprinderii"
       ],
       "answerIndex": 3
     },
     {
-      "id": 14,
-      "text": "Ce rol educațional are planul de afaceri?",
+      "id": 12,
+      "text": "Marja asupra costului variabil se calculează astfel:",
       "options": [
-        "Învață contabilitate",
-        "Învață marketing",
-        "Învață legislație",
-        "Învață producție",
-        "Dezvoltă competențe manageriale și antreprenoriale"
+        "cost variabil – cifra de afaceri",
+        "cifra de afaceri – cheltuieli fixe",
+        "cheltuieli fixe – cifra de afaceri",
+        "cifra de afaceri – cost variabil"
       ],
-      "answerIndex": 4
+      "answerIndex": 3
     },
     {
-      "id": 15,
-      "text": "Ce tip de firmă este „lifestyle”?",
+      "id": 13,
+      "text": "La nivelul pragului de rentabilitate:",
       "options": [
-        "Firmă mică, cu dezvoltare lentă",
-        "Firmă mare",
-        "Firmă internațională",
-        "Firmă industrială",
-        "Firmă publică"
+        "marja asupra costului variabil = costurile fixe",
+        "marja asupra costului variabil > costurile fixe",
+        "costurile fixe > marja asupra costului variabil",
+        "costurile fixe < marja asupra costului variabil"
       ],
       "answerIndex": 0
     },
     {
-      "id": 16,
-      "text": "Ce tip de firmă este „dinamică”?",
+      "id": 14,
+      "text": "Marja asupra costului variabil se calculează astfel:",
       "options": [
-        "Firmă stabilă",
-        "Firmă cu creștere rapidă",
-        "Firmă mică",
-        "Firmă tradițională",
-        "Firmă fără angajați"
+        "cost variabil – cifra de afaceri",
+        "cifra de afaceri – cheltuieli fixe",
+        "cheltuieli fixe – cifra de afaceri",
+        "cifra de afaceri – cost variabil"
       ],
-      "answerIndex": 1
+      "answerIndex": 3
+    },
+    {
+      "id": 15,
+      "text": "Pragul de rentabilitate reprezintă cifra de afaceri astfel încât:",
+      "options": [
+        "Rezultatul > 0",
+        "Rezultatul < 0",
+        "Rezultatul = 0",
+        "Rezultatul ≥ 0"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 16,
+      "text": "Printre avantajele forţei de vânzare delegată supletivă enumerăm:",
+      "options": [
+        "controlul activităţii vânzătorilor",
+        "control dificil privind activitatea vânzătorilor",
+        "mai bună integrare şi dezvoltare a spiritului de echipă, a culturii de întreprindere",
+        "poate acţiona pe perioade scurte de timp"
+      ],
+      "answerIndex": 3
     },
     {
       "id": 17,
-      "text": "Ce întrebare este esențială pentru antreprenor?",
+      "text": "Printre inconvenientele forţei de vânzare delegată permanent enumerăm:",
       "options": [
-        "Unde locuiește",
-        "Ce studii are",
-        "Ce salariu dorește",
-        "Dacă are talent antreprenorial",
-        "Ce program preferă"
+        "gestionarea unui personal salariat",
+        "suportarea de către întreprindere a tuturor cheltuielilor legate de forţa de vânzare, chiar dacă cifra de afaceri este scăzută",
+        "control redus asupra activităţii vânzătorilor",
+        "devine imediat operaţională"
       ],
-      "answerIndex": 3
+      "answerIndex": 2
     },
     {
       "id": 18,
-      "text": "Ce indică un scor peste 24 în testul antreprenorial?",
+      "text": "Dintre avantajele pentru vânzător a salariului de drept comun enumerăm:",
       "options": [
-        "Lipsa potențialului",
-        "Potențial mediu",
-        "Necesitatea formării",
-        "Experiență redusă",
-        "Talent antreprenorial ridicat"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 19,
-      "text": "Ce presupune dezvoltarea rapidă a firmei?",
-      "options": [
-        "Profit imediat mare",
-        "Costuri reduse",
-        "Reducerea personalului",
-        "Stabilitate",
-        "Reinvestirea profiturilor"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 20,
-      "text": "Ce trebuie stabilit înainte de elaborarea planului de afaceri?",
-      "options": [
-        "Salariile",
-        "Locația",
-        "Furnizorii",
-        "Clienții",
-        "Scopurile antreprenorului"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 21,
-      "text": "Ce caracterizează managementul IMM?",
-      "options": [
-        "Este complet diferit de cel al firmelor mari",
-        "Are aceleași concepte de bază, dar particularități specifice",
-        "Nu utilizează metode manageriale",
-        "Este exclusiv financiar",
-        "Este rigid"
+        "posibilitatea de a orienta activitatea spre obiective precise, atât cantitativ, cât şi calitativ",
+        "siguranţă, acoperire socială",
+        "legătură de subordonare juridică",
+        "gestiunea unui personal salariat"
       ],
       "answerIndex": 1
     },
     {
-      "id": 22,
-      "text": "Care este cea mai importantă particularitate a IMM?",
+      "id": 19,
+      "text": "Dintre inconvenientele pentru întreprindere a salariului de drept comun, enumerăm:",
       "options": [
-        "Structura formalizată",
-        "Numărul mare de angajați",
-        "Situația de proprietar-manager",
-        "Controlul extern",
-        "Bugetele mari"
+        "legătură de subordonare juridică",
+        "cheltuieli fixe obligatoriu de acoperit",
+        "autonomie redusă în prestarea muncii",
+        "nu deţine nici un drept asupra clientelei pe care a creat-o şi a dezvoltat-o"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "Dintre avantajele unei reţele directe enumerăm:",
+      "options": [
+        "costuri de structură reduse",
+        "o mai bună supleţe a reţelei",
+        "diversificare mai uşoară",
+        "mai buna acoperire a pieţei"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 21,
+      "text": "Dintre inconvenientele unei reţele indirecte, enumerăm:",
+      "options": [
+        "costuri de structură ridicate",
+        "reţeaua nu este întotdeauna adaptată atunci când apar produse noi sau pieţe noi",
+        "nevoia de fidelizare",
+        "costuri de structură reduse"
       ],
       "answerIndex": 2
+    },
+    {
+      "id": 22,
+      "text": "Dintre avantajele pentru întreprindere a candidaturilor interne, enumerăm:",
+      "options": [
+        "valorizarea colaboratorilor întreprinderii",
+        "o alegere mai largă şi mai bună dintr-un număr mai mare de candidaţi",
+        "reînnoirea potenţialului uman al întreprinderii",
+        "mai buna cunoaştere a candidaţilor"
+      ],
+      "answerIndex": 3
     },
     {
       "id": 23,
-      "text": "Ce avantaj are proprietarul-manager?",
+      "text": "Dintre dezavantajele pentru întreprindere a candidaturilor externe, menţionăm:",
       "options": [
-        "Nu ia decizii",
-        "Nu are responsabilitate",
-        "Depinde de alții",
-        "Are motivație directă pentru succes",
-        "Nu controlează informațiile"
+        "riscul creării unor „prietenii”",
+        "dificultăţi privind abandonarea unor obişnuinţe căpătate în întreprindere pe vechiul post",
+        "cost ridicat al procedurii de recrutare",
+        "gelozii suscitate de promovarea internă"
       ],
-      "answerIndex": 3
+      "answerIndex": 2
     },
     {
       "id": 24,
-      "text": "Funcția de previziune în IMM este:",
+      "text": "Dintre avantajele micilor anunţuri, amintim:",
       "options": [
-        "Foarte formalizată",
-        "Complexă",
-        "Mai puțin formalizată decât în firmele mari",
-        "Inexistentă",
-        "Exclusiv strategică"
+        "cost ridicat",
+        "contactarea unui număr mare de candidaţi într-un interval de timp limitat",
+        "durata procedurii (rezervarea de spaţiu, creaţia anunţului, organizarea urmăririi efectelor anunţului)",
+        "risc de banalizare a comunicării"
       ],
-      "answerIndex": 2
+      "answerIndex": 1
     },
     {
       "id": 25,
-      "text": "Ce lipsă apare frecvent în IMM?",
+      "text": "Scrisoarea de candidatură:",
       "options": [
-        "Personal",
-        "Capital",
-        "Produse",
-        "Clienți",
-        "Plan de afaceri bine elaborat"
+        "este dactilografiată",
+        "este adesea manuscrisă",
+        "conţine teste de evaluare a cunoştinţelor, atitudinii, personalităţii, care permit alcătuirea aşa-numitului „inventar al personalităţii vânzătorului”",
+        "se prezintă sub forma unui chestionar"
       ],
-      "answerIndex": 4
+      "answerIndex": 1
     },
     {
       "id": 26,
-      "text": "Cum sunt planificarea și programarea în IMM?",
+      "text": "Baza de calcul a comisionului poate fi:",
       "options": [
-        "Rigide",
-        "Standardizate",
-        "Birocratice",
-        "Simple și flexibile",
-        "Inexistente"
+        "cifra de afaceri",
+        "costul",
+        "profitul",
+        "preţul"
       ],
-      "answerIndex": 3
+      "answerIndex": 0
     },
     {
       "id": 27,
-      "text": "Structura organizatorică a IMM este:",
+      "text": "Indicii de comision trebuie să ţină seama de:",
       "options": [
-        "Birocratică",
-        "Formală",
-        "Complexă",
-        "Ierarhică rigidă",
-        "De tip organic"
+        "cifră de afaceri",
+        "profit",
+        "concurenţă",
+        "costuri"
       ],
-      "answerIndex": 4
+      "answerIndex": 2
     },
     {
       "id": 28,
-      "text": "Ce caracterizează structura organică?",
+      "text": "Cauzele care duc la eşecuri pot fi identificate printr-o analiză atentă:",
       "options": [
-        "Specializare ridicată",
-        "Rigiditate",
-        "Formalizare excesivă",
-        "Control strict",
-        "Flexibilitate și adaptabilitate"
+        "a reclamaţiilor",
+        "indicatorilor de performanţă a vânzătorilor",
+        "comenzilor primite",
+        "afacerilor încheiate"
       ],
-      "answerIndex": 4
+      "answerIndex": 0
     },
     {
       "id": 29,
-      "text": "Sistemul informațional al IMM este:",
+      "text": "Avantajele formării de către organismele specializate sunt:",
       "options": [
-        "Complex",
-        "Formalizat",
-        "Lent",
-        "Centralizat",
-        "Simplu și deschis"
+        "o bună cunoaştere a produselor",
+        "cost mai redus",
+        "o largă posibilitate de alegere a studiilor adaptate la nevoi",
+        "o bună cunoaştere a clientelei"
       ],
-      "answerIndex": 4
+      "answerIndex": 2
     },
     {
       "id": 30,
-      "text": "Comunicarea în IMM este:",
+      "text": "Limitele formării inter-întreprindere sunt:",
       "options": [
-        "Exclusiv formală",
-        "Verticală rigidă",
-        "Lentă",
-        "Preponderent informală",
-        "Inexistentă"
+        "risc de divulgare a strategiei comerciale către întreprinderile concurente",
+        "cost ridicat când întreprinderea nu foloseşte mulţi vânzători",
+        "absenţa schimbului de idei şi experienţă cu comercialii din alte întreprinderi",
+        "cost mai redus"
       ],
-      "answerIndex": 3
+      "answerIndex": 0
     },
     {
       "id": 31,
-      "text": "Funcția de antrenare în IMM este:",
+      "text": "Pentru măsurarea rezultatelor calitative, criteriile de evaluare sunt:",
       "options": [
-        "Ineficientă",
-        "Slabă",
-        "Formală",
-        "Standardizată",
-        "Foarte favorizată de relațiile directe"
+        "evoluţia cifrei de afaceri",
+        "media pe o comandă",
+        "media pe vizită",
+        "indicele de satisfacţie a clienţilor"
       ],
-      "answerIndex": 4
+      "answerIndex": 3
     },
     {
       "id": 32,
-      "text": "Ce facilitează motivarea în IMM?",
+      "text": "Pentru măsurarea rezultatelor cantitative, criteriile de evaluare sunt:",
       "options": [
-        "Birocrația",
-        "Regulile stricte",
-        "Relațiile interpersonale directe",
-        "Controlul extern",
-        "Procedurile"
+        "indicele de retururi",
+        "număr mediu de vizite pe o comandă",
+        "calitatea contactelor cu clientela",
+        "integrarea noilor veniţi"
       ],
-      "answerIndex": 2
-    },
-    {
-      "id": 33,
-      "text": "Stilul exploatator-autoritar este caracterizat prin:",
-      "options": [
-        "Încredere mare",
-        "Libertate",
-        "Participare",
-        "Sancțiuni și lipsa încrederii",
-        "Creativitate"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 34,
-      "text": "Stilul consultativ presupune:",
-      "options": [
-        "Control strict",
-        "Sancțiuni frecvente",
-        "Lipsă de comunicare",
-        "Autoritarism",
-        "Încredere și folosirea ideilor subordonaților"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 35,
-      "text": "Funcția de coordonare în IMM este:",
-      "options": [
-        "Greu de realizat",
-        "Formală",
-        "Complexă",
-        "Ineficientă",
-        "Facilitata de contactul direct"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 36,
-      "text": "Controlul în IMM se realizează:",
-      "options": [
-        "Indirect",
-        "Formal",
-        "Prin intermediari",
-        "Cu dificultate",
-        "Direct de către manager"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 37,
-      "text": "Ce tip de structură este specific IMM?",
-      "options": [
-        "Matricială",
-        "Funcțională complexă",
-        "Ierarhică simplă",
-        "Divizională",
-        "Globală"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 38,
-      "text": "Managerii din prima linie sunt:",
-      "options": [
-        "Strategici",
-        "Proprietari",
-        "Consultanți",
-        "Coordonează direct executanții",
-        "Investitori"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 39,
-      "text": "Managementul antreprenorial se concentrează pe:",
-      "options": [
-        "Stabilitate",
-        "Birocrație",
-        "Control",
-        "Planificare rigidă",
-        "Identificarea oportunităților de afaceri"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 40,
-      "text": "Ce caracterizează managementul antreprenorial?",
-      "options": [
-        "Formalizare",
-        "Stabilitate",
-        "Lipsa riscului",
-        "Rigiditate",
-        "Dinamism și inovare"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 41,
-      "text": "Ce reprezintă strategia antreprenorială?",
-      "options": [
-        "Un plan financiar",
-        "Un contract",
-        "O strategie elaborată în IMM cu implicarea antreprenorului",
-        "O analiză contabilă",
-        "Un raport managerial"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 42,
-      "text": "Ce exprimă strategia în general?",
-      "options": [
-        "Activități curente",
-        "Structura firmei",
-        "Politici interne",
-        "Obiective pe termen lung și resursele alocate",
-        "Salariile angajaților"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 43,
-      "text": "Ce caracterizează strategiile antreprenoriale?",
-      "options": [
-        "Formalizare ridicată",
-        "Complexitate mare",
-        "Grad redus de formalizare",
-        "Stabilitate",
-        "Standardizare"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 44,
-      "text": "Strategiile antreprenoriale sunt:",
-      "options": [
-        "Impersonale",
-        "Standardizate",
-        "Rigide",
-        "Teoretice",
-        "Puternic personalizate"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 45,
-      "text": "Orizontul temporal al strategiilor antreprenoriale este:",
-      "options": [
-        "10 ani",
-        "7 ani",
-        "5 ani",
-        "-3 ani",
-        "1 lună"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 46,
-      "text": "Pe ce se concentrează frecvent strategiile antreprenoriale?",
-      "options": [
-        "Marketing global",
-        "Resurse umane",
-        "Investiții",
-        "Producție",
-        "Nișe de piață"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 47,
-      "text": "Ce componentă lipsește frecvent în strategii?",
-      "options": [
-        "Resurse",
-        "Obiective",
-        "Termene",
-        "Misiunea firmei",
-        "Costurile"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 48,
-      "text": "Ce tip de resurse sunt cel mai atent analizate?",
-      "options": [
-        "Umane",
-        "Informaționale",
-        "Tehnologice",
-        "Sociale",
-        "Financiare și materiale"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 49,
-      "text": "Strategia completă se caracterizează prin:",
-      "options": [
-        "Lipsa planificării",
-        "Reacții rapide",
-        "Rutine",
-        "Planificare aprofundată",
-        "Intuiție"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 50,
-      "text": "Strategia punctului critic se concentrează pe:",
-      "options": [
-        "Dezvoltare generală",
-        "Profit",
-        "Marketing",
-        "Resurse",
-        "Problemele cele mai importante ale firmei"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 51,
-      "text": "Strategia oportunistică presupune:",
-      "options": [
-        "Stabilitate",
-        "Planificare rigidă",
-        "Control",
-        "Valorificarea rapidă a oportunităților",
-        "Reducerea costurilor"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 52,
-      "text": "Strategia reactivă presupune:",
-      "options": [
-        "Planificare riguroasă",
-        "Analiză complexă",
-        "Anticipare",
-        "Strategie pe termen lung",
-        "Reacții la situații fără planificare"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 53,
-      "text": "Abordarea rutinieră este:",
-      "options": [
-        "Strategie complexă",
-        "Strategie inovativă",
-        "Strategie formală",
-        "Strategie competitivă",
-        "Un comportament fără strategie propriu-zisă"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 54,
-      "text": "Care strategie este cea mai performantă conform studiilor?",
-      "options": [
-        "Reacția",
-        "Rutiniera",
-        "Oportunistică",
-        "Strategia punctului critic",
-        "De stabilizare"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 55,
-      "text": "Ce este o alianță strategică?",
-      "options": [
-        "Fuziune",
-        "Contract",
-        "Colaborare între firme pentru obiective comune",
-        "Privatizare",
-        "Externalizare"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 56,
-      "text": "Ce avantaj oferă alianțele strategice?",
-      "options": [
-        "Creșterea taxelor",
-        "Reducerea producției",
-        "Acces la resurse suplimentare",
-        "Reducerea personalului",
-        "Eliminarea riscurilor"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 57,
-      "text": "Strategia de nișă presupune:",
-      "options": [
-        "Acoperirea întregii piețe",
-        "Diversificare",
-        "Extindere globală",
-        "Reducerea costurilor",
-        "Concentrarea pe un segment de piață"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 58,
-      "text": "Avantajul strategiei de nișă este:",
-      "options": [
-        "Costuri mari",
-        "Risc ridicat",
-        "Concurență mare",
-        "Avantaj competitiv pe segment specific",
-        "Pierderi"
-      ],
-      "answerIndex": 3
-    },
-    {
-      "id": 59,
-      "text": "Ce presupune managementul în incertitudine?",
-      "options": [
-        "Stabilitate",
-        "Lipsa riscului",
-        "Control total",
-        "Planificare rigidă",
-        "Gestionarea riscurilor și incertitudinilor"
-      ],
-      "answerIndex": 4
-    },
-    {
-      "id": 60,
-      "text": "Care este scopul principal al strategiei?",
-      "options": [
-        "Reducerea costurilor",
-        "Creșterea personalului",
-        "Stabilitate",
-        "Control",
-        "Obținerea avantajului competitiv"
-      ],
-      "answerIndex": 4
+      "answerIndex": 1
     }
   ]
 }
