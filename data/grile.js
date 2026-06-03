@@ -91,7 +91,7 @@ window.QUIZ_PACKS = [
         "cereri specifice formulate de client faţă de vânzător",
         "nume şi coordonate ale interlocutorului"
       ],
-      "answerIndex": 0
+      "answerIndex": 3
     },
     {
       "id": 9,
