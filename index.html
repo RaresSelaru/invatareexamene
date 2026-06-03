@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Grile | Antrenor de învățare</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260603-modal-center">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
     <script src="data/grile.js" defer></script>
     <script src="app.js" defer></script>
@@ -113,6 +113,22 @@
           </section>
         </aside>
       </main>
+    </div>
+
+    <div class="modal-backdrop" id="resetModal" aria-hidden="true" hidden>
+      <section class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="resetModalTitle" aria-describedby="resetModalText">
+        <div class="modal-icon" aria-hidden="true">
+          <i data-lucide="rotate-ccw"></i>
+        </div>
+        <div>
+          <h2 id="resetModalTitle">Resetezi progresul?</h2>
+          <p id="resetModalText">Statisticile, grilele greșite și progresul salvat pentru acest set vor fi șterse.</p>
+        </div>
+        <div class="modal-actions">
+          <button class="ghost-button" id="cancelResetButton" type="button">Anulează</button>
+          <button class="danger-button" id="confirmResetButton" type="button">Resetează</button>
+        </div>
+      </section>
     </div>
   </body>
 </html>

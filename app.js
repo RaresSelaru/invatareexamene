@@ -22,6 +22,9 @@
     todayStat: document.querySelector("#todayStat"),
     questionMap: document.querySelector("#questionMap"),
     resetButton: document.querySelector("#resetButton"),
+    resetModal: document.querySelector("#resetModal"),
+    cancelResetButton: document.querySelector("#cancelResetButton"),
+    confirmResetButton: document.querySelector("#confirmResetButton"),
   };
 
   const state = {
@@ -86,9 +89,20 @@
     return state.progress.byQuestion[String(questionId)] || null;
   }
 
+  function questionAccuracy(stats) {
+    if (!stats || !stats.attempts) {
+      return 0;
+    }
+    return (stats.correct || 0) / stats.attempts;
+  }
+
   function isMastered(question) {
     const stats = existingStats(question.id);
-    return Boolean(stats && stats.streak >= 2 && stats.correct >= 2);
+    if (!stats) {
+      return false;
+    }
+    const accuracy = questionAccuracy(stats);
+    return stats.streak >= 2 && stats.correct >= 2 && (accuracy >= 0.66 || stats.streak >= 3);
   }
 
   function answeredCorrect(question) {
@@ -98,12 +112,58 @@
 
   function needsFocus(question) {
     const stats = existingStats(question.id);
-    return !stats || stats.streak < 2;
+    if (!stats || !stats.attempts) {
+      return true;
+    }
+    const accuracy = questionAccuracy(stats);
+    return (
+      stats.lastCorrect === false ||
+      stats.streak < 2 ||
+      (stats.attempts >= 3 && accuracy < 0.66) ||
+      (stats.wrong >= 2 && accuracy < 0.8 && stats.streak < 3)
+    );
   }
 
   function wasMissed(question) {
     const stats = existingStats(question.id);
-    return Boolean(stats && stats.wrong > 0 && stats.streak < 2);
+    return Boolean(stats && stats.attempts > 0 && stats.lastCorrect === false);
+  }
+
+  function focusPriority(question) {
+    const stats = existingStats(question.id);
+    if (!stats || !stats.attempts) {
+      return 40;
+    }
+    const accuracy = questionAccuracy(stats);
+    let priority = 0;
+    if (stats.lastCorrect === false) {
+      priority += 50;
+    }
+    priority += Math.max(0, 2 - (stats.streak || 0)) * 14;
+    priority += (stats.wrong || 0) * 8;
+    priority += Math.round((1 - accuracy) * 24);
+    return priority;
+  }
+
+  function filteredQuestionIndexes(pack) {
+    let queue = pack.questions.map((_, index) => index);
+    if (state.mode === "focus") {
+      queue = queue.filter((index) => needsFocus(pack.questions[index]));
+    }
+    if (state.mode === "missed") {
+      queue = queue.filter((index) => wasMissed(pack.questions[index]));
+    }
+    return queue;
+  }
+
+  function orderQueue(queue, pack) {
+    const ordered = elements.shuffleQuestions.checked ? shuffle(queue) : [...queue];
+    if (state.mode !== "focus") {
+      return ordered;
+    }
+    return ordered.sort((left, right) => {
+      return focusPriority(pack.questions[right]) - focusPriority(pack.questions[left]);
+    });
   }
 
   function shuffle(items) {
@@ -122,19 +182,20 @@
       return;
     }
 
-    let queue = pack.questions.map((_, index) => index);
-    if (state.mode === "focus") {
-      queue = queue.filter((index) => needsFocus(pack.questions[index]));
-    }
-    if (state.mode === "missed") {
-      queue = queue.filter((index) => wasMissed(pack.questions[index]));
-    }
+    const queue = filteredQuestionIndexes(pack);
     state.emptyFilter = queue.length === 0;
-    state.queue = elements.shuffleQuestions.checked ? shuffle(queue) : queue;
+    state.queue = orderQueue(queue, pack);
     state.cursor = 0;
     state.answered = false;
     state.selectedOriginalIndex = null;
     state.optionOrders = new Map();
+  }
+
+  function setMode(mode) {
+    state.mode = mode;
+    [...elements.modeButtons.children].forEach((child) => {
+      child.classList.toggle("active", child.dataset.mode === mode);
+    });
   }
 
   function optionOrder(question) {
@@ -194,7 +255,7 @@
     elements.prevButton.disabled = state.cursor === 0;
     elements.nextButton.disabled = false;
     elements.nextButton.innerHTML = state.cursor === state.queue.length - 1
-      ? 'Reia seria <i data-lucide="refresh-cw" aria-hidden="true"></i>'
+      ? `${restartLabel(pack)} <i data-lucide="refresh-cw" aria-hidden="true"></i>`
       : 'Următoarea <i data-lucide="arrow-right" aria-hidden="true"></i>';
 
     elements.answers.innerHTML = "";
@@ -253,6 +314,57 @@
 
     renderStats();
     renderMap();
+    refreshNextButton();
+    elements.nextButton.focus();
+  }
+
+  function advanceQuestion() {
+    if (!state.queue.length) {
+      return;
+    }
+    if (state.cursor === state.queue.length - 1) {
+      const pack = currentPack();
+      if (pack && state.mode !== "all" && filteredQuestionIndexes(pack).length === 0) {
+        setMode("all");
+      }
+      buildQueue();
+    } else {
+      state.cursor += 1;
+    }
+    renderQuestion();
+  }
+
+  function handleKeyDown(event) {
+    if (elements.resetModal.classList.contains("open")) {
+      if (event.key === "Escape") {
+        closeResetModal();
+      }
+      return;
+    }
+    if (event.key !== "Enter" || event.repeat) {
+      return;
+    }
+    if (!state.answered) {
+      return;
+    }
+    event.preventDefault();
+    advanceQuestion();
+  }
+
+  function restartLabel(pack) {
+    if (state.mode === "all") {
+      return "Reia seria";
+    }
+    return filteredQuestionIndexes(pack).length ? "Reia seria" : "Gata";
+  }
+
+  function refreshNextButton() {
+    const pack = currentPack();
+    if (!pack || !state.queue.length || state.cursor !== state.queue.length - 1) {
+      return;
+    }
+    elements.nextButton.innerHTML = `${restartLabel(pack)} <i data-lucide="refresh-cw" aria-hidden="true"></i>`;
+    refreshIcons();
   }
 
   function renderStats() {
@@ -339,8 +451,7 @@
       if (!button) {
         return;
       }
-      state.mode = button.dataset.mode;
-      [...elements.modeButtons.children].forEach((child) => child.classList.toggle("active", child === button));
+      setMode(button.dataset.mode);
       buildQueue();
       renderQuestion();
     });
@@ -363,28 +474,49 @@
     });
 
     elements.nextButton.addEventListener("click", () => {
-      if (state.cursor === state.queue.length - 1) {
-        buildQueue();
-      } else {
-        state.cursor += 1;
-      }
-      renderQuestion();
+      advanceQuestion();
     });
 
+    document.addEventListener("keydown", handleKeyDown);
+
     elements.resetButton.addEventListener("click", () => {
+      openResetModal();
+    });
+
+    elements.cancelResetButton.addEventListener("click", closeResetModal);
+    elements.resetModal.addEventListener("click", (event) => {
+      if (event.target === elements.resetModal) {
+        closeResetModal();
+      }
+    });
+    elements.confirmResetButton.addEventListener("click", () => {
       const pack = currentPack();
       if (!pack) {
         return;
       }
-      const confirmed = window.confirm(`Resetezi progresul pentru "${pack.title}"?`);
-      if (!confirmed) {
-        return;
-      }
       state.progress = defaultProgress();
       saveProgress();
+      closeResetModal();
       buildQueue();
       renderQuestion();
     });
+  }
+
+  function openResetModal() {
+    elements.resetModal.removeAttribute("hidden");
+    elements.resetModal.classList.add("open");
+    elements.resetModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+    elements.cancelResetButton.focus();
+    refreshIcons();
+  }
+
+  function closeResetModal() {
+    elements.resetModal.classList.remove("open");
+    elements.resetModal.setAttribute("aria-hidden", "true");
+    elements.resetModal.setAttribute("hidden", "");
+    document.body.classList.remove("modal-open");
+    elements.resetButton.focus();
   }
 
   function init() {
