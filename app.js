@@ -4,8 +4,10 @@
   const letters = ["A", "B", "C", "D", "E", "F"];
 
   const elements = {
-    packSelect: document.querySelector("#packSelect"),
-    packPicker: document.querySelector(".pack-picker"),
+    subjectMenu: document.querySelector("#subjectMenu"),
+    subjectCards: document.querySelector("#subjectCards"),
+    subjectMenuButton: document.querySelector("#subjectMenuButton"),
+    quizWorkspace: document.querySelector("#quizWorkspace"),
     questionTitle: document.querySelector("#questionTitle"),
     currentNumber: document.querySelector("#currentNumber"),
     totalNumber: document.querySelector("#totalNumber"),
@@ -28,7 +30,8 @@
   };
 
   const state = {
-    packId: packs[0]?.id || "",
+    packId: "",
+    started: false,
     mode: "all",
     queue: [],
     cursor: 0,
@@ -68,7 +71,7 @@
   }
 
   function currentPack() {
-    return packs.find((pack) => pack.id === state.packId) || packs[0];
+    return packs.find((pack) => pack.id === state.packId) || null;
   }
 
   function questionStats(questionId) {
@@ -196,6 +199,49 @@
     [...elements.modeButtons.children].forEach((child) => {
       child.classList.toggle("active", child.dataset.mode === mode);
     });
+  }
+
+  function renderSubjectCards() {
+    elements.subjectCards.innerHTML = "";
+    packs.forEach((pack) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "subject-card";
+      button.dataset.packId = pack.id;
+      button.innerHTML = `
+        <span class="subject-card-icon" aria-hidden="true">
+          <i data-lucide="book-marked"></i>
+        </span>
+        <span class="subject-card-content">
+          <strong>${escapeHtml(pack.title)}</strong>
+          <span>${pack.questions.length} grile</span>
+        </span>
+        <i data-lucide="arrow-right" aria-hidden="true"></i>
+      `;
+      elements.subjectCards.appendChild(button);
+    });
+    refreshIcons();
+  }
+
+  function showSubjectMenu() {
+    state.started = false;
+    elements.subjectMenu.classList.remove("hidden");
+    elements.quizWorkspace.classList.add("hidden");
+    elements.subjectMenuButton.classList.add("hidden");
+    closeResetModal(false);
+    refreshIcons();
+  }
+
+  function startPack(packId) {
+    state.packId = packId;
+    state.started = true;
+    state.progress = loadProgress(state.packId);
+    setMode("all");
+    elements.subjectMenu.classList.add("hidden");
+    elements.quizWorkspace.classList.remove("hidden");
+    elements.subjectMenuButton.classList.remove("hidden");
+    buildQueue();
+    renderQuestion();
   }
 
   function optionOrder(question) {
@@ -341,6 +387,9 @@
       }
       return;
     }
+    if (!state.started) {
+      return;
+    }
     if (event.key !== "Enter" || event.repeat) {
       return;
     }
@@ -439,11 +488,16 @@
   }
 
   function bindEvents() {
-    elements.packSelect.addEventListener("change", () => {
-      state.packId = elements.packSelect.value;
-      state.progress = loadProgress(state.packId);
-      buildQueue();
-      renderQuestion();
+    elements.subjectCards.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-pack-id]");
+      if (!button) {
+        return;
+      }
+      startPack(button.dataset.packId);
+    });
+
+    elements.subjectMenuButton.addEventListener("click", () => {
+      showSubjectMenu();
     });
 
     elements.modeButtons.addEventListener("click", (event) => {
@@ -511,12 +565,14 @@
     refreshIcons();
   }
 
-  function closeResetModal() {
+  function closeResetModal(restoreFocus = true) {
     elements.resetModal.classList.remove("open");
     elements.resetModal.setAttribute("aria-hidden", "true");
     elements.resetModal.setAttribute("hidden", "");
     document.body.classList.remove("modal-open");
-    elements.resetButton.focus();
+    if (restoreFocus) {
+      elements.resetButton.focus();
+    }
   }
 
   function init() {
@@ -526,20 +582,9 @@
       return;
     }
 
-    packs.forEach((pack) => {
-      const option = document.createElement("option");
-      option.value = pack.id;
-      option.textContent = pack.title;
-      elements.packSelect.appendChild(option);
-    });
-
-    elements.packPicker.classList.toggle("hidden", packs.length <= 1);
-
-    elements.packSelect.value = state.packId;
-    state.progress = loadProgress(state.packId);
     bindEvents();
-    buildQueue();
-    renderQuestion();
+    renderSubjectCards();
+    showSubjectMenu();
   }
 
   init();

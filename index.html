@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Grile | Antrenor de învățare</title>
-    <link rel="stylesheet" href="styles.css?v=20260603-modal-center">
+    <link rel="stylesheet" href="styles.css?v=20260605-subject-menu">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
     <script src="data/grile.js" defer></script>
     <script src="app.js" defer></script>
@@ -20,13 +20,26 @@
           </div>
         </div>
 
-        <label class="pack-picker">
-          <span>Materie</span>
-          <select id="packSelect"></select>
-        </label>
+        <button class="ghost-button topbar-action hidden" id="subjectMenuButton" type="button">
+          <i data-lucide="layout-list" aria-hidden="true"></i>
+          Materii
+        </button>
       </header>
 
-      <main class="workspace">
+      <section class="subject-menu" id="subjectMenu" aria-labelledby="subjectMenuTitle">
+        <div class="subject-menu-panel">
+          <div class="subject-menu-heading">
+            <div>
+              <span class="eyebrow">Alege setul</span>
+              <h1 id="subjectMenuTitle">Materii disponibile</h1>
+            </div>
+            <i data-lucide="book-open-check" aria-hidden="true"></i>
+          </div>
+          <div class="subject-cards" id="subjectCards"></div>
+        </div>
+      </section>
+
+      <main class="workspace hidden" id="quizWorkspace">
         <section class="quiz-panel" aria-labelledby="questionTitle">
           <div class="quiz-topline">
             <div>
