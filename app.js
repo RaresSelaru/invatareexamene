@@ -178,6 +178,24 @@
     return copy;
   }
 
+  function sameOrder(left, right) {
+    return left.length === right.length && left.every((item, index) => item === right[index]);
+  }
+
+  function shuffleDifferent(items) {
+    if (items.length < 2) {
+      return [...items];
+    }
+
+    const shuffled = shuffle(items);
+    if (!sameOrder(shuffled, items)) {
+      return shuffled;
+    }
+
+    const offset = Math.floor(Math.random() * (items.length - 1)) + 1;
+    return items.map((_, index) => items[(index + offset) % items.length]);
+  }
+
   function buildQueue() {
     const pack = currentPack();
     if (!pack) {
@@ -227,6 +245,8 @@
     state.started = false;
     elements.subjectMenu.classList.remove("hidden");
     elements.quizWorkspace.classList.add("hidden");
+    delete document.body.dataset.packId;
+    delete elements.quizWorkspace.dataset.packId;
     elements.subjectMenuButton.classList.add("hidden");
     closeResetModal(false);
     refreshIcons();
@@ -236,6 +256,8 @@
     state.packId = packId;
     state.started = true;
     state.progress = loadProgress(state.packId);
+    document.body.dataset.packId = packId;
+    elements.quizWorkspace.dataset.packId = packId;
     setMode("all");
     elements.subjectMenu.classList.add("hidden");
     elements.quizWorkspace.classList.remove("hidden");
@@ -249,7 +271,7 @@
       return question.options.map((_, index) => index);
     }
     if (!state.optionOrders.has(question.id)) {
-      state.optionOrders.set(question.id, shuffle(question.options.map((_, index) => index)));
+      state.optionOrders.set(question.id, shuffleDifferent(question.options.map((_, index) => index)));
     }
     return state.optionOrders.get(question.id);
   }

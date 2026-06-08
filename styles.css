@@ -265,6 +265,13 @@ h1 {
   white-space: pre-wrap;
 }
 
+.workspace[data-pack-id="management-strategic"] #questionTitle {
+  max-width: 100%;
+  font-size: clamp(1.1rem, 1.55vw, 1.42rem);
+  line-height: 1.24;
+  font-weight: 850;
+}
+
 h2 {
   font-size: 0.94rem;
 }
@@ -899,5 +906,159 @@ body.modal-open {
   .modal-actions {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  body[data-pack-id="management-strategic"] {
+    overflow: auto;
+  }
+
+  body[data-pack-id="management-strategic"] .app-shell {
+    display: block;
+    width: min(100% - 12px, 1180px);
+    min-height: 100svh;
+    padding: 8px 0 22px;
+  }
+
+  body[data-pack-id="management-strategic"] .topbar {
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  body[data-pack-id="management-strategic"] .brand {
+    gap: 8px;
+  }
+
+  body[data-pack-id="management-strategic"] .brand-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 7px;
+    box-shadow: none;
+  }
+
+  body[data-pack-id="management-strategic"] .brand strong {
+    font-size: 1rem;
+  }
+
+  body[data-pack-id="management-strategic"] .brand span {
+    display: none;
+  }
+
+  body[data-pack-id="management-strategic"] .topbar-action {
+    width: auto;
+    min-height: 36px;
+    padding: 0 10px;
+  }
+
+  body[data-pack-id="management-strategic"] .workspace {
+    display: block;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  body[data-pack-id="management-strategic"] .quiz-panel {
+    display: flex;
+    height: calc(100svh - 58px);
+    min-height: 0;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  body[data-pack-id="management-strategic"] .control-panel {
+    display: grid;
+    margin-top: 10px;
+  }
+
+  body[data-pack-id="management-strategic"] .quiz-topline {
+    flex: 0 0 auto;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+
+  body[data-pack-id="management-strategic"] .workspace[data-pack-id="management-strategic"] #questionTitle {
+    max-height: 46svh;
+    overflow: visible;
+    font-size: clamp(1rem, 4.1vw, 1.12rem);
+    line-height: 1.15;
+  }
+
+  body[data-pack-id="management-strategic"] .question-count {
+    min-width: auto;
+    justify-content: flex-end;
+    font-size: 0.78rem;
+  }
+
+  body[data-pack-id="management-strategic"] .question-count span:first-child {
+    font-size: 1rem;
+  }
+
+  body[data-pack-id="management-strategic"] .progress-track {
+    flex: 0 0 auto;
+    height: 5px;
+    margin: 8px 0;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-list {
+    flex: 1 1 auto;
+    align-content: start;
+    gap: 8px;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-option {
+    grid-template-columns: 34px minmax(0, 1fr);
+    min-height: 50px;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-letter {
+    width: 32px;
+    height: 32px;
+    border-radius: 7px;
+    font-size: 0.95rem;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-text {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  body[data-pack-id="management-strategic"] .quiz-actions {
+    flex: 0 0 auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  body[data-pack-id="management-strategic"] .primary-button,
+  body[data-pack-id="management-strategic"] .ghost-button {
+    min-height: 44px;
+    padding: 0 10px;
+    font-size: 1.04rem;
+  }
+}
+
+@media (max-width: 680px) and (max-height: 720px) {
+  body[data-pack-id="management-strategic"] .workspace[data-pack-id="management-strategic"] #questionTitle {
+    font-size: clamp(0.92rem, 3.85vw, 1rem);
+    line-height: 1.13;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-option {
+    min-height: 45px;
+    padding: 6px 9px;
+  }
+
+  body[data-pack-id="management-strategic"] .answer-text {
+    font-size: 0.94rem;
+  }
+
+  body[data-pack-id="management-strategic"] .primary-button,
+  body[data-pack-id="management-strategic"] .ghost-button {
+    min-height: 42px;
   }
 }
