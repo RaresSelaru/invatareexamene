@@ -810,6 +810,39 @@ body.modal-open {
   .map-button {
     font-size: 0.74rem;
   }
+
+  .workspace[data-pack-id="management-strategic"] .quiz-panel {
+    padding: 18px;
+  }
+
+  .workspace[data-pack-id="management-strategic"] #questionTitle {
+    font-size: clamp(1rem, 1.28vw, 1.22rem);
+    line-height: 1.18;
+  }
+
+  .workspace[data-pack-id="management-strategic"] .progress-track {
+    margin: 10px 0 12px;
+  }
+
+  .workspace[data-pack-id="management-strategic"] .answer-list {
+    gap: 8px;
+  }
+
+  .workspace[data-pack-id="management-strategic"] .answer-option {
+    grid-template-columns: 36px minmax(0, 1fr);
+    min-height: 46px;
+    padding: 7px 10px;
+  }
+
+  .workspace[data-pack-id="management-strategic"] .answer-letter {
+    width: 30px;
+    height: 30px;
+  }
+
+  .workspace[data-pack-id="management-strategic"] .answer-text {
+    font-size: 0.95rem;
+    line-height: 1.22;
+  }
 }
 
 @media (max-width: 920px) {
