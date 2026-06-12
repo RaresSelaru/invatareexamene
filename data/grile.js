@@ -1770,7 +1770,7 @@ window.QUIZ_PACKS = [
         "intervenția în conflict prin influențarea procesului și a rezultatului",
         "angajamentul si oportunitatea asumată de către părțile în litigiu"
       ],
-      "answerIndex": 3
+      "answerIndex": 0
     },
     {
       "id": 50,
