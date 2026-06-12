@@ -279,6 +279,7 @@
     elements.subjectMenu.classList.remove("hidden");
     elements.quizWorkspace.classList.add("hidden");
     delete document.body.dataset.packId;
+    clearQuestionDensity();
     delete elements.quizWorkspace.dataset.packId;
     elements.subjectMenuButton.classList.add("hidden");
     closeResetModal(false);
@@ -310,6 +311,7 @@
   }
 
   function renderEmpty() {
+    clearQuestionDensity();
     elements.questionTitle.textContent = "Nu am găsit grile în data/grile.js";
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
@@ -322,6 +324,7 @@
 
   function renderNoQuestions(pack) {
     const modeLabel = state.mode === "missed" ? "greșite" : "neștiute";
+    clearQuestionDensity();
     elements.questionTitle.textContent = `Nu există întrebări ${modeLabel}`;
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
@@ -352,6 +355,7 @@
     const multiAnswer = isMultiAnswer(question);
     const progressPercent = ((state.cursor + 1) / state.queue.length) * 100;
 
+    setQuestionDensity(questionDensity(question));
     elements.questionTitle.textContent = question.text;
     elements.currentNumber.textContent = String(state.cursor + 1);
     elements.totalNumber.textContent = String(state.queue.length);
@@ -392,10 +396,55 @@
     state.answered = false;
     state.selectedOriginalIndex = null;
     state.selectedOriginalIndexes = [];
+    resetQuestionScroll();
     renderStats();
     renderMap();
     refreshIcons();
   }
+
+  function questionDensity(question) {
+    const text = `${question.text || ""}\n${question.textAfterTables || ""}`;
+    const textLength = text.length;
+    const lineCount = text.split("\n").filter(Boolean).length;
+    const longestOption = Math.max(...question.options.map((option) => option.length));
+
+    if (textLength > 650 || lineCount > 9 || longestOption > 220) {
+      return "dense";
+    }
+    if (textLength > 430 || lineCount > 6 || longestOption > 140 || Array.isArray(question.tables)) {
+      return "long";
+    }
+    return "normal";
+  }
+
+  function setQuestionDensity(density) {
+    if (density === "normal") {
+      clearQuestionDensity();
+      return;
+    }
+    document.body.dataset.questionDensity = density;
+    elements.quizWorkspace.dataset.questionDensity = density;
+    elements.questionTitle.tabIndex = 0;
+  }
+
+  function clearQuestionDensity() {
+    delete document.body.dataset.questionDensity;
+    delete elements.quizWorkspace.dataset.questionDensity;
+    elements.questionTitle.removeAttribute("tabindex");
+  }
+
+  function resetQuestionScroll() {
+    elements.questionTitle.scrollTop = 0;
+    elements.questionExtras.scrollTop = 0;
+    elements.answers.scrollTop = 0;
+  }
+
+  function scrollQuizIntoView() {
+    if (window.matchMedia("(max-width: 680px)").matches) {
+      elements.quizWorkspace.scrollIntoView({ block: "start" });
+    }
+  }
+
 
   function renderQuestionExtras(question) {
     elements.questionExtras.innerHTML = "";
@@ -623,6 +672,7 @@
         }
         state.emptyFilter = false;
         renderQuestion();
+        scrollQuizIntoView();
       });
       elements.questionMap.appendChild(button);
     });
