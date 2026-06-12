@@ -12,6 +12,7 @@
     currentNumber: document.querySelector("#currentNumber"),
     totalNumber: document.querySelector("#totalNumber"),
     progressFill: document.querySelector("#progressFill"),
+    questionExtras: document.querySelector("#questionExtras"),
     answers: document.querySelector("#answers"),
     prevButton: document.querySelector("#prevButton"),
     nextButton: document.querySelector("#nextButton"),
@@ -313,6 +314,7 @@
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
     elements.progressFill.style.width = "0%";
+    elements.questionExtras.innerHTML = "";
     elements.answers.innerHTML = '<div class="empty-state">Adaugă un pachet de grile în fișierul de date.</div>';
     elements.prevButton.disabled = true;
     elements.nextButton.disabled = true;
@@ -324,6 +326,7 @@
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
     elements.progressFill.style.width = "0%";
+    elements.questionExtras.innerHTML = "";
     elements.answers.innerHTML = '<div class="empty-state">Schimbă filtrul sau alege o întrebare din hartă.</div>';
     elements.prevButton.disabled = true;
     elements.nextButton.disabled = true;
@@ -353,6 +356,7 @@
     elements.currentNumber.textContent = String(state.cursor + 1);
     elements.totalNumber.textContent = String(state.queue.length);
     elements.progressFill.style.width = `${progressPercent}%`;
+    renderQuestionExtras(question);
     elements.prevButton.disabled = state.cursor === 0;
     if (multiAnswer) {
       elements.nextButton.disabled = true;
@@ -391,6 +395,52 @@
     renderStats();
     renderMap();
     refreshIcons();
+  }
+
+  function renderQuestionExtras(question) {
+    elements.questionExtras.innerHTML = "";
+
+    if (Array.isArray(question.tables)) {
+      question.tables.forEach((table) => {
+        const wrapper = document.createElement("div");
+        wrapper.className = "table-wrap";
+        const tableElement = document.createElement("table");
+        tableElement.className = "data-table";
+
+        if (Array.isArray(table.headers) && table.headers.length) {
+          const thead = document.createElement("thead");
+          const headerRow = document.createElement("tr");
+          table.headers.forEach((header) => {
+            const th = document.createElement("th");
+            th.textContent = header;
+            headerRow.appendChild(th);
+          });
+          thead.appendChild(headerRow);
+          tableElement.appendChild(thead);
+        }
+
+        const tbody = document.createElement("tbody");
+        (table.rows || []).forEach((row) => {
+          const tr = document.createElement("tr");
+          row.forEach((cell) => {
+            const td = document.createElement("td");
+            td.textContent = cell;
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+        tableElement.appendChild(tbody);
+        wrapper.appendChild(tableElement);
+        elements.questionExtras.appendChild(wrapper);
+      });
+    }
+
+    if (question.textAfterTables) {
+      const note = document.createElement("p");
+      note.className = "question-after-text";
+      note.textContent = question.textAfterTables;
+      elements.questionExtras.appendChild(note);
+    }
   }
 
   function toggleMultiOption(originalIndex) {
