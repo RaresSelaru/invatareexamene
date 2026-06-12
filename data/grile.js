@@ -1223,5 +1223,599 @@ window.QUIZ_PACKS = [
       "answerIndex": 2
     }
   ]
+},
+{
+  "id": "managementul-resurselor-umane",
+  "title": "Managementul Resurselor Umane",
+  "subject": "Managementul Resurselor Umane",
+  "source": "Grile_MRU_rezolvate_cu_referinte.docx",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Care dintre argumentele de mai jos exprimă particularitatea că resursele umane reprezintă una din cele mai importante investiții ale unei organizații, ale cărei rezultate devin tot mai evidente în timp?",
+      "options": [
+        "resursele umane reprezintă o importantă resursă a organizației",
+        "organizațiile cheltuiesc mari sume de bani cu angajații lor",
+        "resursele umane reprezintă organizația",
+        "resursele umane au o pondere mare în economia unei organizații"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "Care dintre aprecierile de mai jos justifică particularitatea resurselor umane că deciziile manageriale din domeniul resurselor umane sunt printre cele mai dificile deoarece interconectează factorii individuali, organizaționali și situaționali?",
+      "options": [
+        "ponderea mare în cadrul organizației",
+        "masa personalului variază în funcție de mărimea organizației",
+        "situarea pe poziții ierarhice diferite",
+        "aceste decizii trebuie să fie deosebit de responsabile"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 3,
+      "text": "Care dintre formulările de mai jos argumentează particularitatea că resursele umane sunt unice în ceea ce privește potențialul lor de creștere și dezvoltare, precum și capacitatea lor de a-și cunoaște și învinge propriile limite și de a face față exigențelor actuale și de perspectivă?",
+      "options": [
+        "au o pondere mare în populația țării",
+        "resursele umane sunt singurele capabile să producă și să reproducă toate celelalte resurse aflate într-o organizație",
+        "au o poziție centrală în cadrul organizației",
+        "consumă mari sume în cadrul investițiilor"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "Care dintre argumentele de mai jos explică particularitatea că resursele umane sunt puternic marcate de factorul timp, necesar schimbării mentalităților, obiceiurilor, comportamentelor etc.?",
+      "options": [
+        "sistemul de valori personale poate influența părerile noastre despre comportamentul în organizație",
+        "nu există diferențe între generații în ceea ce privește anumite seturi de valori (economice și sociale)",
+        "reprezintă resursa principală a unei organizații",
+        "au o pondere mare în populația țării"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "text": "Care dintre ideile următoare îndreptățește afirmația că resursele umane constituie un potențial uman deosebit, ce trebuie înțeles, motivat sau antrenat?",
+      "options": [
+        "practicile din domeniul managementului resurselor umane nu pot fi transferate de la un mediu la altul, de la un individ la altul",
+        "reprezintă resursa principală a unei organizații",
+        "au o pondere mare în resursele unei organizații",
+        "reprezintă o resursă strategică la nivelul țării"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 6,
+      "text": "În care dintre etapele evoluției managementului resurselor umane apar „funcționarii capitalului”?",
+      "options": [
+        "administrarea personalului",
+        "etapa bunăstării sau prosperității",
+        "managementul resurselor umane",
+        "managementul personalului"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 7,
+      "text": "Din următoarea enumerare care se regăsesc în procesul asigurării cu resurse umane a organizației?",
+      "options": [
+        "recrutarea și selecția resurselor umane",
+        "evaluarea performanțelor",
+        "pregătirea continuă",
+        "prevenirea și rezolvarea conflictelor"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 8,
+      "text": "Apreciați ce imperative, din cele menționate în continuare, constituie obiective strategice în domeniul resurselor umane:",
+      "options": [
+        "sporirea cifrei de afaceri",
+        "dezvoltarea organizațională",
+        "creșterea competitivității organizației",
+        "asigurarea unui sistem corespunzător de comunicare"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 9,
+      "text": "Din următoarele activități care se regăsesc în procesul de asigurare cu resurse umane a organizației?",
+      "options": [
+        "pregătirea continuă",
+        "recompensarea personalului",
+        "elaborarea strategiilor și politicilor de personal",
+        "prevenirea și rezolvarea conflictelor de muncă"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 10,
+      "text": "Indicați care din strategiile din domeniul resurselor umane, menționate mai jos, sunt diferențiate în funcție de mărimea cheltuielilor alocate pentru dezvoltarea propriului potențial uman:",
+      "options": [
+        "strategia de conciliere",
+        "strategia proactivă",
+        "strategia pe termen lung",
+        "strategia activă"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 11,
+      "text": "Care dintre strategiile din domeniul resurselor umane, menționate mai jos, sunt diferențiate în funcție de gradul de dependență față de strategia globală a firmei?",
+      "options": [
+        "strategia corectivă",
+        "strategia orientată spre investiții",
+        "strategia de supraviețuire",
+        "strategia de specializare"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 12,
+      "text": "În cadrul ansamblului de politici menționate mai jos, indicați pe cele care le considerați că sunt specifice domeniului resurselor umane:",
+      "options": [
+        "politica de creștere a eficienței economice",
+        "politica de dezvoltare a organizației",
+        "politica de reducere a fluctuației angajaților",
+        "politica de dezvoltare a angajaților"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 13,
+      "text": "Care din strategiile din domeniul resurselor umane, menționate mai jos, sunt diferențiate în funcție de decalajul de performanță acoperit de activitatea de training și dezvoltare?",
+      "options": [
+        "strategia corectivă",
+        "strategia de dezvoltare",
+        "strategia orientată spre investiții",
+        "strategia de supraviețuire"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 14,
+      "text": "Din enumerarea de mai jos, care apreciați că sunt coordonatele matricei portofoliului de resurse umane?",
+      "options": [
+        "vechimea în muncă",
+        "performanța actuală",
+        "mărimea salariilor",
+        "potențialul de performanță și dezvoltare"
+      ],
+      "answerIndexes": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Apreciați care din aspectele enumerate mai jos constituie cerințe pe care trebuie să le îndeplinească politicile din domeniul resurselor umane:",
+      "options": [
+        "să fie larg dezbătute în cadrul colectivelor de angajați",
+        "să acopere domeniile de activitate cele mai importante ale funcțiunii de personal",
+        "să corespundă dorințelor angajaților",
+        "să fie comunicate, de preferință, verbal"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "Care din enumerările de mai jos constituie tipuri de analiză a postului?",
+      "options": [
+        "analize orientate valoric",
+        "analize orientate spre investiții",
+        "analize orientate spre variabile",
+        "analize strategice"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 17,
+      "text": "Care din enumerările de mai jos constituie tipuri de analiză a postului?",
+      "options": [
+        "analize orientate asupra postului",
+        "analize orientate valoric",
+        "analize orientate spre variabile",
+        "analize orientate spre investiții"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 18,
+      "text": "Care dintre următoarele activități constituie sarcini ale compartimentului de resurse umane?",
+      "options": [
+        "se preocupă de creșterea cifrei de afaceri",
+        "urmărește pătrunderea pe noi segmente ale pieței",
+        "inițiază și conduce activitățile din domeniul planificării resurselor umane",
+        "urmărește creșterea competitivității firmei"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "text": "Considerați că planificarea resurselor umane constă:",
+      "options": [
+        "în reducerea continuă a costurilor cu personalul",
+        "în acțiuni corelate de sporire a profitabilității firmei",
+        "în sporirea competitivității firmei pe piața internă și externă",
+        "într-o activitate de elaborare a strategiilor și politicilor de personal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 20,
+      "text": "Ce considerați că reprezintă dimensiunea temporală a planificării resurselor umane?",
+      "options": [
+        "orizontul de timp pentru care se efectuează",
+        "suma timpului aferent tuturor activităților efectuate în cadrul planificării resurselor umane",
+        "durata procesului de asigurare cu personal",
+        "intervalul de timp între recrutarea și angajarea personalului"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 21,
+      "text": "Dacă ați fi manager de personal, care dintre acțiunile-cheie de mai jos ar fi specifice activității dumneavoastră?",
+      "options": [
+        "micșorarea timpului dintre recrutare și angajare",
+        "urmărirea consolidării poziției organizației pe piața muncii",
+        "recrutarea externă a personalului",
+        "transformarea obiectivelor planului de afaceri în obiective de personal"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 22,
+      "text": "Care sunt etapele procesului de recrutare a resurselor umane?",
+      "options": [
+        "trierea candidaturilor, chestionarul interviul",
+        "prospecția internă, prospecția externă, instructajul de protecția muncii",
+        "angajarea din salariaților din alte organizații",
+        "testele, decizia finală și integrarea salariaților"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 23,
+      "text": "Dezechilibrele care pot să apară, pe termen scurt, în organizație se pot rezolva prin:",
+      "options": [
+        "renunțarea la orele suplimentare",
+        "utilizarea de contracte cu durată nedeterminată sau lucrători temporari",
+        "promovarea salariaților cu performanțe superioare",
+        "utilizarea de contracte cu durată determinată sau lucrători temporari"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 24,
+      "text": "Ce tipuri de analize sunt necesare pentru a se stabilii dimensiunile postului?",
+      "options": [
+        "analiza funcțională, analiza psihologică, variabilele externe",
+        "analiza funcțională, analiza psihologică și psihosociologică, variabilele situaționale",
+        "analiza strategică, analiza psihologică și psihosociologică",
+        "analiza funcțională, analiza strategică"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 25,
+      "text": "Unul dintre obiectivele principale ale procesului de selecție este acela de a:",
+      "options": [
+        "găsi persoanele capabile să ocupe un post și să fie capabile să atingă niveluri superioare de performanță",
+        "stabili criterii de selecție performante",
+        "alege un candidat pe care să-l integreze în organizație, indiferent de aptitudinile sale",
+        "găsi persoanele capabile să ocupe un post indiferent de nivelul de performanță"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 26,
+      "text": "Competențele de acțiune și de realizare sunt:",
+      "options": [
+        "Conducerea echipei: capacitatea de a-și asuma rolul de lider al unei echipe sau al unui grup",
+        "Directiva: capacitatea de a spune altora ceea ce trebuie să facă și cum trebuie să facă, în spiritul bunului mers al organizației",
+        "Expertiza tehnică: capacitatea de a utiliza și de a-și dezvolta cunoștințele tehnice și de a le împărtăși altora",
+        "Inițiativa: aptitudinea de a întreprinde acțiuni, de a îmbunătăți rezultatele sau de a crea oportunități"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 27,
+      "text": "Care sunt responsabilitățile colegilor în procesul de integrare a noului angajat?",
+      "options": [
+        "discutarea cu noul angajat a obiectivelor și priorităților pe termen scurt, mediu și lung",
+        "obținerea feedbackului din partea persoanelor implicate în program, de fiecare dată când acesta este aplicat",
+        "prezentarea rolului fiecărui membru al echipei de lucru",
+        "evaluarea noului angajat la finalul perioadei de probă"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 28,
+      "text": "Care este scopul activității de integrare profesională?",
+      "options": [
+        "de a asigura acceptarea și asimilarea noului angajat de către un grup astfel încât să nu se distrugă unitatea grupului",
+        "de a asigura acomodarea noului angajat în organizație",
+        "de a asigura acceptarea și asimilarea noului angajat de către manager",
+        "de a gestiona eficient unitatea grupului"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "text": "Rezultatele negative ale integrării profesionale constau în:",
+      "options": [
+        "insatisfacția muncii și motivație înaltă înțelegerea culturii organizației",
+        "insatisfacție privind munca, ambiguități privind rolul în cadrul organizației, lipsa motivației",
+        "insatisfacția muncii și motivație înaltă înțelegerea culturii organizației",
+        "valori ale organizației internalizate, performanțe scăzute"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "text": "Nivelurile traseului integrării profesionale sunt următoarele:",
+      "options": [
+        "selecția, abandonarea trecutului, training/antrenament, monitorizare și recompensă, identificare, reîntărire, modele de rol",
+        "selecția, training/antrenament, monitorizare și recompensă, identificare, reîntărire, modele de rol, socializare",
+        "training/antrenament, socializare, monitorizare și recompensă, identificare, reîntărire, modele de rol",
+        "training/antrenament, monitorizare și recompensă, socializare, identificare, reîntărire, modele de rol"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 31,
+      "text": "Alegerea metodelor de evaluare depinde de obiectivele ce trebuie atinse prin utilizarea rezultatelor evaluării, care pot fi:",
+      "options": [
+        "strategia de evaluare urmărită",
+        "sistemul de evaluare ales",
+        "convingerea că rezultatele pot fi utilizate mai departe",
+        "restructurări ale personalului"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 32,
+      "text": "Care sunt situații pentru care procesul de integrare profesională se va realiza diferențiat?",
+      "options": [
+        "noul angajat cunoaște responsabilitățile postului și cultura organizațională",
+        "există mai mulți angajați simultan pentru aceleași posturi",
+        "noul angajat cunoaște responsabilitățile postului, dar nu și cultura organizațională",
+        "noul angajat nu cunoaște responsabilitățile postului și nici cultura organizațională"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 33,
+      "text": "Condițiile unei evaluări și retroacțiuni eficace pot fi:",
+      "options": [
+        "să aibă loc lunar sau trimestrial",
+        "să țină cont de cerințele persoanei evaluate",
+        "să dispună de mijloace media performante",
+        "să participe plenar toți responsabilii"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 34,
+      "text": "Ce înțelegeți prin eroare de indulgență?",
+      "options": [
+        "evitarea riscurilor de a cădea în extreme și menținerea evaluărilor la un nivel mediu",
+        "se supraestimează randamentul salariaților, pentru evitarea conflictelor cu subordonații",
+        "supraestimarea randamentului indivizilor cu afinități asemănătoare",
+        "evaluatorul, indiferent de randamentul constatat, consideră că nivelul nu corespunde obiectivelor"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 35,
+      "text": "Întrevederea mixtă este o combinație între:",
+      "options": [
+        "întrevederea preliminară și cea finală",
+        "nu reprezintă o combinație",
+        "întrevederea preliminară și cea medie",
+        "întrevederea de informare și de convingere și cea de rezolvare a problemelor"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 36,
+      "text": "Gestiunea prin competente presupune:",
+      "options": [
+        "previzionarea calitativă a personalului",
+        "previzionarea cantitativă a personalului",
+        "îmbunătățirea evaluării personalului",
+        "identificarea competențelor actuale"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 37,
+      "text": "Proiectarea acțiunilor de formare continuă urmărește, între altele:",
+      "options": [
+        "întocmirea planului anual de formare",
+        "stabilirea metodelor de diagnostic individual",
+        "identificarea cerințelor de formare individuale",
+        "evaluarea formării"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 38,
+      "text": "Care sunt întrebările la care se oferă răspuns prin proiectarea programului de pregătire profesională?",
+      "options": [
+        "este nevoie de formare?",
+        "ce aspecte trebuie abordate în formare?",
+        "în ce an se derulează formarea?",
+        "ce buget are la dispoziție formarea în organizație?"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 39,
+      "text": "La ce anume se referă evaluarea pe termen scurt?",
+      "options": [
+        "stabilirea costului stagiului de formare",
+        "determinarea nivelului acumulărilor efective",
+        "determinarea valorii adăugate realizate prin stagiul de formare",
+        "aplicarea cunoștințelor acumulate în practică"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 40,
+      "text": "Sistemul de remunerare este un sistem complex, care trebuie să răspundă mai multor constrângeri, cum ar fi:",
+      "options": [
+        "existenta unor limite salariale",
+        "referințele pieței",
+        "perioadele de avânt",
+        "perioadele de criză"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 41,
+      "text": "Variabilele socii-demografice, ce completează variabilele individuale, sunt:",
+      "options": [
+        "valoarea adăugată",
+        "performanța individuală",
+        "productivitatea muncii",
+        "vechimea pe post"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 42,
+      "text": "Remunerarea directă include:",
+      "options": [
+        "împrumuturi cu dobândă preferențială",
+        "bonusul",
+        "concedii gratuite",
+        "stoc opțiune"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 43,
+      "text": "Care sunt domeniile de competență ce sunt cruciale în cadrul ancorei ce vizează ocuparea unui post de conducere:",
+      "options": [
+        "competența tehnică",
+        "competentă transversală",
+        "competența generală",
+        "competentă analitică"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 44,
+      "text": "De cine depinde utilizarea remunerării după timp sau după producție?",
+      "options": [
+        "de tipul producției",
+        "de existența normelor de producției",
+        "de alegerea conducerii organizației",
+        "de nivelul de organizare a muncii"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "text": "Factorii externi generatori de conflicte sunt următorii:",
+      "options": [
+        "responsabilitatea colectivă",
+        "comunicarea defectuoasă și competiția interpersonală",
+        "regulile, procedurile, politicile de resurse umane",
+        "concurența neloială între organizații"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 46,
+      "text": "Ce presupun conflictele competitive?",
+      "options": [
+        "conflictele competitive presupun scopuri convergente și adoptă regula câștig-pierdere",
+        "conflictele competitive presupun scopuri diametral opuse și adoptă regula câștig-pierdere prin tactica evită și adoptă",
+        "conflictele competitive presupun scopuri complexe și adoptă regula câștig-câștig prin tactica evită și adoptă",
+        "conflictele competitive presupun scopuri diametral opuse și adoptă regula câştig-câştig prin tactica evită și adoptă"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 47,
+      "text": "Care este caracteristica strategiei de control parțial?",
+      "options": [
+        "managerul intervine în conflict prin influențarea procesului și a rezultatului",
+        "managerul intervine în soluționarea conflictului prin influențarea rezultatului deciziei finale",
+        "managerul lucrează cu părțile în litigiu pentru a le ajuta să ajungă la o soluție prin facilitarea interacțiunii",
+        "managerul nu intervine în mod activ în rezolvarea conflictului"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 48,
+      "text": "Cauzele perpetuării conflictelor în organizații, după Sam Deep și Lyle Sussman, sunt următoarele:",
+      "options": [
+        "neînțelegerile, incompatibilitățile și aspirațiile personale",
+        "gradul de nemulțumire al colectivului",
+        "resursele personale nelimitate și constrângerile organizatorice",
+        "compatibilitățile și aspirațiile personale"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 49,
+      "text": "Criteriile ce satisfac o intervenție de succes sunt următoarele:",
+      "options": [
+        "abordarea și rezolvarea tuturor litigiilor",
+        "se folosește strategia de control prin mediere",
+        "intervenția în conflict prin influențarea procesului și a rezultatului",
+        "angajamentul si oportunitatea asumată de către părțile în litigiu"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 50,
+      "text": "Agresivitatea este considerată ca fiind:",
+      "options": [
+        "o trăsătură a celor puternici",
+        "o trăsătură a celor slabi",
+        "o caracteristică a conflictelor competitive",
+        "apanajul celor care generează conflictul și care, uneori, se impun în mod natural ca lideri"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 51,
+      "text": "Ce tipuri de conflicte sunt considerate conflicte de cooperare?",
+      "options": [
+        "conflictele în legătură cu executarea contractelor colective de muncă",
+        "conflictele cu scopuri emergente și care adoptă regula câştig-câştig prin tactica discută și adoptă",
+        "conflictele în legătură cu constatarea lipsei de nulitate a contractelor individuale",
+        "conflictele în legătură cu constatarea încetării aplicării contractelor colective de munc"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 52,
+      "text": "Care sunt tipurile de negociere recomandabile pentru rezolvarea conflictelor:",
+      "options": [
+        "negocierea liberă",
+        "negocierea în superioritate",
+        "negocierea închisă",
+        "negocierea distributivă"
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 53,
+      "text": "Care sunt cele mai răspândite modalități de rezolvare a conflictelor?",
+      "options": [
+        "evitarea, forțarea, acomodarea, colaborarea, compromisul",
+        "stabilirea, disecarea, rezolvarea, finalizarea",
+        "analiza, compromisul, acceptarea, rezolvarea, finalizarea",
+        "evitarea, forțarea, analiza, identificarea, pregătirea"
+      ],
+      "answerIndex": 0
+    }
+  ]
 }
 ];

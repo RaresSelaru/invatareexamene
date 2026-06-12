@@ -38,6 +38,7 @@
     emptyFilter: false,
     answered: false,
     selectedOriginalIndex: null,
+    selectedOriginalIndexes: [],
     optionOrders: new Map(),
     progress: {},
   };
@@ -72,6 +73,36 @@
 
   function currentPack() {
     return packs.find((pack) => pack.id === state.packId) || null;
+  }
+
+  function currentQuestion() {
+    const pack = currentPack();
+    if (!pack || !state.queue.length) {
+      return null;
+    }
+    return pack.questions[state.queue[state.cursor]] || null;
+  }
+
+  function correctIndexes(question) {
+    if (Array.isArray(question.answerIndexes)) {
+      return question.answerIndexes;
+    }
+    if (Number.isInteger(question.answerIndex)) {
+      return [question.answerIndex];
+    }
+    return [];
+  }
+
+  function isMultiAnswer(question) {
+    return correctIndexes(question).length > 1;
+  }
+
+  function sameSelection(left, right) {
+    if (left.length !== right.length) {
+      return false;
+    }
+    const rightSet = new Set(right);
+    return left.every((item) => rightSet.has(item));
   }
 
   function questionStats(questionId) {
@@ -209,6 +240,7 @@
     state.cursor = 0;
     state.answered = false;
     state.selectedOriginalIndex = null;
+    state.selectedOriginalIndexes = [];
     state.optionOrders = new Map();
   }
 
@@ -314,6 +346,7 @@
     const questionIndex = state.queue[state.cursor];
     const question = pack.questions[questionIndex];
     const order = optionOrder(question);
+    const multiAnswer = isMultiAnswer(question);
     const progressPercent = ((state.cursor + 1) / state.queue.length) * 100;
 
     elements.questionTitle.textContent = question.text;
@@ -321,10 +354,13 @@
     elements.totalNumber.textContent = String(state.queue.length);
     elements.progressFill.style.width = `${progressPercent}%`;
     elements.prevButton.disabled = state.cursor === 0;
-    elements.nextButton.disabled = false;
-    elements.nextButton.innerHTML = state.cursor === state.queue.length - 1
-      ? `${restartLabel(pack)} <i data-lucide="refresh-cw" aria-hidden="true"></i>`
-      : 'Următoarea <i data-lucide="arrow-right" aria-hidden="true"></i>';
+    if (multiAnswer) {
+      elements.nextButton.disabled = true;
+      elements.nextButton.innerHTML = 'Verifică <i data-lucide="check" aria-hidden="true"></i>';
+    } else {
+      elements.nextButton.disabled = false;
+      setNextButtonForNavigation(pack);
+    }
 
     elements.answers.innerHTML = "";
     order.forEach((originalIndex, visibleIndex) => {
@@ -332,28 +368,62 @@
       button.type = "button";
       button.className = "answer-option";
       button.dataset.originalIndex = String(originalIndex);
+      if (multiAnswer) {
+        button.setAttribute("aria-pressed", "false");
+      }
       button.innerHTML = `
         <span class="answer-letter">${letters[visibleIndex]}</span>
         <span class="answer-text">${escapeHtml(question.options[originalIndex])}</span>
       `;
-      button.addEventListener("click", () => answerQuestion(originalIndex));
+      button.addEventListener("click", () => {
+        if (multiAnswer) {
+          toggleMultiOption(originalIndex);
+          return;
+        }
+        answerQuestion([originalIndex]);
+      });
       elements.answers.appendChild(button);
     });
 
     state.answered = false;
     state.selectedOriginalIndex = null;
+    state.selectedOriginalIndexes = [];
     renderStats();
     renderMap();
     refreshIcons();
   }
 
-  function answerQuestion(originalIndex) {
+  function toggleMultiOption(originalIndex) {
+    if (state.answered) {
+      return;
+    }
+    const selected = new Set(state.selectedOriginalIndexes);
+    if (selected.has(originalIndex)) {
+      selected.delete(originalIndex);
+    } else {
+      selected.add(originalIndex);
+    }
+    state.selectedOriginalIndexes = [...selected];
+    state.selectedOriginalIndex = state.selectedOriginalIndexes[0] ?? null;
+
+    [...elements.answers.children].forEach((button) => {
+      const optionIndex = Number(button.dataset.originalIndex);
+      const isSelected = selected.has(optionIndex);
+      button.classList.toggle("selected", isSelected);
+      button.setAttribute("aria-pressed", String(isSelected));
+    });
+    elements.nextButton.disabled = state.selectedOriginalIndexes.length === 0;
+  }
+
+  function answerQuestion(selectedIndexes) {
     if (state.answered) {
       return;
     }
     const pack = currentPack();
     const question = pack.questions[state.queue[state.cursor]];
-    const correct = originalIndex === question.answerIndex;
+    const correct = sameSelection(selectedIndexes, correctIndexes(question));
+    const correctSet = new Set(correctIndexes(question));
+    const selectedSet = new Set(selectedIndexes);
     const stats = questionStats(question.id);
     const today = todayKey();
 
@@ -366,16 +436,18 @@
     state.progress.daily[today] = (state.progress.daily[today] || 0) + 1;
 
     state.answered = true;
-    state.selectedOriginalIndex = originalIndex;
+    state.selectedOriginalIndex = selectedIndexes[0] ?? null;
+    state.selectedOriginalIndexes = [...selectedIndexes];
     saveProgress();
 
     [...elements.answers.children].forEach((button) => {
       const optionIndex = Number(button.dataset.originalIndex);
       button.disabled = true;
-      if (optionIndex === question.answerIndex) {
+      button.classList.remove("selected");
+      if (correctSet.has(optionIndex)) {
         button.classList.add("correct");
       }
-      if (optionIndex === originalIndex && !correct) {
+      if (selectedSet.has(optionIndex) && !correctSet.has(optionIndex)) {
         button.classList.add("wrong");
       }
     });
@@ -429,12 +501,24 @@
     return filteredQuestionIndexes(pack).length ? "Reia seria" : "Gata";
   }
 
+  function setNextButtonForNavigation(pack) {
+    elements.nextButton.innerHTML = state.cursor === state.queue.length - 1
+      ? `${restartLabel(pack)} <i data-lucide="refresh-cw" aria-hidden="true"></i>`
+      : 'Următoarea <i data-lucide="arrow-right" aria-hidden="true"></i>';
+  }
+
   function refreshNextButton() {
     const pack = currentPack();
     if (!pack || !state.queue.length || state.cursor !== state.queue.length - 1) {
+      if (pack && state.queue.length) {
+        elements.nextButton.disabled = false;
+        setNextButtonForNavigation(pack);
+        refreshIcons();
+      }
       return;
     }
-    elements.nextButton.innerHTML = `${restartLabel(pack)} <i data-lucide="refresh-cw" aria-hidden="true"></i>`;
+    elements.nextButton.disabled = false;
+    setNextButtonForNavigation(pack);
     refreshIcons();
   }
 
@@ -550,6 +634,11 @@
     });
 
     elements.nextButton.addEventListener("click", () => {
+      const question = currentQuestion();
+      if (question && isMultiAnswer(question) && !state.answered) {
+        answerQuestion(state.selectedOriginalIndexes);
+        return;
+      }
       advanceQuestion();
     });
 

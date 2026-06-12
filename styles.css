@@ -340,6 +340,17 @@ h2 {
   transform: none;
 }
 
+.answer-option.selected {
+  border-color: rgba(20, 116, 111, 0.64);
+  background: #f0f7f4;
+  box-shadow: 0 12px 26px rgba(20, 116, 111, 0.1);
+}
+
+.answer-option.selected .answer-letter {
+  color: #fff;
+  background: var(--teal);
+}
+
 .answer-letter {
   display: grid;
   width: 34px;
