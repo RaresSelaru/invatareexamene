@@ -1382,10 +1382,7 @@ window.QUIZ_PACKS = [
           "mărimea salariilor",
           "potențialul de performanță și dezvoltare"
         ],
-        "answerIndexes": [
-          1,
-          3
-        ]
+        "answerIndex": 3
       },
       {
         "id": 15,
