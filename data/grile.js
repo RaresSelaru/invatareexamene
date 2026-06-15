@@ -1646,7 +1646,7 @@ window.QUIZ_PACKS = [
           "în ce an se derulează formarea?",
           "ce buget are la dispoziție formarea în organizație?"
         ],
-        "answerIndex": 0
+        "answerIndex": 1
       },
       {
         "id": 39,
@@ -1668,7 +1668,7 @@ window.QUIZ_PACKS = [
           "perioadele de avânt",
           "perioadele de criză"
         ],
-        "answerIndex": 1
+        "answerIndex": 2
       },
       {
         "id": 41,
