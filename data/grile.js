@@ -1646,7 +1646,7 @@ window.QUIZ_PACKS = [
           "în ce an se derulează formarea?",
           "ce buget are la dispoziție formarea în organizație?"
         ],
-        "answerIndex": 1
+        "answerIndex": 0
       },
       {
         "id": 39,
