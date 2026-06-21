@@ -3031,5 +3031,706 @@ window.QUIZ_PACKS = [
         "answerIndex": 3
       }
     ]
+  },
+  {
+    "id": "contabilitate-raportari-financiar-contabile",
+    "title": "Contabilitate și raportări financiar-contabile",
+    "subject": "Contabilitate și raportări financiar-contabile",
+    "source": "50 Grile CRFC_II (1).pdf",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Care dintre următoarele înregistrări contabile sunt în concordanţă cu explicaţia dată:",
+        "options": [
+          "381 = 409 ambalaje returnabile reţinute de către cumpărător",
+          "401 = 409 acordarea unui avans pentru un furnizor de stocuri",
+          "608 = 409 primirea de ambalaje returnabile de la furnizorii de stocuri",
+          "401 = 542 acordarea unui avans furnizorului de stocuri",
+          "621 = 401 venituri brute cuvenite colaboratorilor"
+        ],
+        "answerIndexes": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Care sunt cele mai relevante criterii de grupare a creanţelor şi datoriilor:",
+        "options": [
+          "după conţinutul juridic;",
+          "după natura operaţiilor",
+          "după conţinutul economic",
+          "după momentul evaluării",
+          "după data înregistrării în contabilitate"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Care dintre următoarele înregistrări contabile sunt în concordanţă cu explicaţia dată:",
+        "options": [
+          "413 = 4111 ambalaje returnabile restituite de către cumpărător",
+          "4111 = 419 emiterea facturii pentru avansul primit de la clienţi",
+          "419 = 708 ambalaje returnabile reţinute de către client",
+          "4111 = 765 diferenţă nefavorabilă de curs valutar aferentă unei creanţe",
+          "4118 = 4111 reactivarea unui client incert"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Care dintre următoarele înregistrări contabile sunt în concordanţă cu explicaţia dată:",
+        "options": [
+          "421 = 426 salarii neridicate în termenul legal",
+          "425 = 5311 acordarea unui avans către salariat pentru deplasarea în interes de serviciu",
+          "421 = 427 reţinerea impozitului pe salariu",
+          "641 = 421 înregistrarea contribuţiilor unităţii la bugetul de stat",
+          "641 = 424 obligaţia faţă de angajaţi pentru participarea la profit"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 5,
+        "text": "Care dintre următoarele categorii de persoane mai reprezintă asiguraţi în sistemul asigurărilor\nsociale, cu excepţia salariaţilor:",
+        "options": [
+          "persoanele autorizate să desfăşoare activităţi independente",
+          "managerii care au încheiat cu entitatea contract individual de muncă",
+          "administratorii care au încheiat contract de administrare",
+          "persoane angajate în instituţii internaţionale, dacă sunt asiguraţii acestora",
+          "persoanele care nu realizează nici un fel de venituri"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Care este relația corectă dintre rezultatul impozabil (Ri), rezultatul contabil (Rc), veniturile\nneimpozabile (Vn) și cheltuielile nedeductibile (Cnd):",
+        "options": [
+          "Rc = Ri – Vn + Cnd",
+          "Ri = Rc –Vn + Cnd",
+          "Ri = Rc + Vn – Cnd",
+          "Ri = Rc –Vn – Cnd",
+          "Rc = Ri + Vn – Cnd"
+        ],
+        "answerIndexes": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Impozitul pe profit se determină prin aplicarea cotei de 16% asupra:",
+        "options": [
+          "rezultatului contabil + veniturile neimpozabile",
+          "rezultatului impozabil",
+          "rezultatului reportat – venituri neimpozabile + cheltuieli nedeductibile",
+          "rezultatului impozabil – veniturile neimpozabile",
+          "rezultatului impozabil + cheltuielile nedeductibile"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "text": "Profitul investit în producția și/sau achiziția de echipamente tehnologice folosite în scopul obținerii\nde venituri impozabile:",
+        "options": [
+          "se impozitează cu 1%",
+          "se impozitează cu 3%",
+          "se impozitează cu 5%",
+          "se impozitează cu 16%",
+          "este scutit de impozit pe profit"
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 9,
+        "text": "Din punct de vedere contabil, impozitul pe profit reprezintă:",
+        "options": [
+          "un venit al entității și o creanță față de bugetul de stat",
+          "o cheltuială a entităţii și o datorie faţă de bugetul de stat",
+          "o cheltuială deductibilă integral și o datorie față de acționari",
+          "o cheltuială cu deductibilitate parțială și o creanță față de bugetul statului",
+          "o creanță față de buget și o datorie față de bancă"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "text": "Cheltuielile cu deductibilitate limitată la calculul impozitul pe profit sunt:",
+        "options": [
+          "perisabilitățile",
+          "impozitul pe profit",
+          "voucherele de vacanță",
+          "amenzile de circulație",
+          "cheltuielile din reevaluarea imobilizărilor"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Dacă la operația de regularizare TVA deductibilă este mai mică decât TVA colectată se va\nînregistra față de bugetul de stat:",
+        "options": [
+          "o creanță",
+          "o cheltuială",
+          "un venit",
+          "un provizion",
+          "o datorie"
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 12,
+        "text": "Dacă la operația de regularizare TVA deductibilă este mai mare decât TVA colectată se va\nînregistra față de bugetul de stat:",
+        "options": [
+          "o datorie",
+          "o creanță",
+          "o cheltuială",
+          "un venit",
+          "un provizion"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 13,
+        "text": "Cota redusă de TVA de 9% se aplică și pentru:",
+        "options": [
+          "manualele școlare",
+          "livrarea medicamentelor de uz uman",
+          "serviciile de cazare hoteliere",
+          "pentru toate operațiile de import",
+          "serviciile de restaurant, mai puțin pentru băuturile alcoolice"
+        ],
+        "answerIndexes": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Cota redusă de TVA de 5% se aplică și pentru:",
+        "options": [
+          "livrarea medicamentelor de uz uman",
+          "serviciile de restaurant, mai puțin pentru băuturile alcoolice",
+          "pentru toate operațiile de export",
+          "serviciile de cazare hoteliere",
+          "manualele școlare"
+        ],
+        "answerIndexes": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Care formule descriu o subvenție de încasat:",
+        "options": [
+          "5121 = 445",
+          "445 = 741",
+          "445 = 5121",
+          "445 = 475",
+          "472 = 445"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Un utilaj achiziționat cu 120.000 lei a fost subvenționat 80% și se amortizează în 120 de luni. Care\nformule se pot întâlni pe durata exploatării utilajului?",
+        "options": [
+          "445 = 741 120.000 lei",
+          "475 = 445 96.000 lei",
+          "6811 = 2813 1.000 lei",
+          "213 = 472 1.000 lei",
+          "475 = 7584 800 lei"
+        ],
+        "answerIndexes": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Impozitul pe dividende datorat bugetului de stat se înregistrează cu formulă contabilă:",
+        "options": [
+          "129 = 446",
+          "457 = 446",
+          "447 = 457",
+          "446 = 5311",
+          "117 = 446"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 18,
+        "text": "Vărsămintele din profitul net datorate bugetului de stat de către regiile autonome se înregistrează\nde către acestea cu formula:",
+        "options": [
+          "129 = 456",
+          "117 = 446",
+          "4111 = 446",
+          "121 = 456",
+          "117 = 5121"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 19,
+        "text": "Impozitul pe clădiri se înregistrează cu formula:",
+        "options": [
+          "212 = 446",
+          "635 = 212",
+          "212 = 447",
+          "635 = 446",
+          "6811 = 212"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 20,
+        "text": "Dividendele lăsate la dispoziția firmei de către un asociat se înregistrează cu formula:",
+        "options": [
+          "457 = 4551",
+          "4551 = 457",
+          "461 = 457",
+          "457 = 461",
+          "457 = 456"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 21,
+        "text": "Scoaterea din evidență a unei creanțe față de un debitor insolvabil se înregistrează cu formula:",
+        "options": [
+          "654 = 401",
+          "609 = 461",
+          "654 = 461",
+          "461 = 754",
+          "461 = 7583"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 22,
+        "text": "Se înregistrează factura pentru o reparație capitală în valoare de 10.000 lei, efectuată înainte de\ntermenul prevăzut. Cheltuielile respective se repartizează eșalonat în următoarele 2 luni. Ce\nformule contabile se pot întâlni în soluționarea acestei situații?",
+        "options": [
+          "611 = 471 5.000 lei",
+          "628 = 3024 10.000 lei",
+          "611 = 3024 10.000 lei",
+          "471 = 401 10.000 lei",
+          "6811 = 471 5.000 lei"
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Se constată o lipsă de materii prime la inventariere, în valoare de 2.000 lei, pentru care nu se\ncunoaște cauza. Ulterior se stabilește că lipsa este imputabilă gestionarului pentru valoare de 2.300\nlei.",
+        "options": [
+          "473 = 7588 2.300",
+          "4282 = 7588 2.300",
+          "473 = 301 2.000",
+          "421 = 473 2.000",
+          "301 = 473 2.000"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Se încasează prin virament chiria în avans pentru următoarele 2 luni, 3.000 lei x 2 luni. Ce\nformule contabile sunt corespunzătoare situației date, în luna curentă și cea următoare?",
+        "options": [
+          "5121 = 612 6.000 lei",
+          "472 = 706 3.000 lei",
+          "471 = 706 3.000 lei",
+          "5121 = 472 6.000 lei",
+          "612 = 5121 6.000 lei"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Procesul de realizare a cheltuielilor presupune următoarele momente:",
+        "options": [
+          "consumul, producția, încasarea, imputarea",
+          "angajarea, facturarea, plata, încorporarea",
+          "facturarea, consumul, încasarea, imputarea",
+          "angajarea, consumul, plata, imputarea",
+          "producția, facturarea, încasarea, încorporarea"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 26,
+        "text": "Procesul de obținere a veniturilor presupune următoarele momente:",
+        "options": [
+          "angajarea, consumul, plata, imputarea",
+          "producția, facturarea, încasarea, încorporarea",
+          "consumul, producția, încasarea, imputarea",
+          "angajarea, facturarea, plata, încorporarea",
+          "facturarea, consumul, încasarea, imputarea"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 27,
+        "text": "Care formulă contabilă este în concordanță cu explicația asociată:",
+        "options": [
+          "605 = 401, consumul de energie electrică facturat de furnizor",
+          "621 = 404, cheltuieli cu salariile",
+          "5311 = 371, vânzarea de mărfuri",
+          "641 = 421, concedii medicale datorate angajaților",
+          "603 = 303, distribuirea echipamentului de protecție"
+        ],
+        "answerIndexes": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": 28,
+        "text": "În cazul metodei inventar intermitent, care formulă contabilă reflectă stocurile de materii prime\nde la sfârșitul lunii curente și începutul lunii următoare?",
+        "options": [
+          "301 = 331",
+          "601 = 301",
+          "301 = 601",
+          "331 = 301",
+          "301 = 711"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "421 = 641, înregistrarea cheltuielilor cu salariile",
+          "6811 = 281, amortizarea imobilizărilor corporale",
+          "213 = 281, casarea unui utilaj",
+          "613 = 5311, plata poliței de asigurare",
+          "4423 = 4427, înregistrarea TVA de plată către bugetul de stat"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "622 = 5311, plata unui onorariu notarial",
+          "303 = 603, distribuirea obiectelor de inventar către salariați",
+          "623 = 371, mărfuri acordate clienților ca mostre",
+          "607 = 371, facturarea mărfuri către clienți",
+          "625 = 4111, contravaloarea transportului facturat clienților"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 31,
+        "text": "Justificarea avansului de 1.000 lei, acordat unui angajat pentru transport (300 lei) și cazare (600\nlei):",
+        "options": [
+          "% = 542 1.000 lei\n624 300 lei\n625 600 lei\n5311 100 lei",
+          "% = 5311 1.000 lei\n542 100 lei\n624 300 lei\n625 600 lei",
+          "% = 542 900 lei\n624 300 lei\n625 600 lei\nși concomitent\n542 = 5311 100 lei",
+          "% = 5311 1.000 lei\n542 100 lei\n625 900 lei",
+          "% = 5121 1.000 lei\n5311 100 lei\n625 900 lei"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 32,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "345 = 6582, donații de produse către o fundație",
+          "6422 = 5328, tichete de masă distribuite salariaților",
+          "448 = 6581, amenzi datorate bugetului de stat",
+          "666 = 461, obligația privind dobânda datorată băncii",
+          "654 = 4118, creanță irecuperabilă față de un client declarat în faliment"
+        ],
+        "answerIndexes": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": 33,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "6587 = 301, materii prime distruse de calamități",
+          "301 = 6587, materii prime distruse de calamități",
+          "6641 = 261, costul imobilizărilor financiare cedate",
+          "213 = 6583, casarea unui utilaj",
+          "6583 = 2813, amortizarea unui echipament tehnologic"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 34,
+        "text": "O diferență de curs valutar favorabilă apare atunci când:",
+        "options": [
+          "o creanță se încasează la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o creanță se încasează la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o datorie se plătește la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o datorie se plătește la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o creanță se actualizează la sfârșitul anului ca urmare a scăderii cursului de schimb."
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 35,
+        "text": "O diferență de curs valutar nefavorabilă apare atunci când:",
+        "options": [
+          "o creanță se încasează la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o creanță se încasează la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o datorie se plătește la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o datorie se plătește la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o creanță se reevaluează la sfârșitul anului ca urmare a creșterii cursului de schimb"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 36,
+        "text": "O diferență de curs valutar favorabilă apare atunci când:",
+        "options": [
+          "o datorie se plătește la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o creanță se încasează la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o datorie se plătește la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o datorie se reevaluează la sfârșitul anului ca urmare a scăderii cursului de schimb",
+          "o creanță se reevaluează la sfârșitul anului ca urmare a scăderii cursului de schimb"
+        ],
+        "answerIndexes": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 37,
+        "text": "O diferență de curs valutar nefavorabilă apare atunci când:",
+        "options": [
+          "o creanță se încasează la un curs de schimb mai mare decât cel la care era înregistrată",
+          "o creanță se reevaluează la sfârșitul anului ca urmare a scăderii cursului de schimb",
+          "o creanță se reevaluează la sfârșitul anului ca urmare a creșterii cursului de schimb",
+          "o datorie se plătește la un curs de schimb mai mic decât cel la care era înregistrată",
+          "o datorie se reevaluează la sfârșitul anului ca urmare a creșterii cursului de schimb"
+        ],
+        "answerIndexes": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": 38,
+        "text": "Care formulă contabilă se regăsește la vânzarea produselor:",
+        "options": [
+          "461 = 345",
+          "4111 = 701",
+          "4111 = 711",
+          "711 = 345",
+          "411 = 345"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 39,
+        "text": "Care formulă contabilă se poate regăsi la vânzarea produselor:",
+        "options": [
+          "345 = 711",
+          "345 = 378",
+          "345 = 401",
+          "711 = 345",
+          "348 = 711"
+        ],
+        "answerIndexes": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 40,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "208 = 721, obținerea unui program informatic din producție proprie",
+          "331 = 208, obținerea unui program informatic din producție proprie",
+          "235 = 725, obținerea de investiții imobiliare din producție proprie",
+          "231 = 721, obținerea de investiții imobiliare din producție proprie",
+          "4111 = 725, vânzarea unei investiții imobiliare către client"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 41,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "461 = 7581, penalități facturate terților",
+          "401 = 7581, penalități facturate terților",
+          "7583 = 212, vânzarea unei clădiri",
+          "461 = 7583, vânzarea de imobilizări necorporale",
+          "4111 = 2133, vânzarea unui mijloc de transport"
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 42,
+        "text": "Care formulă contabilă corespunde cu explicația dată?",
+        "options": [
+          "213 = 7584, subvenții primite pentru achiziția de utilaje",
+          "5121 = 766, dobânda datorată pentru credite primite de la alte firme",
+          "426 = 7588, salarii neridicate prescrise",
+          "4511 = 761, dividende de încasat de la o filială",
+          "5198 = 766, dobânda datorată pentru un credit bancar pe termen scurt"
+        ],
+        "answerIndexes": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 43,
+        "text": "Cele trei criterii de mărime în funcţie de care se stabileşte conţinutul situaţiilor financiare anuale\nsunt:",
+        "options": [
+          "profit, total active, cifra de afaceri netă",
+          "număr mediu de salariaţi, profit, total capitaluri proprii",
+          "cifra de afaceri netă, total active, număr mediu de salariaţi",
+          "total active, profit, număr mediu de salariaţi",
+          "profit, număr mediu de salariați, total capitaluri proprii"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 44,
+        "text": "O entitate care elaborează situaţii financiare anuale schimbă categoria în care se încadrează doar\ndacă:",
+        "options": [
+          "trei ani consecutivi a depăşit limitele a două din cele trei criterii de mărime",
+          "estimează că în anul următor depăşeşte două din cele trei criterii de mărime.",
+          "doi ani consecutivi depăşeşte două din cele trei criterii de mărime",
+          "schimbă domeniul de activitate şi estimează că va obţine profit în următorii doi ani",
+          "conducerea decide categoria în care se încadrează în fiecare an"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 45,
+        "text": "Inventarierea elementelor patrimoniale vizează:",
+        "options": [
+          "activele, datoriile și capitalurile proprii",
+          "creanțele, datoriile și capitalul social",
+          "imobilizările, stocurile și numerarul din casierie",
+          "stocurile, numerarul, datoriile, creanțele și activele imobilizate corporale",
+          "imobilizările corporale, stocurile și lichiditățile"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 46,
+        "text": "Care afirmație este adevărată în legătură cu perisabilitățile și scăzămintele la inventariere?",
+        "options": [
+          "perisabilităţile se aplică sub formă de cote procentuale care sunt maximale şi nu se acordă decât în\nmăsura în care cantităţile lipsă sunt mai mari decât cantităţile constatate plus",
+          "perisabilităţile se aplică numai după efectuarea compensării plusurilor cu cantităţile stabilite în\nminus",
+          "dacă în urma scăzămintelor mai rămân diferenţe cantitative în minus, cotele de scăzăminte nu se\nmai aplică",
+          "normele de scăzăminte se pot aplica anticipat",
+          "contravaloarea scăzămintelor legale nu afectează cheltuielile"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 47,
+        "text": "Situația fluxurilor de trezorerie (numerar) poate fi întocmită prin:",
+        "options": [
+          "metoda inventar permanent",
+          "metoda indirectă",
+          "metoda cost mediu ponderat",
+          "metoda inventar intermitent",
+          "metoda directă"
+        ],
+        "answerIndexes": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": 48,
+        "text": "Care dintre următoarele rații descriu performanța unei entități:",
+        "options": [
+          "rata profitului",
+          "rata rentabilității",
+          "gradul de îndatorare",
+          "lichiditatea",
+          "solvabilitatea"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 49,
+        "text": "Relația de determinare a valorii adăugate este:",
+        "options": [
+          "Producția exercițiului - Marja comercială",
+          "Producția exercițiului + Marja comercială – Consumuri provenite de la terți",
+          "Venituri din vânzarea de mărfuri – Costul mărfurilor vândute",
+          "Producția exercițiului + Consumuri provenite de la terți",
+          "Producția exercițiului - Marja comercială + Consumuri provenite de la terți"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 50,
+        "text": "”Valoarea adăugată + Subvenții de exploatare - Impozite, taxe și vărsăminte asimilate - Cheltuieli\nde personal” reprezintă:",
+        "options": [
+          "rezultatul exploatării",
+          "producția exercițiului",
+          "excedentul brut de exploatare",
+          "rezultatul curent înainte de impozitare",
+          "producția exercițiului"
+        ],
+        "answerIndex": 2
+      }
+    ]
   }
 ];
