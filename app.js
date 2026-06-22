@@ -276,6 +276,7 @@
 
   function showSubjectMenu() {
     state.started = false;
+    document.body.classList.add("menu-open");
     elements.subjectMenu.classList.remove("hidden");
     elements.quizWorkspace.classList.add("hidden");
     delete document.body.dataset.packId;
@@ -290,6 +291,7 @@
     state.packId = packId;
     state.started = true;
     state.progress = loadProgress(state.packId);
+    document.body.classList.remove("menu-open");
     document.body.dataset.packId = packId;
     elements.quizWorkspace.dataset.packId = packId;
     setMode("all");
