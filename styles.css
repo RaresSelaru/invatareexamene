@@ -277,6 +277,13 @@ h1 {
   font-weight: 850;
 }
 
+.workspace[data-pack-id^="examen-licenta"] #questionTitle {
+  max-width: 100%;
+  font-size: clamp(1.12rem, 1.55vw, 1.42rem);
+  line-height: 1.22;
+  font-weight: 850;
+}
+
 h2 {
   font-size: 0.94rem;
 }
@@ -296,9 +303,17 @@ h2 {
   font-size: 2rem;
 }
 
+.question-status {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+  min-width: clamp(124px, 14vw, 180px);
+}
+
 .progress-track {
+  width: 100%;
   height: 10px;
-  margin: 26px 0;
+  margin: 0;
   overflow: hidden;
   border-radius: 999px;
   background: #e7eee9;
@@ -321,7 +336,11 @@ h2 {
 .question-extras {
   display: grid;
   gap: 12px;
-  margin: -10px 0 18px;
+  margin: 18px 0;
+}
+
+.question-extras:empty {
+  display: none;
 }
 
 .table-wrap {
@@ -359,6 +378,42 @@ h2 {
 
 .data-table tr:last-child td {
   border-bottom: 0;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .question-extras {
+  gap: 8px;
+  margin: 14px 0 12px;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .table-wrap {
+  overflow-x: auto;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .data-table {
+  min-width: 0;
+  table-layout: auto;
+  font-size: 0.86rem;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .data-table th,
+.workspace[data-pack-id^="examen-licenta"] .data-table td {
+  padding: 7px 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .question-after-text {
+  font-size: 0.92rem;
+  line-height: 1.28;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .answer-option {
+  min-height: 54px;
+}
+
+.workspace[data-pack-id^="examen-licenta"] .answer-text {
+  font-size: 0.96rem;
+  line-height: 1.22;
 }
 
 .question-after-text {
@@ -799,7 +854,7 @@ body.modal-open {
   .progress-track {
     flex: 0 0 auto;
     height: 8px;
-    margin: 16px 0 18px;
+    margin: 0;
   }
 
   .answer-list {
@@ -813,7 +868,7 @@ body.modal-open {
 
   .question-extras {
     flex: 0 0 auto;
-    margin: -6px 0 12px;
+    margin: 12px 0;
   }
 
   .data-table {
@@ -910,7 +965,7 @@ body.modal-open {
   }
 
   .workspace[data-pack-id="management-strategic"] .progress-track {
-    margin: 10px 0 12px;
+    margin: 0;
   }
 
   .workspace[data-pack-id="management-strategic"] .answer-list {
@@ -931,6 +986,49 @@ body.modal-open {
   .workspace[data-pack-id="management-strategic"] .answer-text {
     font-size: 0.95rem;
     line-height: 1.22;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .quiz-panel {
+    padding: 16px;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] #questionTitle {
+    font-size: clamp(0.98rem, 1.25vw, 1.16rem);
+    line-height: 1.18;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .question-extras {
+    margin: 10px 0;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .data-table {
+    font-size: 0.78rem;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .data-table th,
+  .workspace[data-pack-id^="examen-licenta"] .data-table td {
+    padding: 5px 6px;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .answer-list {
+    gap: 7px;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .answer-option {
+    grid-template-columns: 32px minmax(0, 1fr);
+    min-height: 44px;
+    padding: 6px 8px;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .answer-letter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.82rem;
+  }
+
+  .workspace[data-pack-id^="examen-licenta"] .answer-text {
+    font-size: 0.84rem;
+    line-height: 1.16;
   }
 
   .workspace[data-question-density="long"] .quiz-panel,
@@ -960,7 +1058,7 @@ body.modal-open {
 
   .workspace[data-question-density="long"] .progress-track,
   .workspace[data-question-density="dense"] .progress-track {
-    margin: 10px 0 12px;
+    margin: 0;
   }
 
   .workspace[data-question-density="long"] .answer-list,
@@ -1048,7 +1146,7 @@ body.modal-open {
   }
 
   .question-extras {
-    margin: -4px 0 14px;
+    margin: 10px 0 12px;
   }
 
   .data-table {
@@ -1182,7 +1280,7 @@ body.modal-open {
   body[data-pack-id="management-strategic"] .progress-track {
     flex: 0 0 auto;
     height: 5px;
-    margin: 8px 0;
+    margin: 0;
   }
 
   body[data-pack-id="management-strategic"] .answer-list {
@@ -1342,7 +1440,7 @@ body.modal-open {
   body[data-question-density="dense"] .progress-track {
     flex: 0 0 auto;
     height: 5px;
-    margin: 8px 0;
+    margin: 0;
   }
 
   body[data-question-density="long"] .question-extras,
@@ -1407,6 +1505,174 @@ body.modal-open {
     min-height: 42px;
     padding: 0 8px;
     font-size: 0.95rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] {
+    overflow: hidden;
+  }
+
+  body[data-pack-id^="examen-licenta"] .app-shell {
+    display: flex;
+    width: min(100% - 10px, 1180px);
+    height: 100svh;
+    min-height: 0;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 8px 0;
+  }
+
+  body[data-pack-id^="examen-licenta"] .topbar {
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .brand {
+    gap: 8px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .brand-mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 7px;
+    box-shadow: none;
+  }
+
+  body[data-pack-id^="examen-licenta"] .brand strong {
+    font-size: 0.98rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] .brand span {
+    display: none;
+  }
+
+  body[data-pack-id^="examen-licenta"] .topbar-action {
+    width: auto;
+    min-height: 34px;
+    padding: 0 10px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .workspace {
+    display: block;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body[data-pack-id^="examen-licenta"] .quiz-panel {
+    display: flex;
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 9px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .control-panel {
+    display: none;
+  }
+
+  body[data-pack-id^="examen-licenta"] .quiz-topline {
+    flex: 0 0 auto;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    min-height: 0;
+  }
+
+  body[data-pack-id^="examen-licenta"] #questionTitle {
+    max-width: 100%;
+    max-height: 27svh;
+    overflow: auto;
+    padding-right: 3px;
+    font-size: clamp(0.78rem, 3.25vw, 0.94rem);
+    line-height: 1.12;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body[data-pack-id^="examen-licenta"] .question-count {
+    min-width: auto;
+    justify-content: flex-end;
+    font-size: 0.72rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] .question-count span:first-child {
+    font-size: 0.96rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] .progress-track {
+    flex: 0 0 auto;
+    height: 5px;
+    margin: 0;
+  }
+
+  body[data-pack-id^="examen-licenta"] .question-extras {
+    flex: 0 1 auto;
+    max-height: 22svh;
+    overflow: auto;
+    margin: 0 0 7px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body[data-pack-id^="examen-licenta"] .data-table {
+    width: 100%;
+    min-width: 0;
+    font-size: 0.68rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] .data-table th,
+  body[data-pack-id^="examen-licenta"] .data-table td {
+    padding: 4px 5px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .question-after-text {
+    font-size: 0.78rem;
+    line-height: 1.16;
+  }
+
+  body[data-pack-id^="examen-licenta"] .answer-list {
+    flex: 1 1 auto;
+    align-content: start;
+    gap: 6px;
+    min-height: 0;
+    overflow: auto;
+    padding-right: 2px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body[data-pack-id^="examen-licenta"] .answer-option {
+    grid-template-columns: 28px minmax(0, 1fr);
+    min-height: 38px;
+    gap: 6px;
+    padding: 5px 7px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .answer-letter {
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+    font-size: 0.76rem;
+  }
+
+  body[data-pack-id^="examen-licenta"] .answer-text {
+    font-size: 0.76rem;
+    line-height: 1.12;
+  }
+
+  body[data-pack-id^="examen-licenta"] .quiz-actions {
+    flex: 0 0 auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 7px;
+    margin-top: 7px;
+  }
+
+  body[data-pack-id^="examen-licenta"] .primary-button,
+  body[data-pack-id^="examen-licenta"] .ghost-button {
+    min-height: 38px;
+    padding: 0 8px;
+    font-size: 0.86rem;
   }
 }
 

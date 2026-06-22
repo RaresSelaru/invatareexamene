@@ -3732,5 +3732,2479 @@ window.QUIZ_PACKS = [
         "answerIndex": 2
       }
     ]
+  },
+  {
+    "id": "examen-licenta",
+    "title": "Examen Licenta",
+    "subject": "Examen Licenta",
+    "source": "TESTE GRILĂ_discipline fundamentale_2026 + TESTE GRILĂ_discipline Specialitate MG_2026",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Gruparea angajaților pe subdiviziuni organizatorice (departamente, servicii, secții, ateliere etc.), în funcție de sarcinile pe care aceștia le execută, reprezintă o activitate specifică funcției",
+        "options": [
+          "previziune",
+          "organizare",
+          "antrenare",
+          "control-evaluare"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "text": "Funcția de coordonare cuprinde un ansamblu de activități prin care se asigură:",
+        "options": [
+          "armonizarea și sincronizarea acțiunilor individuale și colective din cadrul întreprinderii",
+          "extrapolarea tendințelor prezente în activitatea întreprinderii",
+          "reconsiderarea factorilor care îi motivează pe salariații întreprinderii",
+          "eliminarea cauzelor care au condus la performanțe sub standardele stabilite inițial"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "text": "Sfera de autoritate reprezintă:",
+        "options": [
+          "gradul de îndeplinire a sarcinilor de către manager",
+          "numărul de persoane sau de compartimente subordonate nemijlocit de către un manager;",
+          "cantitatea de muncă pe care trebuie să o depună un manager",
+          "competențele pe care le deține un manager în domeniul postului ocupat"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "text": "Îndeplinirea corespunzătoare a funcției de antrenare presupune, în principal:",
+        "options": [
+          "înțelegerea de către manageri a rolului și particularităților factorului uman din întreprindere",
+          "manageri cu pregătire profesională deosebită în domeniul de activitate în care activează",
+          "controlul exercitat de către manageri asupra tuturor acțiunilor subordonaților",
+          "un sistem de motivare bazat în principal pe sancțiuni"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 5,
+        "text": "Domnul Krath Biro, Directorul economic al S.C. PROMOB-S.A., în reuniunea avută cu subordonații săi, a fost de părere că „… decizia deja abordată a fost posibilă deoarece am știut să înlăturăm improvizația și rutina, dar și datorită încadrării în perioada optimă de operaționalizare”. Analizați opinia directorului economic și recunoașteți la care cerințe de raționalitate a deciziei s-a referit directorul economic:",
+        "options": [
+          "fundamentarea științifică și oportunitatea;",
+          "oportunitatea și conținutul complet",
+          "claritatea, concizia și caracterul necontradictoriu",
+          "împuternicirea și fundamentarea științifică"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 6,
+        "text": "Cerința ca o decizie să fie împuternicită se referă la faptul că:",
+        "options": [
+          "este adoptată de cel în ale cărui sarcini este înscrisă în mod expres",
+          "este adoptată de către un specialist",
+          "este în concordanță cu obiectivele întreprinderii",
+          "este adoptată la nivelul managementului de vârf"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 7,
+        "text": "O firmă dorește să achiziționeze un nou utilaj de producție. Pe piață sunt identificați trei furnizori pentru acest tip de utilaj: ALPHA (F₁), BETA (F₂) și GAMA (F₃). Criteriile după care se va adopta decizia de cumpărare sunt: C₁ - prețul de achiziție; C₂ - garanția acordată de producător; C₃ - durata de recuperare a investiției. Criteriile au aceeași importanță (nu se vor folosi coeficienți de importanță în calcule). Particularitățile celor trei utilaje, în funcție de criteriile de comparație stabilite, sunt sintetizate în următorul tabel:",
+        "options": [
+          "F₁ și ordinea de preferință F₁, F₂, F₃",
+          "F₂ și ordinea de preferință F₂, F₁, F₃",
+          "F₃ și ordinea de preferință F₃, F₁, F₂",
+          "F₁ și ordinea de preferință F₁, F₃, F₂"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "C₁ (mii lei)",
+              "C₂ (ani)",
+              "C₃ (ani)"
+            ],
+            "rows": [
+              [
+                "F₁",
+                "600",
+                "8",
+                "6"
+              ],
+              [
+                "F₂",
+                "1.200",
+                "10",
+                "9"
+              ],
+              [
+                "F₃",
+                "800",
+                "6",
+                "5"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând metoda utilității globale rezultă că decizia optimă și ordinea de preferință a variantelor decizionale sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 8,
+        "text": "* Un producător de bere dorește să introducă în fabricație pentru sezonul estival 2024 un nou sortiment. Managerul companiei încearcă să ia o decizie cu privire la cantitățile ce se vor produce: V₁ - cantitate mare; V₂ - cantitate medie; V₃ - cantitate mică. La nivelul firmei nu există date exacte privind cererea pentru acest produs nou, dar specialiștii în marketing și vânzări au conturat 3 scenarii posibile: S₁ - cerere mare (6-7 luni „calde”); S₂ - cerere medie (4-5 luni „calde”); S₃ - cerere mică (o vară „scurtă”). Situația profitului (în mii lei) pentru fiecare dintre situațiile posibile este redată în tabelul de mai jos:",
+        "options": [
+          "V₁ și ordinea de preferință V₁, V₂, V₃",
+          "V₂ și ordinea de preferință V₂, V₁, V₃",
+          "V₃ și ordinea de preferință V₃, V₁, V₂",
+          "V₃ și ordinea de preferință V₃, V₂, V₁"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "S₁",
+              "S₂",
+              "S₃"
+            ],
+            "rows": [
+              [
+                "V₁",
+                "88",
+                "53",
+                "20"
+              ],
+              [
+                "V₂",
+                "75",
+                "66",
+                "32"
+              ],
+              [
+                "V₃",
+                "57",
+                "50",
+                "39"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând regula pesimistă rezultă că varianta optimă și ordinea de preferință a variantelor sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 9,
+        "text": "Marian Dragu este supervizorul unei echipe de vânzări. În activitatea sa de conducere el încurajează frecvent angajații să-și exprime liber opiniile și ține cont de ele în formularea obiectivelor echipei, le apreciază acțiunile creative și stimulează colaborarea. Atmosfera în echipă este bună și angajații sunt foarte implicați în realizarea obiectivelor companiei. În funcție de modul de manifestare a autorității manageriale, se poate spune că Marian Dragu are un stil de management:",
+        "options": [
+          "autoritar",
+          "democrat",
+          "permisiv",
+          "manipulativ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "text": "Reprezintă elementele ”cele mai vizibile” ale unei culturi organizaționale:",
+        "options": [
+          "semnele",
+          "miturile",
+          "tabuurile",
+          "percepțiile salariaților cu privire la structura puterii în organizație"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 11,
+        "text": "Imobilizările corporale ale entităţii se caracterizează prin următoarele:",
+        "options": [
+          "valori mari şi utilizare limitată la câteva circuite economice;",
+          "valori stabilite individual prin hotărâre de Guvern şi utilizare la mai multe circuite economice;",
+          "utilizarea pe parcursul unei perioade mai mari de un an şi depăşirea unei limite de valoare minimă stabilită prin hotărâre a Guvernului;",
+          "includerea în cadrul activelor cu lichiditate crescută;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 12,
+        "text": "Datoriile entităţii provenite din cumpărări de stocuri şi servicii sunt reflectate cu elementul patrimonial de pasiv:",
+        "options": [
+          "credite bancare pe termen lung;",
+          "sume datorate acţionarilor/asociaţilor;",
+          "furnizori;",
+          "clienţi-creditori."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 13,
+        "text": "Plata din disponibilul de la bancă a unei obligaţii comerciale provenite din aprovizionarea cu materii prime determină:",
+        "options": [
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;",
+          "scăderea disponibilului din contul de la bancă şi a creanţei faţă de furnizor şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, creșterea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 14,
+        "text": "Plata cu numerar a salariilor cuvenite angajaților determină:",
+        "options": [
+          "scăderea numerarului din casierie, creşterea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "scăderea numerarului din casierie, scăderea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "creșterea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul majorării;",
+          "scăderea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul diminuării."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "text": "În debitul conturilor se înregistrează:",
+        "options": [
+          "sume ce se referă numai la elemente ce cresc;",
+          "creşteri de active şi scăderi de pasive;",
+          "sume ce se referă numai la elemente ce scad;",
+          "scăderi de active şi creşteri de pasive."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 16,
+        "text": "Formulele contabile de stornare în negru:",
+        "options": [
+          "anulează o formulă contabilă, întocmită anterior greşit, prin inversarea acesteia;",
+          "nu denaturează rulajul conturilor mărindu-l artificial",
+          "nu stabileşte corespondenţe nereale între conturi;",
+          "anulează prin repetare formule contabile întocmite anterior greşit."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 17,
+        "text": "Rulajele debitoare ale conturilor de activ sunt formate din:",
+        "options": [
+          "existentul înscris în debit la care se adaugă totalitatea sumelor înregistrate în debit în cursul perioadei;",
+          "soldul iniţial debitor la care se adaugă soldul final creditor;",
+          "total sume debitoare diminuate cu total sume creditoare.",
+          "valorile obţinute prin adunarea tuturor sumelor înregistrate în debit în cursul perioadei."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 18,
+        "text": "În partea dreaptă (creditul) a unei formule contabile se înscriu:",
+        "options": [
+          "conturi care reflectă creşteri ale elementelor de pasiv;",
+          "conturi care reflectă scăderi ale elementelor de pasiv;",
+          "conturi care reflectă creşteri ale elementelor de activ;",
+          "conturi care reflectă creşteri ale elementelor de pasiv şi ale elementelor de activ."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "text": "Contul 5121 „Conturi la bănci în lei” oferă următoarele informaţii: sold iniţial 700 lei, total sume creditoare 2.000 lei şi sold final 3.000 lei. Rulajul debitor aferent contului 5121 „Conturi la bănci în lei” este:",
+        "options": [
+          "1.000 lei;",
+          "1.700 lei;",
+          "4.300 lei;",
+          "1.800 lei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 20,
+        "text": "* Contul 404 „Furnizori de imobilizări” prezintă la începutul lunii martie un sold iniţial de 2.000 lei. În cursul lunii martie se înregistrează două achiziţii de imobilizări în valoare de 1.600 lei şi 700 lei şi trei plăţi în contul furnizorilor de imobilizări în valoare de 900 lei, 1.800 lei şi 700 lei. Soldul final al contului 404 „Furnizori de imobilizări” este:",
+        "options": [
+          "900 lei;",
+          "4.300 lei;",
+          "1.300 lei;",
+          "7.700 lei."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 21,
+        "text": "Precizaţi care dintre următoarele relaţii este corectă:",
+        "options": [
+          "PNB = PIN + PIB.",
+          "PIB = PGB + Consumul intermediar (Ci);",
+          "PIN = PIB – Amortizare (A);",
+          "PNN = PIN + VN – Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 22,
+        "text": "Precizaţi care dintre următoarele relaţii este incorectă:",
+        "options": [
+          "PIB = PGB - Consumul intermediar (Cᵢ);",
+          "PIN = ∑VANᵢ;",
+          "PNN = PNB + Amortizare (A);",
+          "PIB = PIN + Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 23,
+        "text": "Produsului intern brut (PIB) se calculează în modul următor:",
+        "options": [
+          "PIB = PIN – Amortizare (A);",
+          "PIB = ∑VABᵢ;",
+          "PIB = PGB + Consumul intermediar (Cᵢ);",
+          "PIB = PNB – PNN;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 24,
+        "text": "În perioada recesiunii economice, măsurile de politică bugetară cu caracter anticiclic presupun:",
+        "options": [
+          "menținerea sau creșterea ponderii cheltuielilor publice în PIB;",
+          "creșterea gradului de fiscalitate;",
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 25,
+        "text": "În faza de creștere economică prelungită, politicile economice anticiclice urmăresc:",
+        "options": [
+          "reducerea gradului de fiscalitate;",
+          "menținerea sau reducerea ponderii cheltuielilor publice în PIB;",
+          "scăderea ratei dobânzii de politică monetară",
+          "creșterea ponderii cheltuielilor publice în PIB;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 26,
+        "text": "În faza de recesiune/criză economică, politicile economice anticiclice presupun:",
+        "options": [
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;",
+          "menținerea sau reducerea gradului de fiscalitate;",
+          "reducerea volumului creditului în economie;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 27,
+        "text": "Inflaţia prin cerere apare ca urmare:",
+        "options": [
+          "a scăderii cererii agregate, într-un ritm mai mare decât oferta agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mic decât oferta agregată;",
+          "a creşterii ofertei agregate, în acelaşi ritm cu cererea agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mare decât oferta agregată;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 28,
+        "text": "Factorii care determină creşterea costurilor şi pot deveni cauze ale inflaţiei prin costuri sunt:",
+        "options": [
+          "creşterea salariilor într-un ritm superior creşterii productivităţii muncii;",
+          "scăderea prețurilor la materii prime și materiale;",
+          "presiunea fiscală scăzută, în special cea privind impozitele indirecte;",
+          "evoluţia salariilor într-o dinamică cel mult egală cu cea a productivităţii muncii;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 29,
+        "text": "* Se cunosc următoarele date referitoare la dinamica prețurilor bunurilor de consum, în decursul unui an:",
+        "options": [
+          "108,4% şi 8,4%",
+          "104,8% şi 4,8%",
+          "105,3% şi 5,3%",
+          "103,5% şi 3,5%"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Bunuri economice de consum",
+              "Ponderea cheltuielilor în totalul consumului",
+              "Indicii specifici ai prețurilor/tarifelor"
+            ],
+            "rows": [
+              [
+                "Alimentare",
+                "65%",
+                "105%"
+              ],
+              [
+                "Nealimentare",
+                "25%",
+                "103%"
+              ],
+              [
+                "Servicii",
+                "10%",
+                "108%"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Indicele prețurilor bunurilor de consum (IPC) pe ansamblul economiei și rata inflației (Ri), în anul respectiv, au fost:",
+        "answerIndex": 1
+      },
+      {
+        "id": 30,
+        "text": "Nivelul şomajului se determină astfel:",
+        "options": [
+          "în mărime absolută, ca diferență între populația activă și numărul total al şomerilor;",
+          "în mărime absolută, exprimată prin numărul celor ocupaţi și neocupați;",
+          "în mărime relativă, exprimată ca raport procentual între numărul total al şomerilor şi populaţia activă;",
+          "în mărime relativă, calculată ca raport procentual între populaţia activă şi numărul total al şomerilor;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 31,
+        "text": "Capitalul total, după modalitățile de folosinţă, se materializează în:",
+        "options": [
+          "capital social; datorii; active imobilizate; active circulante;",
+          "capital social, datorii pe termen lung și datorii pe termen scurt;",
+          "capital permanent; datorii pe termen scurt și datorii pe termen lung;",
+          "active imobilizate și active circulante;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 32,
+        "text": "Capitalul propriu al întreprinderii se constituie prin:",
+        "options": [
+          "însumarea capitalului social cu datoriile pe termen scurt;",
+          "însumarea capitalului permanent cu datoriile pe termen lung;",
+          "însumarea capitalului social cu grupa primelor de capital, rezervelor și rezultatelor;",
+          "scăderea din capitalul total a datoriilor pe termen lung;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 33,
+        "text": "Activele imobilizate cuprind următoarele componente:",
+        "options": [
+          "imobilizări necorporale, imobilizări corporale și stocuri;",
+          "imobilizări necorporale, imobilizări corporale, imobilizări financiare;",
+          "imobilizări necorporale, imobilizări financiare, stocuri și creanțe;",
+          "stocuri, creanţe, investiții pe termen scurt, casa și conturi la bănci;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 34,
+        "text": "* La o firmă se cunosc următoarele date:",
+        "options": [
+          "25.000 lei;",
+          "23.000 lei;",
+          "40.000 lei;",
+          "45.000 lei;"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Indicator",
+              "Valoare"
+            ],
+            "rows": [
+              [
+                "capitalul social",
+                "90.000 lei"
+              ],
+              [
+                "capitalul propriu",
+                "105.000 lei"
+              ],
+              [
+                "datoriile pe termen scurt",
+                "53.000 lei"
+              ],
+              [
+                "datoriile pe termen lung",
+                "70.000 lei"
+              ],
+              [
+                "active imobilizate nete",
+                "135.000 lei"
+              ],
+              [
+                "active circulante",
+                "93.000 lei"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Valoarea fondului de rulment net va fi:",
+        "answerIndex": 2
+      },
+      {
+        "id": 35,
+        "text": "Obligațiunile sunt titluri de valoare care exprimă:",
+        "options": [
+          "creanţa emitentului asupra activelor deținătorilor;",
+          "angajamentul emitentului de a plăti dobânda şi de a rambursa împrumutul;",
+          "obligația deținătorilor de a rambursa împrumutul și de a plăti dobânda;",
+          "dreptul de proprietate asupra unei părți din capitalul social;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 36,
+        "text": "Printre elementele tehnice ale obligațiunilor se regăsesc:",
+        "options": [
+          "prețul de emisiune, anuitatea, dobânda;",
+          "valoarea nominală, anuitatea, dividendele;",
+          "termenul de rambursare, dobânda, drepturile de atribuire;",
+          "valoarea nominală, dobânda, drepturile de subscriere, drepturile de atribuire;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 37,
+        "text": "Valoarea actualizată netă (VAN) se stabileşte ca:",
+        "options": [
+          "diferenţă între suma cash flow-urilor actualizate şi capitalul investit;",
+          "sumă între cash flow-urile actualizate şi capitalul investit;",
+          "raport între suma cash flow-urilor actualizate şi capitalul total;",
+          "diferenţă între suma cash flow-urilor actualizate şi amortisment;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 38,
+        "text": "Amortizarea accelerată presupune:",
+        "options": [
+          "aplicarea cotei de amortizare liniară la valoarea fiscală de la data intrării în patrimoniu a mijlocului fix amortizabil;",
+          "multiplicarea cotei liniare cu coeficientul prevăzut de lege și aplicarea acestei cote la valoarea contabilă a mijlocului fix;",
+          "pentru primul an de utilizare, amortizarea nu poate depăşi 50% din valoarea fiscală de la data intrării în patrimoniu a mijlocului fix;",
+          "determinarea unor amortismente anuale constante pe întreaga durată de utilizare amijlocului fix;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 39,
+        "text": "Accelerarea vitezei de rotaţie a activelor circulante presupune:",
+        "options": [
+          "reducerea coeficientului vitezei de rotaţie;",
+          "creşterea vitezei de rotaţie în zile și reducerea duratei în zile a unei rotaţii;",
+          "reducerea numărului de rotaţii;",
+          "creşterea coeficientului vitezei de rotaţie;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 40,
+        "text": "Rata rentabilităţii financiare exprimă:",
+        "options": [
+          "capacitatea firmelor de a realiza profit brut pe baza capitalurilor permanente;",
+          "capacitatea firmelor de a realiza profit net pe baza capitalurilor proprii;",
+          "capacitatea firmelor de a realiza profit din exploatare pe baza activului economic;",
+          "capacitatea firmelor de a realiza profit pe baza capitalului angajat; I. 5. INFORMATICĂ ECONOMICĂ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 41,
+        "text": "Ce format de export al foilor de calcul Excel vă oferă următoarele avantajele: documentele vor arăta la fel pe majoritatea calculatoarelor, se păstrează fonturile, formatările, la fel ca documentul original, respectiv conținutul nu poate fi ușor modificat?",
+        "options": [
+          "XLS;",
+          "TXT (tab delimited);",
+          "CSV (comma delimited);",
+          "PDF/XPS"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 42,
+        "text": "Care este opțiunea care oferă posibilitatea repetării liniilor din antetul tabelului pentru fiecare pagină de document:",
+        "options": [
+          "Rows to repeat at top;",
+          "Column to repeat at top;",
+          "Print area",
+          "Header/Footer"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 43,
+        "text": "Care din următoarele opțiuni ale comenzii Paste Special transformă coloanele de date copiate în rânduri sau invers?",
+        "options": [
+          "Formulas;",
+          "Transpose;",
+          "Formats;",
+          "Values."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 44,
+        "text": "Se efectuează următoarele operațiuni: în celula C1 se scrie valoarea 1, se selectează celulele C1 până la C5, accesați butonul Fill, comanda Series…, iar caseta de dialog Series, selectați Columns, alegeți, din lista Type, tipul seriei Growth; tastați 2 în caseta de text Step, apoi apăsați butonul Ok. Ce valoare veți avea în celula C5?",
+        "options": [
+          "16;",
+          "15;",
+          "5",
+          "9"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 45,
+        "text": "În cazul sortării, în fereastra de configurare a criteriilor de ordonare, opțiunea My data has headers va fi selectată dacă:",
+        "options": [
+          "lista de sortat are pe prima linie specificațiile de antet;",
+          "lista de sortat nu are antet;",
+          "antetul listei intră o ordonarea datelor;",
+          "activează linie de total în listă."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 46,
+        "text": "Celula H10 conține formula = B10+$C$10. Se copiază această formulă în celula J10. Care va fi conținutul intern al celulei J10?",
+        "options": [
+          "= D10+$C$10;",
+          "= C10+$C$10;",
+          "= B10+$C$10;",
+          "= C10+$D$10."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 47,
+        "text": "Funcția NOW() returnează:",
+        "options": [
+          "data curentă;",
+          "data și ora curentă;",
+          "locația curentă;",
+          "ora curentă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 48,
+        "text": "Celula A1 conține un singur caracter, „C”. Care este rezultatul funcției =FIND(A1;„ABCDE”;1)?",
+        "options": [
+          "1",
+          "5",
+          "3",
+          "0"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 49,
+        "text": "Care este rezultatul funcției =MID(„ABCDE”;3;2)?",
+        "options": [
+          "„C”;",
+          "„CDE”;",
+          "„DE”;",
+          "„CD”."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 50,
+        "text": "Funcția de căutare vectorială are sintaxa: LOOKUP(lookup_value, lookup_vector, result_vector) Ce reprezintă parametrul lookup_vector?",
+        "options": [
+          "vectorul care furnizează rezultatul căutării;",
+          "valoarea căutată de funcție în vector;",
+          "domeniul format dintr-un singur rând sau coloană și care conține valoarea căutată;",
+          "vectorul căutat de funcție."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 51,
+        "text": "Printre etapele procesului de recrutare se numără:",
+        "options": [
+          "decizia de recrutare, volumul de muncă, interviul,",
+          "definirea postului, interviul, testele, decizia finală,",
+          "chestionarul, dorința de recrutare, salarizarea,",
+          "analiza stării de sănătate, interviul, Curriculum Vitae."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 52,
+        "text": "O primă etapă în procedura de recrutare este aceea care realizează o conexiune între caracteristicile candidaților și exigențele postului cu privire la:",
+        "options": [
+          "nivelul studiilor, interviu, chestionar,",
+          "etnie, stare de sănătate, activități sindicale,",
+          "situația familială, experiența profesională, preferințe salariale,",
+          "vârsta, formarea profesională și experiența în domeniu."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 53,
+        "text": "Evaluatorul trebuie să analizeze următoarele elemente psihologice:",
+        "options": [
+          "atitudinile și trăsăturile de caracter,",
+          "posibilele afecțiuni psihologice și tulburări comportamentale,",
+          "agresiunea și rezistența la stres,",
+          "cauzele renunțării la postul anterior și statutul economic,"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 54,
+        "text": "Analiza competențelor necesare unui candidat pentru un post din domeniul serviciilor implică luarea în considerare a următoarelor elemente:",
+        "options": [
+          "să producă o cantitate de produse, cu un standard de calitate superior,",
+          "să vândă o cantitate de produse, cu reclamații minime din partea clienților,",
+          "să furnizeze răspunsuri și soluții eficiente la cerințele și nevoile clientului, rapid și într-o manieră constructivă,",
+          "să conducă un grup de persoane care să obțină un nivel de productivitate ridicat."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 55,
+        "text": "Ce competențe sunt necesare unui candidat pentru a fi angajat pe postul pe care concurează, în cazul în care acestuia îi lipsesc anumite competențe legate de cunoștințele ce se pot dobândi ușor:",
+        "options": [
+          "motivația realizării activității, competența în raport cu eficiența globală, spiritul antreprenorial,",
+          "asumarea de riscuri calculate, ambiția, dorința de a face bine,",
+          "stăpânirea de sine, adaptabilitatea, raționamentul analitic și delegarea,",
+          "motivația realizării activității, înțelegerea interpersonală, impactul și influența, încrederea în sine."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 56,
+        "text": "Analiza prin care se evaluează performanțele superioare ale unui candidat se realizează prin:",
+        "options": [
+          "reunirea unui panel de experți,",
+          "întreținerea evenimentelor comportamentale,",
+          "identificarea criteriilor-cheie,",
+          "procesul de selecție al noilor candidați."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 57,
+        "text": "Cea mai eficientă metodă de a obține o viziune clară a criteriilor de performanță solicitate de un post constă în:",
+        "options": [
+          "identificarea competențelor necesare în analiza postului,",
+          "compararea criteriilor de performanță ale unui post similar,",
+          "reuniunea managerilor,",
+          "reuniunea panelului de experți."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 58,
+        "text": "Printre etapele de dobândire și de perfecționare a competențelor, se numără:",
+        "options": [
+          "recunoaștere, înțelegere, evaluare, practică și feedback, aplicația într-o funcție,",
+          "identificarea țintelor, evaluarea informației, analiza riscului, formularea unui plan de acțiune,",
+          "recunoaștere, evaluare, analiză, punere în practică,",
+          "înțelegere, evaluare, practică și feedback."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 59,
+        "text": "O competența de a perpetua relațiile colegiale cu scopul de a realiza propriile obiective face parte din categoria competențelor:",
+        "options": [
+          "de acțiune și de realizare,",
+          "de asistență și de servicii,",
+          "de influență,",
+          "manageriale."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 60,
+        "text": "* Scările diferențelor perceptibile ale competențelor generice se pot utiliza pentru a defini exigențele posturilor:",
+        "options": [
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel mediu,",
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel superior,",
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel mediu și superior,",
+          "într-o aplicație de selecție, atunci când nu se pot realiza întrețineri cu performerii de nivel mediu sau superior,"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 61,
+        "text": "Factorii cu influenţă indirectă asupra stocurilor de producţie sunt:",
+        "options": [
+          "condiţiile naturale de climă;",
+          "normele de consum;",
+          "periodicitatea fabricaţiei;",
+          "capacitatea de depozitare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 62,
+        "text": "Parametrii de timp care intervin în procesul de stocare sunt:",
+        "options": [
+          "durata de condiţionare;",
+          "durata de comandă-aprovizionare;",
+          "durata de transport intern;",
+          "lotul de livrare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 63,
+        "text": "Consumul mediu zilnic se stabileşte raportând:",
+        "options": [
+          "necesarul de aprovizionat la numărul de zile calendaristice ale perioadei de gestiune;",
+          "necesarul total la numărul de zile calendaristice;",
+          "necesarul de consum la numărul de zile calendaristice;",
+          "volumul producţiei la producţie medie zilnică."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 64,
+        "text": "Intervalul mediu dintre două aprovizionări succesive reprezintă expresia în zile a:",
+        "options": [
+          "stocului de iarnă;",
+          "stocului de siguranţă;",
+          "stocului curent;",
+          "stocului pentru transportul intern."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 65,
+        "text": "Costurile de stocare cuprind:",
+        "options": [
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "cheltuielile de transport al lotului de materiale;",
+          "dobânzile bancare pentru creditarea cumpărării şi stocării materialelor;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 66,
+        "text": "Costul cumpărării reprezintă:",
+        "options": [
+          "cheltuielile de transport al lotului de materiale;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori;",
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "valoarea cantităţii de resurse achiziţionate."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 67,
+        "text": "Stocul de resurse materiale de la sfârşitul perioadei de gestiune asigură:",
+        "options": [
+          "stabilirea limitei maxime de consum de resurse materiale;",
+          "creşterea gradului de utilizare a capacităţii de producţie;",
+          "creşterea gradului de utilizare a forţei de muncă;",
+          "desfăşurarea normală a procesului de producţie."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 68,
+        "text": "* Să se determine necesarul de aprovizionat pentru un material folosit la fabricarea a trei produse, în următoarele condiții:\n• produsele planificate a se fabrica: A - 2400 buc.; B - 5000 buc.; C - 4000 buc.\n• normele de consum de material: N_CA - 10 kg; N_CB - 6 kg; produsul C este nou asimilat și asemănător cu produsul A, dar mai ușor decât acesta cu 10%.\n• stocul preliminat de material la începutul anului - 4,5 tone;\n• stocul de material la sfârșitul anului - 10 zile.",
+        "options": [
+          "97 tone",
+          "83 tone",
+          "88 tone",
+          "90 tone"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 69,
+        "text": "Indicatorul care exprimă necesităţile de resurse materiale este:",
+        "options": [
+          "necesarul de aprovizionat;",
+          "alte resurse interne;",
+          "stocul la sfârşitul perioadei de gestiune;",
+          "stocul preliminat de la începutul perioadei de gestiune."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 70,
+        "text": "În cazul în care, stocul preliminat de resurse materiale este mai mare decât stocul identificat în urma inventarierii la începutul perioadei de gestiune, se va proceda la:",
+        "options": [
+          "corectarea necesarului de aprovizionat în sensul reducerii acestuia;",
+          "corectarea necesarului de aprovizionat în sensul majorării acestuia;",
+          "renunţarea la cantitatea de resurse ce depăşeşte necesităţile;",
+          "valorificarea disponibilului de resurse."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 71,
+        "text": "Suprapunerea între pregătirea fabricaţiei şi producţia efectivă este adoptată în cazul:",
+        "options": [
+          "producţiei de serie;",
+          "producţiei de unicate;",
+          "producţiei la comandă;",
+          "producţiei de masă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 72,
+        "text": "Producţia de serie prezintă următoarele caracteristici:",
+        "options": [
+          "nomenclatorul de fabricaţie este foarte larg;",
+          "produsele se lansează în fabricaţie în loturi, care se repetă periodic;",
+          "întreţinerea utilajelor şi instalaţiilor este esenţială;",
+          "portofoliul de produse este stabil."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 73,
+        "text": "Care dintre caracteristicile următoare sunt specifice producției în masă?",
+        "options": [
+          "amplasarea mașinilor și utilajelor este realizată în flux sub forma liniei tehnologice;",
+          "proiectarea produsului se realizează după catalog;",
+          "nomenclatorul de fabricație este larg;",
+          "calificarea muncitorilor este mai ridicată decât cea a celor implicați în producția de serie și unicate."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 74,
+        "text": "Care dintre următoarele caracteristici definesc întreruperile interoperaţii?",
+        "options": [
+          "sunt inerente producţiei de serie mijlocie şi mică;",
+          "constituie o întrerupere în cursul zilei care nu afectează schimbul de lucru;",
+          "sunt întreruperi anormale ale schimbului de lucru;",
+          "pot apărea în cazul neconcordanţelor capacităţilor de producţie ale secţiilor."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 75,
+        "text": "Ciclul de fabricaţie se poate determina:",
+        "options": [
+          "numai în ore;",
+          "în ore şi zile calendaristice;",
+          "în ore, zile lucrătoare sau zile calendaristice;",
+          "numai în zile lucrătoare."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 76,
+        "text": "Capacitatea de producţie a întreprinderii exprimă:",
+        "options": [
+          "producţia maximă ce poate fi obţinută în funcţie de cererea de piaţă;",
+          "potenţialul productiv în raport cu personalul şi utilajele;",
+          "producția maximă ce poate fi obținută într-o perioadă dată, de o anumită structură și calitate, în condițiile folosirii depline intensive şi extensive a capitalului fix productiv;",
+          "producţia maximă ce poate fi realizată în funcţie de concurența existentă pe piață."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 77,
+        "text": "Calculul capacităţii de producţie se face pe ”verigi de producţie”. Prin ”verigă de producţie” înţelegându-se:",
+        "options": [
+          "ansamblul operaţiilor tehnologice realizate într-un sistem de producţie;",
+          "utilajele unicate sau grupele de utilaje de aceleaşi tipuri şi dimensiuni;",
+          "totalitatea utilajelor aflate în funcţie şi conservare din subunităţile de producţie și secțiile anexe ale întreprinderii;",
+          "atelierele şi secţiile auxiliare ale întreprinderii."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 78,
+        "text": "Care dintre următorii factori fac parte din categoria factorilor direcți care influențează capacitatea de producție:",
+        "options": [
+          "caracteristicile materiei prime;",
+          "nivelul de pregătire a forței de muncă;",
+          "fiabilitatea utilajelor;",
+          "indicatorul de utilizare intensivă a utilajului."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 79,
+        "text": "* În cadrul unei întreprinderi producătoare de motoare în vederea evaluării fiabilității sunt supuse testării un număr de 15 motoare pe durata a 2000 de ore de funcționare. Dintre motoarele testate 5 s-au defectat după 1000 de ore de funcționare, două după 1250 de ore și 3 după 1500 de ore. Care dintre răspunsurile următoare conține valoarea mediei timpului de bună funcționare și a ratei căderilor la 10000 de ore de funcționare:",
+        "options": [
+          "800; 12,5;",
+          "2133,3; 4,68;",
+          "1466,66; 6,81;",
+          "2000; 5."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 80,
+        "text": "Perioada infantilă a vieţii produsului se caracterizează prin:",
+        "options": [
+          "rata căderilor se menţine la un nivel scăzut;",
+          "produsul nu se defectează frecvent;",
+          "nivelul ridicat al ratei căderilor;",
+          "rata căderilor se menţine la un nivel scăzut şi aproximativ constant;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 81,
+        "text": "Rivalitatea este intensă în cadrul unui sector de activitate dacă:",
+        "options": [
+          "produsele sunt puternic diferențiate;",
+          "există concurenți diferențiați ca forță;",
+          "costurile fixe sunt mari;",
+          "sectorul cunoaște un ritm accelerat de creștere,"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 82,
+        "text": "Cea mai relevantă aserțiune pentru produsele de substituție este:",
+        "options": [
+          "produsele/serviciile competitorilor;",
+          "o altă modalitate de a satisface aceleași nevoi;",
+          "intrarea unui producător pe piață cu un produs mai bun;",
+          "substituirea unei nevoi cu o alta"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 83,
+        "text": "Care dintre elementele următoare reprezintă o barieră la intrarea pe un sector prin ridicarea costului accesului la piață:",
+        "options": [
+          "fidelizarea cumpărătorilor;",
+          "slaba diferențiere a produselor;",
+          "avantaje de cost independente de mărimea producției;",
+          "controlul asupra surselor de aprovizionare;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 84,
+        "text": "Puterea de negociere a clienților se reduce în următoarele situații:",
+        "options": [
+          "costurile de transfer sunt reduse;",
+          "produsul nu influențează calitatea produselor realizate de client;",
+          "produsele achiziționate dețin valoric o pondere redusă în cifra de a afaceri a vânzătorului",
+          "oferta este mai mare decât cererea"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 85,
+        "text": "Strategia de concentrare pe o nişă poate conduce la un avantaj competitiv atunci când sunt îndeplinite următoarele condiţii:",
+        "options": [
+          "segmentul nu este important pentru succesul concurenților mari;",
+          "segmentul este mic pentru a fi profitabil;",
+          "potențialul de dezvoltare este redus astfel încât nu atrage atenția concurenților puternici;",
+          "există posibilități de comasare a unor segmente distincte de consumatori;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 86,
+        "text": "Efectul de experiență se referă la:",
+        "options": [
+          "descreșterea cu un procent constant a costului unitar atunci când are loc o dublare a producției cumulate;",
+          "scăderea numărului de ore de manoperă pe măsură ce o sarcină de muncă se repetă;",
+          "diminuarea costurilor unitare pe măsură ce crește volumul producției;",
+          "menținerea constantă a costurilor fixe pe măsură ce crește volumul producției;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 87,
+        "text": "Mărimea minimă necesară unei firme pentru ca aceasta să nu suporte un handicap concurențial insurmontabil pe piață reprezintă:",
+        "options": [
+          "masa critică;",
+          "pragul financiar;",
+          "pragul comercial;",
+          "pragul tehnic;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 88,
+        "text": "Strategiile de diferențiere funcționează optim atunci când:",
+        "options": [
+          "nevoile cumpărătorilor sunt standardizate;",
+          "există multe căi de diferențiere;",
+          "multe firme folosesc aceeași metodă de diferențiere;",
+          "există un segment larg de cumpărători care percep diferențele dintre produse ca fiind minore;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 89,
+        "text": "* Dimensiunea ce trebuie atinsă pentru a obține o productivitate acceptabilă și un cost unitar scăzut reprezintă:",
+        "options": [
+          "masa critică;",
+          "pragul financiar;",
+          "pragul comercial;",
+          "pragul tehnic;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 90,
+        "text": "Exercitarea în comun a două activități în vederea obținerii unui rezultat superior celui dat de suma rezultatelor furnizate de fiecare în parte constituie fenomenul de:",
+        "options": [
+          "avantaj concurențial;",
+          "pragul financiar;",
+          "curba de experiență;",
+          "sinergie"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 91,
+        "text": "Dominanta specifica a managementului antreprenorial se refera la:",
+        "options": [
+          "Puternica sa personalizare;",
+          "Accentul redus pe initiativa si inovare:",
+          "Facilitarea redusa a echilibrului intre schimbare si stabilitate;",
+          "Elaborarea riguroasa si completa a strategiilor de activitate;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 92,
+        "text": "* Efectele pozitive ale dublei ipostaze de proprietar –manager întâlnită in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Suportul motivational de eficacitate maxima pentru intreprinzator;",
+          "Concentrarea prerogativelor de conducere la mai multe persoane, cu efecte reduse asupra riscului producerii unor distorsiuni;",
+          "Posibilitatea angajarii de manageri specializati;",
+          "Diversitatea relativ redusa a problemelor manageriale;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 93,
+        "text": "Flexibilitatea unei intreprinderi se refera la:",
+        "options": [
+          "Capacitatea de a atrage capitaluri;",
+          "Posibilitatea facila de a identifica rapid perturbatiile de mediu;",
+          "Procese de productie complexe;",
+          "Modificarea facila ale starilor acesteia in raport cu transformarile din mediul economic;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 94,
+        "text": "Adaptabilitatea unei intreprinderi semnifica:",
+        "options": [
+          "Posibilitatea de a identifica rapid si de a reactiona la perturbatiile din mediul economic;",
+          "Investitii ridicate in productie si marketing;",
+          "Numar mare de salariati cu pregatire complexa;",
+          "Implementarea de strategii cu preponderenta pe termen lung;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 95,
+        "text": "Atributul de mobilitate al unei IMM se refera la:",
+        "options": [
+          "Pozitionarea in piata in proximitatea clientilor sau surselor de aprovizionare;",
+          "Aprovizionarea ritmica cu materii prime si materiale;",
+          "Livrarea rapidă a marfurilor;",
+          "Schimbarea periodica a sediului social;",
+          "Schimbarea perioadica afectivelor de personal."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 96,
+        "text": "Particularitățile funcției de previziune in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Atentia insuficienta acordata strategiei de dezvoltare;",
+          "Atentia sporita acordata strategiei de dezvoltare si planurilor pe termen lung;",
+          "Atentie sporita acordata Planului de afaceri;",
+          "Proceduri formalizate pentru planificare si programarea activitatii."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 97,
+        "text": "Particularitățile funcției de organizare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Existența unei structuri organizatorice de tip organic cu o descriere generala a functiilor si posturilor;",
+          "Insuficienta libertate de actiune a salariatilor;",
+          "Existența unui sistem informational cu proceduri si circuite riguros formalizate;",
+          "Existența unor linii ierarhice lungi cu subordonați directi putini."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 98,
+        "text": "Specificitățile funcției de antrenare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Relații interpersonale strânse/directe intre conducători si subordonații lor care permit o motivare rapidă si personalizată;",
+          "Nivel scăzut de personalizare a relatiilor interumane;",
+          "Motivare greoaie si generalizată;",
+          "Lipsa dreptului subordonaților la autocontrolul propriilor performante."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 99,
+        "text": "Specificitățile funcției de coordonare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Predominanța comunicațiilor informale;",
+          "Predominanța comunicațiilor formale;",
+          "Lipsa de interes a conducatorului de a pune de accord modalitățile individuale de abordare a problemelor;",
+          "Interdicția contactelor nemijlocite intre conducători si executanți;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 100,
+        "text": "Particularitățile funcției de control in cadrul IMM-urilor se refera la faptul ca:",
+        "options": [
+          "Controlul se poate efectua direct, fără intermediari;",
+          "Controlul este de obicei indirect, prin intermediari;",
+          "Latura pasivă si latura activa a controlului sunt executate de persoane diferite;",
+          "Metodele si tehnicile de control sunt specifice/clasice;"
+        ],
+        "answerIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "examen-licenta-fundamentale",
+    "title": "Examen Licenta - Fundamentale",
+    "subject": "Discipline fundamentale",
+    "source": "TESTE GRILĂ_discipline fundamentale_2026",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Gruparea angajaților pe subdiviziuni organizatorice (departamente, servicii, secții, ateliere etc.), în funcție de sarcinile pe care aceștia le execută, reprezintă o activitate specifică funcției",
+        "options": [
+          "previziune",
+          "organizare",
+          "antrenare",
+          "control-evaluare"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "text": "Funcția de coordonare cuprinde un ansamblu de activități prin care se asigură:",
+        "options": [
+          "armonizarea și sincronizarea acțiunilor individuale și colective din cadrul întreprinderii",
+          "extrapolarea tendințelor prezente în activitatea întreprinderii",
+          "reconsiderarea factorilor care îi motivează pe salariații întreprinderii",
+          "eliminarea cauzelor care au condus la performanțe sub standardele stabilite inițial"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "text": "Sfera de autoritate reprezintă:",
+        "options": [
+          "gradul de îndeplinire a sarcinilor de către manager",
+          "numărul de persoane sau de compartimente subordonate nemijlocit de către un manager;",
+          "cantitatea de muncă pe care trebuie să o depună un manager",
+          "competențele pe care le deține un manager în domeniul postului ocupat"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "text": "Îndeplinirea corespunzătoare a funcției de antrenare presupune, în principal:",
+        "options": [
+          "înțelegerea de către manageri a rolului și particularităților factorului uman din întreprindere",
+          "manageri cu pregătire profesională deosebită în domeniul de activitate în care activează",
+          "controlul exercitat de către manageri asupra tuturor acțiunilor subordonaților",
+          "un sistem de motivare bazat în principal pe sancțiuni"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 5,
+        "text": "Domnul Krath Biro, Directorul economic al S.C. PROMOB-S.A., în reuniunea avută cu subordonații săi, a fost de părere că „… decizia deja abordată a fost posibilă deoarece am știut să înlăturăm improvizația și rutina, dar și datorită încadrării în perioada optimă de operaționalizare”. Analizați opinia directorului economic și recunoașteți la care cerințe de raționalitate a deciziei s-a referit directorul economic:",
+        "options": [
+          "fundamentarea științifică și oportunitatea;",
+          "oportunitatea și conținutul complet",
+          "claritatea, concizia și caracterul necontradictoriu",
+          "împuternicirea și fundamentarea științifică"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 6,
+        "text": "Cerința ca o decizie să fie împuternicită se referă la faptul că:",
+        "options": [
+          "este adoptată de cel în ale cărui sarcini este înscrisă în mod expres",
+          "este adoptată de către un specialist",
+          "este în concordanță cu obiectivele întreprinderii",
+          "este adoptată la nivelul managementului de vârf"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 7,
+        "text": "O firmă dorește să achiziționeze un nou utilaj de producție. Pe piață sunt identificați trei furnizori pentru acest tip de utilaj: ALPHA (F₁), BETA (F₂) și GAMA (F₃). Criteriile după care se va adopta decizia de cumpărare sunt: C₁ - prețul de achiziție; C₂ - garanția acordată de producător; C₃ - durata de recuperare a investiției. Criteriile au aceeași importanță (nu se vor folosi coeficienți de importanță în calcule). Particularitățile celor trei utilaje, în funcție de criteriile de comparație stabilite, sunt sintetizate în următorul tabel:",
+        "options": [
+          "F₁ și ordinea de preferință F₁, F₂, F₃",
+          "F₂ și ordinea de preferință F₂, F₁, F₃",
+          "F₃ și ordinea de preferință F₃, F₁, F₂",
+          "F₁ și ordinea de preferință F₁, F₃, F₂"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "C₁ (mii lei)",
+              "C₂ (ani)",
+              "C₃ (ani)"
+            ],
+            "rows": [
+              [
+                "F₁",
+                "600",
+                "8",
+                "6"
+              ],
+              [
+                "F₂",
+                "1.200",
+                "10",
+                "9"
+              ],
+              [
+                "F₃",
+                "800",
+                "6",
+                "5"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând metoda utilității globale rezultă că decizia optimă și ordinea de preferință a variantelor decizionale sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 8,
+        "text": "* Un producător de bere dorește să introducă în fabricație pentru sezonul estival 2024 un nou sortiment. Managerul companiei încearcă să ia o decizie cu privire la cantitățile ce se vor produce: V₁ - cantitate mare; V₂ - cantitate medie; V₃ - cantitate mică. La nivelul firmei nu există date exacte privind cererea pentru acest produs nou, dar specialiștii în marketing și vânzări au conturat 3 scenarii posibile: S₁ - cerere mare (6-7 luni „calde”); S₂ - cerere medie (4-5 luni „calde”); S₃ - cerere mică (o vară „scurtă”). Situația profitului (în mii lei) pentru fiecare dintre situațiile posibile este redată în tabelul de mai jos:",
+        "options": [
+          "V₁ și ordinea de preferință V₁, V₂, V₃",
+          "V₂ și ordinea de preferință V₂, V₁, V₃",
+          "V₃ și ordinea de preferință V₃, V₁, V₂",
+          "V₃ și ordinea de preferință V₃, V₂, V₁"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "S₁",
+              "S₂",
+              "S₃"
+            ],
+            "rows": [
+              [
+                "V₁",
+                "88",
+                "53",
+                "20"
+              ],
+              [
+                "V₂",
+                "75",
+                "66",
+                "32"
+              ],
+              [
+                "V₃",
+                "57",
+                "50",
+                "39"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând regula pesimistă rezultă că varianta optimă și ordinea de preferință a variantelor sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 9,
+        "text": "Marian Dragu este supervizorul unei echipe de vânzări. În activitatea sa de conducere el încurajează frecvent angajații să-și exprime liber opiniile și ține cont de ele în formularea obiectivelor echipei, le apreciază acțiunile creative și stimulează colaborarea. Atmosfera în echipă este bună și angajații sunt foarte implicați în realizarea obiectivelor companiei. În funcție de modul de manifestare a autorității manageriale, se poate spune că Marian Dragu are un stil de management:",
+        "options": [
+          "autoritar",
+          "democrat",
+          "permisiv",
+          "manipulativ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "text": "Reprezintă elementele ”cele mai vizibile” ale unei culturi organizaționale:",
+        "options": [
+          "semnele",
+          "miturile",
+          "tabuurile",
+          "percepțiile salariaților cu privire la structura puterii în organizație"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 11,
+        "text": "Imobilizările corporale ale entităţii se caracterizează prin următoarele:",
+        "options": [
+          "valori mari şi utilizare limitată la câteva circuite economice;",
+          "valori stabilite individual prin hotărâre de Guvern şi utilizare la mai multe circuite economice;",
+          "utilizarea pe parcursul unei perioade mai mari de un an şi depăşirea unei limite de valoare minimă stabilită prin hotărâre a Guvernului;",
+          "includerea în cadrul activelor cu lichiditate crescută;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 12,
+        "text": "Datoriile entităţii provenite din cumpărări de stocuri şi servicii sunt reflectate cu elementul patrimonial de pasiv:",
+        "options": [
+          "credite bancare pe termen lung;",
+          "sume datorate acţionarilor/asociaţilor;",
+          "furnizori;",
+          "clienţi-creditori."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 13,
+        "text": "Plata din disponibilul de la bancă a unei obligaţii comerciale provenite din aprovizionarea cu materii prime determină:",
+        "options": [
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;",
+          "scăderea disponibilului din contul de la bancă şi a creanţei faţă de furnizor şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, creșterea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 14,
+        "text": "Plata cu numerar a salariilor cuvenite angajaților determină:",
+        "options": [
+          "scăderea numerarului din casierie, creşterea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "scăderea numerarului din casierie, scăderea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "creșterea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul majorării;",
+          "scăderea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul diminuării."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "text": "În debitul conturilor se înregistrează:",
+        "options": [
+          "sume ce se referă numai la elemente ce cresc;",
+          "creşteri de active şi scăderi de pasive;",
+          "sume ce se referă numai la elemente ce scad;",
+          "scăderi de active şi creşteri de pasive."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 16,
+        "text": "Formulele contabile de stornare în negru:",
+        "options": [
+          "anulează o formulă contabilă, întocmită anterior greşit, prin inversarea acesteia;",
+          "nu denaturează rulajul conturilor mărindu-l artificial",
+          "nu stabileşte corespondenţe nereale între conturi;",
+          "anulează prin repetare formule contabile întocmite anterior greşit."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 17,
+        "text": "Rulajele debitoare ale conturilor de activ sunt formate din:",
+        "options": [
+          "existentul înscris în debit la care se adaugă totalitatea sumelor înregistrate în debit în cursul perioadei;",
+          "soldul iniţial debitor la care se adaugă soldul final creditor;",
+          "total sume debitoare diminuate cu total sume creditoare.",
+          "valorile obţinute prin adunarea tuturor sumelor înregistrate în debit în cursul perioadei."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 18,
+        "text": "În partea dreaptă (creditul) a unei formule contabile se înscriu:",
+        "options": [
+          "conturi care reflectă creşteri ale elementelor de pasiv;",
+          "conturi care reflectă scăderi ale elementelor de pasiv;",
+          "conturi care reflectă creşteri ale elementelor de activ;",
+          "conturi care reflectă creşteri ale elementelor de pasiv şi ale elementelor de activ."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "text": "Contul 5121 „Conturi la bănci în lei” oferă următoarele informaţii: sold iniţial 700 lei, total sume creditoare 2.000 lei şi sold final 3.000 lei. Rulajul debitor aferent contului 5121 „Conturi la bănci în lei” este:",
+        "options": [
+          "1.000 lei;",
+          "1.700 lei;",
+          "4.300 lei;",
+          "1.800 lei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 20,
+        "text": "* Contul 404 „Furnizori de imobilizări” prezintă la începutul lunii martie un sold iniţial de 2.000 lei. În cursul lunii martie se înregistrează două achiziţii de imobilizări în valoare de 1.600 lei şi 700 lei şi trei plăţi în contul furnizorilor de imobilizări în valoare de 900 lei, 1.800 lei şi 700 lei. Soldul final al contului 404 „Furnizori de imobilizări” este:",
+        "options": [
+          "900 lei;",
+          "4.300 lei;",
+          "1.300 lei;",
+          "7.700 lei."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 21,
+        "text": "Precizaţi care dintre următoarele relaţii este corectă:",
+        "options": [
+          "PNB = PIN + PIB.",
+          "PIB = PGB + Consumul intermediar (Ci);",
+          "PIN = PIB – Amortizare (A);",
+          "PNN = PIN + VN – Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 22,
+        "text": "Precizaţi care dintre următoarele relaţii este incorectă:",
+        "options": [
+          "PIB = PGB - Consumul intermediar (Cᵢ);",
+          "PIN = ∑VANᵢ;",
+          "PNN = PNB + Amortizare (A);",
+          "PIB = PIN + Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 23,
+        "text": "Produsului intern brut (PIB) se calculează în modul următor:",
+        "options": [
+          "PIB = PIN – Amortizare (A);",
+          "PIB = ∑VABᵢ;",
+          "PIB = PGB + Consumul intermediar (Cᵢ);",
+          "PIB = PNB – PNN;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 24,
+        "text": "În perioada recesiunii economice, măsurile de politică bugetară cu caracter anticiclic presupun:",
+        "options": [
+          "menținerea sau creșterea ponderii cheltuielilor publice în PIB;",
+          "creșterea gradului de fiscalitate;",
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 25,
+        "text": "În faza de creștere economică prelungită, politicile economice anticiclice urmăresc:",
+        "options": [
+          "reducerea gradului de fiscalitate;",
+          "menținerea sau reducerea ponderii cheltuielilor publice în PIB;",
+          "scăderea ratei dobânzii de politică monetară",
+          "creșterea ponderii cheltuielilor publice în PIB;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 26,
+        "text": "În faza de recesiune/criză economică, politicile economice anticiclice presupun:",
+        "options": [
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;",
+          "menținerea sau reducerea gradului de fiscalitate;",
+          "reducerea volumului creditului în economie;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 27,
+        "text": "Inflaţia prin cerere apare ca urmare:",
+        "options": [
+          "a scăderii cererii agregate, într-un ritm mai mare decât oferta agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mic decât oferta agregată;",
+          "a creşterii ofertei agregate, în acelaşi ritm cu cererea agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mare decât oferta agregată;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 28,
+        "text": "Factorii care determină creşterea costurilor şi pot deveni cauze ale inflaţiei prin costuri sunt:",
+        "options": [
+          "creşterea salariilor într-un ritm superior creşterii productivităţii muncii;",
+          "scăderea prețurilor la materii prime și materiale;",
+          "presiunea fiscală scăzută, în special cea privind impozitele indirecte;",
+          "evoluţia salariilor într-o dinamică cel mult egală cu cea a productivităţii muncii;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 29,
+        "text": "* Se cunosc următoarele date referitoare la dinamica prețurilor bunurilor de consum, în decursul unui an:",
+        "options": [
+          "108,4% şi 8,4%",
+          "104,8% şi 4,8%",
+          "105,3% şi 5,3%",
+          "103,5% şi 3,5%"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Bunuri economice de consum",
+              "Ponderea cheltuielilor în totalul consumului",
+              "Indicii specifici ai prețurilor/tarifelor"
+            ],
+            "rows": [
+              [
+                "Alimentare",
+                "65%",
+                "105%"
+              ],
+              [
+                "Nealimentare",
+                "25%",
+                "103%"
+              ],
+              [
+                "Servicii",
+                "10%",
+                "108%"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Indicele prețurilor bunurilor de consum (IPC) pe ansamblul economiei și rata inflației (Ri), în anul respectiv, au fost:",
+        "answerIndex": 1
+      },
+      {
+        "id": 30,
+        "text": "Nivelul şomajului se determină astfel:",
+        "options": [
+          "în mărime absolută, ca diferență între populația activă și numărul total al şomerilor;",
+          "în mărime absolută, exprimată prin numărul celor ocupaţi și neocupați;",
+          "în mărime relativă, exprimată ca raport procentual între numărul total al şomerilor şi populaţia activă;",
+          "în mărime relativă, calculată ca raport procentual între populaţia activă şi numărul total al şomerilor;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 31,
+        "text": "Capitalul total, după modalitățile de folosinţă, se materializează în:",
+        "options": [
+          "capital social; datorii; active imobilizate; active circulante;",
+          "capital social, datorii pe termen lung și datorii pe termen scurt;",
+          "capital permanent; datorii pe termen scurt și datorii pe termen lung;",
+          "active imobilizate și active circulante;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 32,
+        "text": "Capitalul propriu al întreprinderii se constituie prin:",
+        "options": [
+          "însumarea capitalului social cu datoriile pe termen scurt;",
+          "însumarea capitalului permanent cu datoriile pe termen lung;",
+          "însumarea capitalului social cu grupa primelor de capital, rezervelor și rezultatelor;",
+          "scăderea din capitalul total a datoriilor pe termen lung;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 33,
+        "text": "Activele imobilizate cuprind următoarele componente:",
+        "options": [
+          "imobilizări necorporale, imobilizări corporale și stocuri;",
+          "imobilizări necorporale, imobilizări corporale, imobilizări financiare;",
+          "imobilizări necorporale, imobilizări financiare, stocuri și creanțe;",
+          "stocuri, creanţe, investiții pe termen scurt, casa și conturi la bănci;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 34,
+        "text": "* La o firmă se cunosc următoarele date:",
+        "options": [
+          "25.000 lei;",
+          "23.000 lei;",
+          "40.000 lei;",
+          "45.000 lei;"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Indicator",
+              "Valoare"
+            ],
+            "rows": [
+              [
+                "capitalul social",
+                "90.000 lei"
+              ],
+              [
+                "capitalul propriu",
+                "105.000 lei"
+              ],
+              [
+                "datoriile pe termen scurt",
+                "53.000 lei"
+              ],
+              [
+                "datoriile pe termen lung",
+                "70.000 lei"
+              ],
+              [
+                "active imobilizate nete",
+                "135.000 lei"
+              ],
+              [
+                "active circulante",
+                "93.000 lei"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Valoarea fondului de rulment net va fi:",
+        "answerIndex": 2
+      },
+      {
+        "id": 35,
+        "text": "Obligațiunile sunt titluri de valoare care exprimă:",
+        "options": [
+          "creanţa emitentului asupra activelor deținătorilor;",
+          "angajamentul emitentului de a plăti dobânda şi de a rambursa împrumutul;",
+          "obligația deținătorilor de a rambursa împrumutul și de a plăti dobânda;",
+          "dreptul de proprietate asupra unei părți din capitalul social;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 36,
+        "text": "Printre elementele tehnice ale obligațiunilor se regăsesc:",
+        "options": [
+          "prețul de emisiune, anuitatea, dobânda;",
+          "valoarea nominală, anuitatea, dividendele;",
+          "termenul de rambursare, dobânda, drepturile de atribuire;",
+          "valoarea nominală, dobânda, drepturile de subscriere, drepturile de atribuire;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 37,
+        "text": "Valoarea actualizată netă (VAN) se stabileşte ca:",
+        "options": [
+          "diferenţă între suma cash flow-urilor actualizate şi capitalul investit;",
+          "sumă între cash flow-urile actualizate şi capitalul investit;",
+          "raport între suma cash flow-urilor actualizate şi capitalul total;",
+          "diferenţă între suma cash flow-urilor actualizate şi amortisment;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 38,
+        "text": "Amortizarea accelerată presupune:",
+        "options": [
+          "aplicarea cotei de amortizare liniară la valoarea fiscală de la data intrării în patrimoniu a mijlocului fix amortizabil;",
+          "multiplicarea cotei liniare cu coeficientul prevăzut de lege și aplicarea acestei cote la valoarea contabilă a mijlocului fix;",
+          "pentru primul an de utilizare, amortizarea nu poate depăşi 50% din valoarea fiscală de la data intrării în patrimoniu a mijlocului fix;",
+          "determinarea unor amortismente anuale constante pe întreaga durată de utilizare amijlocului fix;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 39,
+        "text": "Accelerarea vitezei de rotaţie a activelor circulante presupune:",
+        "options": [
+          "reducerea coeficientului vitezei de rotaţie;",
+          "creşterea vitezei de rotaţie în zile și reducerea duratei în zile a unei rotaţii;",
+          "reducerea numărului de rotaţii;",
+          "creşterea coeficientului vitezei de rotaţie;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 40,
+        "text": "Rata rentabilităţii financiare exprimă:",
+        "options": [
+          "capacitatea firmelor de a realiza profit brut pe baza capitalurilor permanente;",
+          "capacitatea firmelor de a realiza profit net pe baza capitalurilor proprii;",
+          "capacitatea firmelor de a realiza profit din exploatare pe baza activului economic;",
+          "capacitatea firmelor de a realiza profit pe baza capitalului angajat; I. 5. INFORMATICĂ ECONOMICĂ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 41,
+        "text": "Ce format de export al foilor de calcul Excel vă oferă următoarele avantajele: documentele vor arăta la fel pe majoritatea calculatoarelor, se păstrează fonturile, formatările, la fel ca documentul original, respectiv conținutul nu poate fi ușor modificat?",
+        "options": [
+          "XLS;",
+          "TXT (tab delimited);",
+          "CSV (comma delimited);",
+          "PDF/XPS"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 42,
+        "text": "Care este opțiunea care oferă posibilitatea repetării liniilor din antetul tabelului pentru fiecare pagină de document:",
+        "options": [
+          "Rows to repeat at top;",
+          "Column to repeat at top;",
+          "Print area",
+          "Header/Footer"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 43,
+        "text": "Care din următoarele opțiuni ale comenzii Paste Special transformă coloanele de date copiate în rânduri sau invers?",
+        "options": [
+          "Formulas;",
+          "Transpose;",
+          "Formats;",
+          "Values."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 44,
+        "text": "Se efectuează următoarele operațiuni: în celula C1 se scrie valoarea 1, se selectează celulele C1 până la C5, accesați butonul Fill, comanda Series…, iar caseta de dialog Series, selectați Columns, alegeți, din lista Type, tipul seriei Growth; tastați 2 în caseta de text Step, apoi apăsați butonul Ok. Ce valoare veți avea în celula C5?",
+        "options": [
+          "16;",
+          "15;",
+          "5",
+          "9"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 45,
+        "text": "În cazul sortării, în fereastra de configurare a criteriilor de ordonare, opțiunea My data has headers va fi selectată dacă:",
+        "options": [
+          "lista de sortat are pe prima linie specificațiile de antet;",
+          "lista de sortat nu are antet;",
+          "antetul listei intră o ordonarea datelor;",
+          "activează linie de total în listă."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 46,
+        "text": "Celula H10 conține formula = B10+$C$10. Se copiază această formulă în celula J10. Care va fi conținutul intern al celulei J10?",
+        "options": [
+          "= D10+$C$10;",
+          "= C10+$C$10;",
+          "= B10+$C$10;",
+          "= C10+$D$10."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 47,
+        "text": "Funcția NOW() returnează:",
+        "options": [
+          "data curentă;",
+          "data și ora curentă;",
+          "locația curentă;",
+          "ora curentă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 48,
+        "text": "Celula A1 conține un singur caracter, „C”. Care este rezultatul funcției =FIND(A1;„ABCDE”;1)?",
+        "options": [
+          "1",
+          "5",
+          "3",
+          "0"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 49,
+        "text": "Care este rezultatul funcției =MID(„ABCDE”;3;2)?",
+        "options": [
+          "„C”;",
+          "„CDE”;",
+          "„DE”;",
+          "„CD”."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 50,
+        "text": "Funcția de căutare vectorială are sintaxa: LOOKUP(lookup_value, lookup_vector, result_vector) Ce reprezintă parametrul lookup_vector?",
+        "options": [
+          "vectorul care furnizează rezultatul căutării;",
+          "valoarea căutată de funcție în vector;",
+          "domeniul format dintr-un singur rând sau coloană și care conține valoarea căutată;",
+          "vectorul căutat de funcție."
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "examen-licenta-specialitate",
+    "title": "Examen Licenta - Specialitate",
+    "subject": "Discipline de specialitate",
+    "source": "TESTE GRILĂ_discipline Specialitate MG_2026",
+    "questions": [
+      {
+        "id": 51,
+        "text": "Printre etapele procesului de recrutare se numără:",
+        "options": [
+          "decizia de recrutare, volumul de muncă, interviul,",
+          "definirea postului, interviul, testele, decizia finală,",
+          "chestionarul, dorința de recrutare, salarizarea,",
+          "analiza stării de sănătate, interviul, Curriculum Vitae."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 52,
+        "text": "O primă etapă în procedura de recrutare este aceea care realizează o conexiune între caracteristicile candidaților și exigențele postului cu privire la:",
+        "options": [
+          "nivelul studiilor, interviu, chestionar,",
+          "etnie, stare de sănătate, activități sindicale,",
+          "situația familială, experiența profesională, preferințe salariale,",
+          "vârsta, formarea profesională și experiența în domeniu."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 53,
+        "text": "Evaluatorul trebuie să analizeze următoarele elemente psihologice:",
+        "options": [
+          "atitudinile și trăsăturile de caracter,",
+          "posibilele afecțiuni psihologice și tulburări comportamentale,",
+          "agresiunea și rezistența la stres,",
+          "cauzele renunțării la postul anterior și statutul economic,"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 54,
+        "text": "Analiza competențelor necesare unui candidat pentru un post din domeniul serviciilor implică luarea în considerare a următoarelor elemente:",
+        "options": [
+          "să producă o cantitate de produse, cu un standard de calitate superior,",
+          "să vândă o cantitate de produse, cu reclamații minime din partea clienților,",
+          "să furnizeze răspunsuri și soluții eficiente la cerințele și nevoile clientului, rapid și într-o manieră constructivă,",
+          "să conducă un grup de persoane care să obțină un nivel de productivitate ridicat."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 55,
+        "text": "Ce competențe sunt necesare unui candidat pentru a fi angajat pe postul pe care concurează, în cazul în care acestuia îi lipsesc anumite competențe legate de cunoștințele ce se pot dobândi ușor:",
+        "options": [
+          "motivația realizării activității, competența în raport cu eficiența globală, spiritul antreprenorial,",
+          "asumarea de riscuri calculate, ambiția, dorința de a face bine,",
+          "stăpânirea de sine, adaptabilitatea, raționamentul analitic și delegarea,",
+          "motivația realizării activității, înțelegerea interpersonală, impactul și influența, încrederea în sine."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 56,
+        "text": "Analiza prin care se evaluează performanțele superioare ale unui candidat se realizează prin:",
+        "options": [
+          "reunirea unui panel de experți,",
+          "întreținerea evenimentelor comportamentale,",
+          "identificarea criteriilor-cheie,",
+          "procesul de selecție al noilor candidați."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 57,
+        "text": "Cea mai eficientă metodă de a obține o viziune clară a criteriilor de performanță solicitate de un post constă în:",
+        "options": [
+          "identificarea competențelor necesare în analiza postului,",
+          "compararea criteriilor de performanță ale unui post similar,",
+          "reuniunea managerilor,",
+          "reuniunea panelului de experți."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 58,
+        "text": "Printre etapele de dobândire și de perfecționare a competențelor, se numără:",
+        "options": [
+          "recunoaștere, înțelegere, evaluare, practică și feedback, aplicația într-o funcție,",
+          "identificarea țintelor, evaluarea informației, analiza riscului, formularea unui plan de acțiune,",
+          "recunoaștere, evaluare, analiză, punere în practică,",
+          "înțelegere, evaluare, practică și feedback."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 59,
+        "text": "O competența de a perpetua relațiile colegiale cu scopul de a realiza propriile obiective face parte din categoria competențelor:",
+        "options": [
+          "de acțiune și de realizare,",
+          "de asistență și de servicii,",
+          "de influență,",
+          "manageriale."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 60,
+        "text": "* Scările diferențelor perceptibile ale competențelor generice se pot utiliza pentru a defini exigențele posturilor:",
+        "options": [
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel mediu,",
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel superior,",
+          "într-o aplicație de selecție, atunci când se pot realiza întrețineri cu performerii de nivel mediu și superior,",
+          "într-o aplicație de selecție, atunci când nu se pot realiza întrețineri cu performerii de nivel mediu sau superior,"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 61,
+        "text": "Factorii cu influenţă indirectă asupra stocurilor de producţie sunt:",
+        "options": [
+          "condiţiile naturale de climă;",
+          "normele de consum;",
+          "periodicitatea fabricaţiei;",
+          "capacitatea de depozitare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 62,
+        "text": "Parametrii de timp care intervin în procesul de stocare sunt:",
+        "options": [
+          "durata de condiţionare;",
+          "durata de comandă-aprovizionare;",
+          "durata de transport intern;",
+          "lotul de livrare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 63,
+        "text": "Consumul mediu zilnic se stabileşte raportând:",
+        "options": [
+          "necesarul de aprovizionat la numărul de zile calendaristice ale perioadei de gestiune;",
+          "necesarul total la numărul de zile calendaristice;",
+          "necesarul de consum la numărul de zile calendaristice;",
+          "volumul producţiei la producţie medie zilnică."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 64,
+        "text": "Intervalul mediu dintre două aprovizionări succesive reprezintă expresia în zile a:",
+        "options": [
+          "stocului de iarnă;",
+          "stocului de siguranţă;",
+          "stocului curent;",
+          "stocului pentru transportul intern."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 65,
+        "text": "Costurile de stocare cuprind:",
+        "options": [
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "cheltuielile de transport al lotului de materiale;",
+          "dobânzile bancare pentru creditarea cumpărării şi stocării materialelor;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 66,
+        "text": "Costul cumpărării reprezintă:",
+        "options": [
+          "cheltuielile de transport al lotului de materiale;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori;",
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "valoarea cantităţii de resurse achiziţionate."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 67,
+        "text": "Stocul de resurse materiale de la sfârşitul perioadei de gestiune asigură:",
+        "options": [
+          "stabilirea limitei maxime de consum de resurse materiale;",
+          "creşterea gradului de utilizare a capacităţii de producţie;",
+          "creşterea gradului de utilizare a forţei de muncă;",
+          "desfăşurarea normală a procesului de producţie."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 68,
+        "text": "* Să se determine necesarul de aprovizionat pentru un material folosit la fabricarea a trei produse, în următoarele condiții:\n• produsele planificate a se fabrica: A - 2400 buc.; B - 5000 buc.; C - 4000 buc.\n• normele de consum de material: N_CA - 10 kg; N_CB - 6 kg; produsul C este nou asimilat și asemănător cu produsul A, dar mai ușor decât acesta cu 10%.\n• stocul preliminat de material la începutul anului - 4,5 tone;\n• stocul de material la sfârșitul anului - 10 zile.",
+        "options": [
+          "97 tone",
+          "83 tone",
+          "88 tone",
+          "90 tone"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 69,
+        "text": "Indicatorul care exprimă necesităţile de resurse materiale este:",
+        "options": [
+          "necesarul de aprovizionat;",
+          "alte resurse interne;",
+          "stocul la sfârşitul perioadei de gestiune;",
+          "stocul preliminat de la începutul perioadei de gestiune."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 70,
+        "text": "În cazul în care, stocul preliminat de resurse materiale este mai mare decât stocul identificat în urma inventarierii la începutul perioadei de gestiune, se va proceda la:",
+        "options": [
+          "corectarea necesarului de aprovizionat în sensul reducerii acestuia;",
+          "corectarea necesarului de aprovizionat în sensul majorării acestuia;",
+          "renunţarea la cantitatea de resurse ce depăşeşte necesităţile;",
+          "valorificarea disponibilului de resurse."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 71,
+        "text": "Suprapunerea între pregătirea fabricaţiei şi producţia efectivă este adoptată în cazul:",
+        "options": [
+          "producţiei de serie;",
+          "producţiei de unicate;",
+          "producţiei la comandă;",
+          "producţiei de masă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 72,
+        "text": "Producţia de serie prezintă următoarele caracteristici:",
+        "options": [
+          "nomenclatorul de fabricaţie este foarte larg;",
+          "produsele se lansează în fabricaţie în loturi, care se repetă periodic;",
+          "întreţinerea utilajelor şi instalaţiilor este esenţială;",
+          "portofoliul de produse este stabil."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 73,
+        "text": "Care dintre caracteristicile următoare sunt specifice producției în masă?",
+        "options": [
+          "amplasarea mașinilor și utilajelor este realizată în flux sub forma liniei tehnologice;",
+          "proiectarea produsului se realizează după catalog;",
+          "nomenclatorul de fabricație este larg;",
+          "calificarea muncitorilor este mai ridicată decât cea a celor implicați în producția de serie și unicate."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 74,
+        "text": "Care dintre următoarele caracteristici definesc întreruperile interoperaţii?",
+        "options": [
+          "sunt inerente producţiei de serie mijlocie şi mică;",
+          "constituie o întrerupere în cursul zilei care nu afectează schimbul de lucru;",
+          "sunt întreruperi anormale ale schimbului de lucru;",
+          "pot apărea în cazul neconcordanţelor capacităţilor de producţie ale secţiilor."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 75,
+        "text": "Ciclul de fabricaţie se poate determina:",
+        "options": [
+          "numai în ore;",
+          "în ore şi zile calendaristice;",
+          "în ore, zile lucrătoare sau zile calendaristice;",
+          "numai în zile lucrătoare."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 76,
+        "text": "Capacitatea de producţie a întreprinderii exprimă:",
+        "options": [
+          "producţia maximă ce poate fi obţinută în funcţie de cererea de piaţă;",
+          "potenţialul productiv în raport cu personalul şi utilajele;",
+          "producția maximă ce poate fi obținută într-o perioadă dată, de o anumită structură și calitate, în condițiile folosirii depline intensive şi extensive a capitalului fix productiv;",
+          "producţia maximă ce poate fi realizată în funcţie de concurența existentă pe piață."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 77,
+        "text": "Calculul capacităţii de producţie se face pe ”verigi de producţie”. Prin ”verigă de producţie” înţelegându-se:",
+        "options": [
+          "ansamblul operaţiilor tehnologice realizate într-un sistem de producţie;",
+          "utilajele unicate sau grupele de utilaje de aceleaşi tipuri şi dimensiuni;",
+          "totalitatea utilajelor aflate în funcţie şi conservare din subunităţile de producţie și secțiile anexe ale întreprinderii;",
+          "atelierele şi secţiile auxiliare ale întreprinderii."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 78,
+        "text": "Care dintre următorii factori fac parte din categoria factorilor direcți care influențează capacitatea de producție:",
+        "options": [
+          "caracteristicile materiei prime;",
+          "nivelul de pregătire a forței de muncă;",
+          "fiabilitatea utilajelor;",
+          "indicatorul de utilizare intensivă a utilajului."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 79,
+        "text": "* În cadrul unei întreprinderi producătoare de motoare în vederea evaluării fiabilității sunt supuse testării un număr de 15 motoare pe durata a 2000 de ore de funcționare. Dintre motoarele testate 5 s-au defectat după 1000 de ore de funcționare, două după 1250 de ore și 3 după 1500 de ore. Care dintre răspunsurile următoare conține valoarea mediei timpului de bună funcționare și a ratei căderilor la 10000 de ore de funcționare:",
+        "options": [
+          "800; 12,5;",
+          "2133,3; 4,68;",
+          "1466,66; 6,81;",
+          "2000; 5."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 80,
+        "text": "Perioada infantilă a vieţii produsului se caracterizează prin:",
+        "options": [
+          "rata căderilor se menţine la un nivel scăzut;",
+          "produsul nu se defectează frecvent;",
+          "nivelul ridicat al ratei căderilor;",
+          "rata căderilor se menţine la un nivel scăzut şi aproximativ constant;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 81,
+        "text": "Rivalitatea este intensă în cadrul unui sector de activitate dacă:",
+        "options": [
+          "produsele sunt puternic diferențiate;",
+          "există concurenți diferențiați ca forță;",
+          "costurile fixe sunt mari;",
+          "sectorul cunoaște un ritm accelerat de creștere,"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 82,
+        "text": "Cea mai relevantă aserțiune pentru produsele de substituție este:",
+        "options": [
+          "produsele/serviciile competitorilor;",
+          "o altă modalitate de a satisface aceleași nevoi;",
+          "intrarea unui producător pe piață cu un produs mai bun;",
+          "substituirea unei nevoi cu o alta"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 83,
+        "text": "Care dintre elementele următoare reprezintă o barieră la intrarea pe un sector prin ridicarea costului accesului la piață:",
+        "options": [
+          "fidelizarea cumpărătorilor;",
+          "slaba diferențiere a produselor;",
+          "avantaje de cost independente de mărimea producției;",
+          "controlul asupra surselor de aprovizionare;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 84,
+        "text": "Puterea de negociere a clienților se reduce în următoarele situații:",
+        "options": [
+          "costurile de transfer sunt reduse;",
+          "produsul nu influențează calitatea produselor realizate de client;",
+          "produsele achiziționate dețin valoric o pondere redusă în cifra de a afaceri a vânzătorului",
+          "oferta este mai mare decât cererea"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 85,
+        "text": "Strategia de concentrare pe o nişă poate conduce la un avantaj competitiv atunci când sunt îndeplinite următoarele condiţii:",
+        "options": [
+          "segmentul nu este important pentru succesul concurenților mari;",
+          "segmentul este mic pentru a fi profitabil;",
+          "potențialul de dezvoltare este redus astfel încât nu atrage atenția concurenților puternici;",
+          "există posibilități de comasare a unor segmente distincte de consumatori;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 86,
+        "text": "Efectul de experiență se referă la:",
+        "options": [
+          "descreșterea cu un procent constant a costului unitar atunci când are loc o dublare a producției cumulate;",
+          "scăderea numărului de ore de manoperă pe măsură ce o sarcină de muncă se repetă;",
+          "diminuarea costurilor unitare pe măsură ce crește volumul producției;",
+          "menținerea constantă a costurilor fixe pe măsură ce crește volumul producției;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 87,
+        "text": "Mărimea minimă necesară unei firme pentru ca aceasta să nu suporte un handicap concurențial insurmontabil pe piață reprezintă:",
+        "options": [
+          "masa critică;",
+          "pragul financiar;",
+          "pragul comercial;",
+          "pragul tehnic;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 88,
+        "text": "Strategiile de diferențiere funcționează optim atunci când:",
+        "options": [
+          "nevoile cumpărătorilor sunt standardizate;",
+          "există multe căi de diferențiere;",
+          "multe firme folosesc aceeași metodă de diferențiere;",
+          "există un segment larg de cumpărători care percep diferențele dintre produse ca fiind minore;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 89,
+        "text": "* Dimensiunea ce trebuie atinsă pentru a obține o productivitate acceptabilă și un cost unitar scăzut reprezintă:",
+        "options": [
+          "masa critică;",
+          "pragul financiar;",
+          "pragul comercial;",
+          "pragul tehnic;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 90,
+        "text": "Exercitarea în comun a două activități în vederea obținerii unui rezultat superior celui dat de suma rezultatelor furnizate de fiecare în parte constituie fenomenul de:",
+        "options": [
+          "avantaj concurențial;",
+          "pragul financiar;",
+          "curba de experiență;",
+          "sinergie"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 91,
+        "text": "Dominanta specifica a managementului antreprenorial se refera la:",
+        "options": [
+          "Puternica sa personalizare;",
+          "Accentul redus pe initiativa si inovare:",
+          "Facilitarea redusa a echilibrului intre schimbare si stabilitate;",
+          "Elaborarea riguroasa si completa a strategiilor de activitate;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 92,
+        "text": "* Efectele pozitive ale dublei ipostaze de proprietar –manager întâlnită in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Suportul motivational de eficacitate maxima pentru intreprinzator;",
+          "Concentrarea prerogativelor de conducere la mai multe persoane, cu efecte reduse asupra riscului producerii unor distorsiuni;",
+          "Posibilitatea angajarii de manageri specializati;",
+          "Diversitatea relativ redusa a problemelor manageriale;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 93,
+        "text": "Flexibilitatea unei intreprinderi se refera la:",
+        "options": [
+          "Capacitatea de a atrage capitaluri;",
+          "Posibilitatea facila de a identifica rapid perturbatiile de mediu;",
+          "Procese de productie complexe;",
+          "Modificarea facila ale starilor acesteia in raport cu transformarile din mediul economic;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 94,
+        "text": "Adaptabilitatea unei intreprinderi semnifica:",
+        "options": [
+          "Posibilitatea de a identifica rapid si de a reactiona la perturbatiile din mediul economic;",
+          "Investitii ridicate in productie si marketing;",
+          "Numar mare de salariati cu pregatire complexa;",
+          "Implementarea de strategii cu preponderenta pe termen lung;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 95,
+        "text": "Atributul de mobilitate al unei IMM se refera la:",
+        "options": [
+          "Pozitionarea in piata in proximitatea clientilor sau surselor de aprovizionare;",
+          "Aprovizionarea ritmica cu materii prime si materiale;",
+          "Livrarea rapidă a marfurilor;",
+          "Schimbarea periodica a sediului social;",
+          "Schimbarea perioadica afectivelor de personal."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 96,
+        "text": "Particularitățile funcției de previziune in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Atentia insuficienta acordata strategiei de dezvoltare;",
+          "Atentia sporita acordata strategiei de dezvoltare si planurilor pe termen lung;",
+          "Atentie sporita acordata Planului de afaceri;",
+          "Proceduri formalizate pentru planificare si programarea activitatii."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 97,
+        "text": "Particularitățile funcției de organizare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Existența unei structuri organizatorice de tip organic cu o descriere generala a functiilor si posturilor;",
+          "Insuficienta libertate de actiune a salariatilor;",
+          "Existența unui sistem informational cu proceduri si circuite riguros formalizate;",
+          "Existența unor linii ierarhice lungi cu subordonați directi putini."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 98,
+        "text": "Specificitățile funcției de antrenare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Relații interpersonale strânse/directe intre conducători si subordonații lor care permit o motivare rapidă si personalizată;",
+          "Nivel scăzut de personalizare a relatiilor interumane;",
+          "Motivare greoaie si generalizată;",
+          "Lipsa dreptului subordonaților la autocontrolul propriilor performante."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 99,
+        "text": "Specificitățile funcției de coordonare in cadrul IMM-urilor se refera la:",
+        "options": [
+          "Predominanța comunicațiilor informale;",
+          "Predominanța comunicațiilor formale;",
+          "Lipsa de interes a conducatorului de a pune de accord modalitățile individuale de abordare a problemelor;",
+          "Interdicția contactelor nemijlocite intre conducători si executanți;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 100,
+        "text": "Particularitățile funcției de control in cadrul IMM-urilor se refera la faptul ca:",
+        "options": [
+          "Controlul se poate efectua direct, fără intermediari;",
+          "Controlul este de obicei indirect, prin intermediari;",
+          "Latura pasivă si latura activa a controlului sunt executate de persoane diferite;",
+          "Metodele si tehnicile de control sunt specifice/clasice;"
+        ],
+        "answerIndex": 0
+      }
+    ]
   }
 ];
