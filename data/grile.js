@@ -6206,5 +6206,703 @@ window.QUIZ_PACKS = [
         "answerIndex": 0
       }
     ]
+  },
+  {
+    "id": "analiza-economico-financiara",
+    "title": "Analiză economico-financiară",
+    "subject": "Analiză economico-financiară",
+    "source": "Grile promovare AEF 2025 - 2026.pdf",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Valoarea adăugată se determină ca:",
+        "options": [
+          "Diferența dintre producția exercițiului și consumurile provenind de la terți;",
+          "Diferența dintre producția exercițiului și cheltuielile salariale;",
+          "Diferența dintre veniturile de exploatare și cheltuielile de exploatare;",
+          "Diferența dintre excedentul brut din exploatare și amortismente;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "text": "Producția exercițiului unei firme cuprinde:",
+        "options": [
+          "Valoarea producției vândute;",
+          "Valoarea mijloacelor fixe vândute de întreprindere;",
+          "Valoarea mijloacelor fixe realizate în regie proprie pentru necesități proprii;",
+          "Veniturile din vânzarea mărfurilor;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Rata lichidității generale se determină astfel:",
+        "options": [
+          "Raport între activele totale și datoriile totale;",
+          "Raport între fondul de rulment și necesarul de fond de rulment;",
+          "Raport între active circulante și datorii pe termen scurt;",
+          "Raport între stocuri și datorii pe termen scurt;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 4,
+        "text": "Fondul de rulment reprezintă:",
+        "options": [
+          "Diferența dintre capitalurile permanente și valoarea activelor imobilizate;",
+          "Acea parte a resurselor permanente utilizată pentru finanțarea necesităților permanente;",
+          "Excedentul activelor circulante peste valoarea datoriilor pe termen scurt;",
+          "Excedentul activelor circulante peste valoarea datoriilor pe termen lung;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Cifra de afaceri marginală reprezintă:",
+        "options": [
+          "Încasarea medie pe unitatea de produs vândută;",
+          "Variația încasărilor unei întreprinderi generată de variația cu o unitate a cantităților vândute;",
+          "Acel nivel al cifrei de afaceri care asigură acoperirea în totalitate a cheltuielilor fără să se obțină profit;",
+          "Totalitatea veniturilor din producția vândută;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 6,
+        "text": "Coeficientul de concentrare Gini-Struck (G) și indicele Herfindhal (H), calculați pentru o firmă care realizează cinci produse, pot avea următoarele valori și semnificații:",
+        "options": [
+          "G = 0,2; H = 0,9; grad ridicat de concentrare a cifrei de afaceri;",
+          "G = 0; H = 0; distribuție uniformă a cifrei de afaceri pe sortimente;",
+          "G = 0,2; H = 0,2; distribuție uniformă a cifrei de afaceri pe sortimente;",
+          "G = 0; H = 0,2; distribuție uniformă a cifrei de afaceri pe sortimente;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 7,
+        "text": "Modificarea relativă a fondului de salarii este influențată de următorii factori, în următoarea ordine:",
+        "options": [
+          "Nr. de salariați, productivitatea orară a muncii și salariul mediu orar;",
+          "Volumul de activitate, productivitatea orară a muncii și salariul mediu orar;",
+          "Volumul de activitate, timpul total lucrat și fondul de salarii;",
+          "Productivitatea orară a muncii și salariul mediu orar;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 8,
+        "text": "Indicele fondului de salarii = 95%; Indicele veniturilor din exploatare = 104%; Indicele productivității muncii = 98%. Aceasta semnifică:",
+        "options": [
+          "A scăzut productivitatea muncii și a crescut numărul de personal;",
+          "S-a redus numărul de personal și a crescut fondul de salarii la 1000 lei venituri din exploatare;",
+          "A scăzut fondul de salarii la 1000 lei venituri din exploatare și salariul mediu;",
+          "A crescut salariul mediu, dar s-a redus productivitatea muncii;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Pe baza datelor:",
+        "tables": [
+          {
+            "headers": [
+              "Indicatori",
+              "An bază",
+              "An curent"
+            ],
+            "rows": [
+              [
+                "Venituri totale (mii lei)",
+                "4000",
+                "5000"
+              ],
+              [
+                "Cheltuieli totale (mii lei)",
+                "3500",
+                "4000"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Influența veniturilor totale și a profitului mediu la 1 leu venituri, asupra profitului total este de:",
+        "options": [
+          "+285 mii lei și +215 mii lei;",
+          "+125 mii lei și +500 mii lei;",
+          "+200 mii lei și +300 mii lei;",
+          "+125 mii lei și +375 mii lei."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 10,
+        "text": "Se cunosc următoarele:",
+        "tables": [
+          {
+            "headers": [
+              "Indicatori",
+              "An bază",
+              "An curent"
+            ],
+            "rows": [
+              [
+                "Fondul de salarii (mii lei)",
+                "12000",
+                "15000"
+              ],
+              [
+                "Numărul mediu de salariați",
+                "100",
+                "120"
+              ],
+              [
+                "Veniturile din exploatare (mii lei)",
+                "30000",
+                "35000"
+              ],
+              [
+                "Timpul total lucrat (ore-om)",
+                "160000",
+                "204000"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Influența salariului mediu anual asupra „Fondului de salarii la 1000 lei venituri din exploatare” și asupra profitului din exploatare este:",
+        "options": [
+          "+17,14 lei și -600 mii lei;",
+          "+42,5 lei și -600 mii lei;",
+          "-50,2 lei și +820 mii lei;",
+          "+17,14 lei și -400 mii lei;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 11,
+        "text": "După caracterul lor, factorii de influență se clasifică în:",
+        "options": [
+          "Factori naturali, tehnici, organizatorici, economici, sociali, politici;",
+          "Factori cantitativi, de structură și calitativi;",
+          "Factori interni și externi;",
+          "Factori direcți și indirecți;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 12,
+        "text": "După conținutul lor, factorii de influență se clasifică în:",
+        "options": [
+          "Factori naturali, tehnici, organizatorici, economici, sociali, politici;",
+          "Factori interni și externi;",
+          "Factori direcți și indirecți;",
+          "Factori simpli și complecși;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 13,
+        "text": "După modul de studiere în timp a fenomenelor, analiza poate fi:",
+        "options": [
+          "Analiză microeconomică și analiză macroeconomică;",
+          "Analiză post-factum și analiză previzională;",
+          "Analiză calitativă și analiză cantitativă;",
+          "Analiză statică și analiză dinamică;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 14,
+        "text": "După modul de studiere a caracteristicilor unui fenomen, analiza poate fi:",
+        "options": [
+          "Analiză microeconomică și analiză macroeconomică;",
+          "Analiză post-factum și analiză previzională;",
+          "Analiză calitativă și analiză cantitativă;",
+          "Analiză statică și analiză dinamică;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 15,
+        "text": "Imobilizările necorporale reflectate în bilanțul contabil cuprind:",
+        "options": [
+          "Cheltuieli de constituire;",
+          "Cheltuieli înregistrate în avans;",
+          "Cheltuieli de dezvoltare;",
+          "Cheltuieli cu materiile prime și materialele;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Care din următoarele afirmații sunt adevărate?",
+        "options": [
+          "Creanțele reprezintă sumele bănești pe care întreprinderea trebuie să le plătească terților;",
+          "Creanțele reprezintă sumele bănești pe care întreprinderea trebuie să le încaseze de la terți;",
+          "Creanțele comerciale se includ în activele circulante;",
+          "Creanțele comerciale se includ în activele imobilizate;"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Cifra de afaceri critică semnifică:",
+        "options": [
+          "Acel nivel al volumului de activitate la care veniturile sunt egale cu cheltuielile;",
+          "Acel nivel al volumului de activitate la care firma obține profitul maxim;",
+          "Acel nivel al volumului de activitate de la care firma devine rentabilă;",
+          "Acel nivel al profitului care asigură distribuirea unor dividende stimulative pentru acționari;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Coeficientul de concentrare Gini-Struck (G) și indicele Herfindhal (H), calculați pentru o firmă care realizează cinci produse, pot avea următoarele valori și semnificații:",
+        "options": [
+          "G = 0,93; H = 0,90; grad ridicat de concentrare a cifrei de afaceri;",
+          "G = 0,20; H = 0,90; grad ridicat de concentrare a cifrei de afaceri;",
+          "G = 0,20; H = 0,20; distribuție uniformă a cifrei de afaceri pe sortimente;",
+          "G = 0; H = 0,20; distribuție uniformă a cifrei de afaceri pe sortimente;"
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Care din următoarele elemente se includ în cifra de afaceri:",
+        "options": [
+          "Veniturile din dobânzi;",
+          "Veniturile din vânzarea produselor, executarea lucrărilor și prestarea serviciilor către terți;",
+          "Veniturile din vânzarea unor mijloace fixe care nu mai sunt utilizate de către întreprindere;",
+          "Veniturile din vânzarea mărfurilor;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Fondul de salarii admisibil se calculează astfel:",
+        "options": [
+          "Fs1 × Ive",
+          "Fs1 - Fsa",
+          "Fs0 × Ive",
+          "Fs1 - Fs0"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 21,
+        "text": "Indicele valorii adăugate (IVA) este mai mare decât indicele producției exercițiului (IQe). Aceasta reflectă:",
+        "options": [
+          "O creștere a profitului;",
+          "O creștere a ponderii consumurilor provenind de la terți în producția exercițiului;",
+          "O reducere a ponderii consumurilor provenind de la terți în producția exercițiului;",
+          "O creștere a productivității muncii;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 22,
+        "text": "Indicele valorii adăugate (IVA) este mai mic decât indicele producției exercițiului (IQe). Aceasta reflectă:",
+        "options": [
+          "O creștere a productivității muncii;",
+          "O reducere a ponderii consumurilor provenind de la terți în producția exercițiului;",
+          "O utilizare mai bună a timpului de lucru al muncitorilor;",
+          "O creștere a ponderii consumurilor provenind de la terți în producția exercițiului."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 23,
+        "text": "Indicele numărului de salariați = 98%; Indicele producției exercițiului = 103%; Indicele cifrei de afaceri = 105%. Aceasta semnifică:",
+        "options": [
+          "A crescut productivitatea muncii și stocul de produse finite;",
+          "A crescut productivitatea muncii și a scăzut stocul de produse finite;",
+          "A scăzut productivitatea muncii și a crescut stocul de produse finite;",
+          "A scăzut numărul de salariați și a crescut productivitatea muncii;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Indicele numărului de salariați = 98%; Indicele productivității muncii = 103%; Indicele gradului de valorificare a producției exercițiului = 102%; Indicele gradului de înzestrare tehnică a muncii = 101%. Aceasta semnifică:",
+        "options": [
+          "A crescut cifra de afaceri și eficiența utilizării mijloacelor fixe, dar s-a redus stocul de produse finite;",
+          "A scăzut cifra de afaceri, a crescut eficiența utilizării mijloacelor fixe și s-a redus stocul de produse finite;",
+          "A crescut productivitatea muncii și eficiența utilizării mijloacelor fixe, dar s-a redus stocul de produse finite;",
+          "A crescut productivitatea muncii, a scăzut eficiența utilizării mijloacelor fixe și stocul de produse finite;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Consumurile intermediare (provenind de la terți) cuprind:",
+        "options": [
+          "Valoarea stocurilor de materii prime și materiale;",
+          "Cheltuielile cu materiile prime și materialele;",
+          "Cheltuielile cu amortizarea mijloacelor fixe;",
+          "Cheltuielile cu impozitele și taxele;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 26,
+        "text": "Cifra de afaceri este mai mare decât producția exercițiului, producția imobilizată este egală cu 0, iar subvențiile de exploatare sunt 0. Aceasta semnifică:",
+        "options": [
+          "Firma nu are venituri din vânzări de mărfuri;",
+          "Veniturile din vânzări de mărfuri sunt mai mari decât veniturile din producția stocată;",
+          "Consumul propriu de produse finite depășește valoarea producției vândute;",
+          "Veniturile din vânzări de mărfuri sunt mai mici decât veniturile din producția stocată;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 27,
+        "text": "Cifra de afaceri este mai mică decât producția exercițiului, producția imobilizată este egală cu 0, iar subvențiile de exploatare sunt 0. Aceasta semnifică:",
+        "options": [
+          "Firma nu are venituri din vânzări de mărfuri;",
+          "Consumul propriu de produse finite depășește valoarea producției vândute;",
+          "Veniturile din vânzări de mărfuri sunt mai mici decât veniturile din producția stocată;",
+          "Veniturile din vânzări de mărfuri sunt mai mici decât veniturile din producția stocată;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 28,
+        "text": "Se cunosc următoarele date:",
+        "tables": [
+          {
+            "headers": [
+              "Indicatori",
+              "An bază",
+              "An curent"
+            ],
+            "rows": [
+              [
+                "Producția exercițiului (mii lei)",
+                "12000",
+                "15000"
+              ],
+              [
+                "Consumurile provenind de la terți (mii lei)",
+                "6000",
+                "7000"
+              ],
+              [
+                "Numărul mediu de personal",
+                "50",
+                "60"
+              ],
+              [
+                "Timpul total efectiv lucrat (ore)",
+                "77500",
+                "96000"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Influența timpului lucrat de un salariat asupra modificării valorii adăugate este:",
+        "options": [
+          "+232,3 mii lei;",
+          "-373,7 mii lei;",
+          "+537,5 mii lei;",
+          "-137,5 mii lei;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 29,
+        "text": "Cheltuielile variabile totale se modifică odată cu modificarea volumului de activitate astfel:",
+        "options": [
+          "Cresc odată cu creșterea volumului de activitate;",
+          "Scad odată cu creșterea volumului de activitate;",
+          "Scad odată cu reducerea volumului de activitate;",
+          "Cresc odată cu reducerea volumului de activitate;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Cheltuielile fixe pe unitatea de produs se modifică odată cu modificarea volumului de activitate astfel:",
+        "options": [
+          "Cresc odată cu creșterea volumului de activitate;",
+          "Scad odată cu creșterea volumului de activitate;",
+          "Scad odată cu reducerea volumului de activitate;",
+          "Cresc odată cu reducerea volumului de activitate;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 31,
+        "text": "Cheltuielile totale cu amortizarea depind de următorii factori:",
+        "options": [
+          "Nivelul rentabilității firmei;",
+          "Cifra de afaceri și valoarea medie a mijloacelor fixe;",
+          "Valoarea medie a mijloacelor fixe și cota medie de amortizare;",
+          "Evoluția costurilor totale;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 32,
+        "text": "Cheltuielile cu dobânzile bancare sunt influențate de următorii factori direcți:",
+        "options": [
+          "Viteza de rotație a activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Soldul mediu al activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Soldul mediu al activelor circulante, viteza de rotație a activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Volumul producției, prețul de vânzare, rata medie a dobânzii;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 33,
+        "text": "Cheltuielile cu dobânzile la 1000 lei cifră de afaceri sunt influențate de următorii factori direcți:",
+        "options": [
+          "Viteza de rotație a activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Soldul mediu al activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Soldul mediu al activelor circulante, viteza de rotație a activelor circulante, proporția finanțării prin credite a activelor circulante (K), rata medie a dobânzii;",
+          "Volumul creditului, viteza de rotație a activelor circulante, rata medie a dobânzii;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 34,
+        "text": "Marja profitului se calculează astfel:",
+        "options": [
+          "Profit\n────────────── × 100\nValoarea adăugată",
+          "Profit\n──────────── × 100\nCifra de afaceri",
+          "Profit\n────────────── × 100\nCapitaluri proprii",
+          "Profit\n──────────── × 100\nActive totale"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 35,
+        "text": "Influența cu semnul plus a gradului de valorificare al producției exercițiului asupra profitului aferent cifrei de afaceri semnifică:",
+        "options": [
+          "Reducerea gradului de valorificare al producției exercițiului;",
+          "Reducerea stocurilor de produse finite;",
+          "Creșterea stocurilor de produse finite;",
+          "Reducerea stocurilor de producție neterminată;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 36,
+        "text": "Indicele salariului mediu este mai mare decât indicele productivității muncii (calculată pe baza veniturilor din exploatare). Aceasta semnifică:",
+        "options": [
+          "Consecințe nefavorabile ale utilizării timpului de muncă;",
+          "Reducerea cheltuielilor cu salariile la 1000 lei venituri din exploatare;",
+          "Creșterea cheltuielilor cu salariile la 1000 lei venituri din exploatare;",
+          "Creșterea eficienței consumului de muncă vie;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 37,
+        "text": "Indicele fondului de salarii = 106%; Indicele veniturilor din exploatare = 108%; Indicele salariului mediu = 104%. Aceasta semnifică:",
+        "options": [
+          "A crescut numărul de personal și productivitatea muncii;",
+          "S-a redus numărul de personal și fondul de salarii la 1000 lei venituri din exploatare;",
+          "A crescut fondul de salarii și productivitatea muncii, dar s-a redus fondul de salarii la 1000 lei venituri din exploatare;",
+          "A crescut salariul mediu, dar s-a redus productivitatea muncii;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 38,
+        "text": "Care dintre următorii indicatori se folosește pentru caracterizarea rentabilității?",
+        "options": [
+          "Valoarea adăugată;",
+          "Cifra de afaceri;",
+          "Rezultatul din exploatare;",
+          "Productivitatea muncii;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 39,
+        "text": "Profitul aferent cifrei de afaceri este influențat de următorii factori direcți, în următoarea ordine:",
+        "options": [
+          "Numărul de salariați, productivitatea muncii, gradul de valorificare a producției exercițiului;",
+          "Timpul total efectiv lucrat, înzestrarea tehnică a muncii, eficiența utilizării mijloacelor fixe, gradul de valorificare a producției exercițiului și marja de profitabilitate;",
+          "Producția exercițiului și gradul de valorificare a producției exercițiului;",
+          "Veniturile totale și profitul mediu la 1 leu venituri totale;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 40,
+        "text": "Indicele cifrei de afaceri = 103%; Indicele numărului de salariați = 105%; Indicele gradului de valorificare a producției exercițiului = 101%; Indicele gradului de înzestrare tehnică a muncii = 102%. Aceasta semnifică:",
+        "options": [
+          "Au crescut productivitatea muncii și eficiența utilizării mijloacelor fixe, dar s-a redus stocul de produse finite;",
+          "Au scăzut productivitatea muncii, eficiența utilizării mijloacelor fixe și stocul de produse finite;",
+          "A scăzut productivitatea muncii, a crescut eficiența utilizării mijloacelor fixe și stocul de produse finite;",
+          "A crescut cifra de afaceri, dar s-a redus productivitatea muncii și stocul de produse finite;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 41,
+        "text": "Modificarea absolută intervenită în mărimea fondului de salarii este influențată de următorii factori direcți, în următoarea ordine:",
+        "options": [
+          "Productivitatea muncii și salariul mediu;",
+          "Numărul de personal și salariul mediu;",
+          "Numărul de personal, productivitatea muncii și salariul mediu;",
+          "Salariul mediu și productivitatea muncii;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 42,
+        "text": "Influența cu semnul minus a productivității muncii asupra modificării cheltuielilor cu salariile la 1000 lei venituri din exploatare reflectă:",
+        "options": [
+          "O creștere a cheltuielilor cu salariile;",
+          "O reducere a productivității muncii;",
+          "O creștere a productivității muncii;",
+          "O reducere a cheltuielilor cu salariile la 1000 lei venituri din exploatare."
+        ],
+        "answerIndexes": [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 43,
+        "text": "Indicele fondului de salarii = 96%; Indicele veniturilor din exploatare = 88%; Indicele productivității muncii = 98%. Aceasta semnifică:",
+        "options": [
+          "A scăzut productivitatea muncii și a crescut numărul de personal;",
+          "S-a redus numărul de personal și a crescut fondul de salarii la 1000 lei venituri din exploatare;",
+          "A scăzut fondul de salarii și salariul mediu;",
+          "A crescut salariul mediu, dar s-a redus productivitatea muncii;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 44,
+        "text": "Indicele cifrei de afaceri = 106%; Indicele profitului aferent cifrei de afaceri = 108%; Indicele marjei de profitabilitate a cheltuielilor aferente cifrei de afaceri = 104%. Aceasta semnifică:",
+        "options": [
+          "A crescut profitul aferent cifrei de afaceri și au scăzut cheltuielile și marja de profitabilitate a cifrei de afaceri;",
+          "Au crescut cheltuielile și marja de profitabilitate a cifrei de afaceri;",
+          "Au crescut marja de profitabilitate a cheltuielilor aferente cifrei de afaceri și cheltuielile la 1000 lei cifră de afaceri;",
+          "Au scăzut cheltuielile la 1000 lei cifră de afaceri și a crescut cifra de afaceri;"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 45,
+        "text": "Știind că ΔCA = 5000, care din următoarele variante sunt posibile din punct de vedere al valorii influențelor factoriale:",
+        "options": [
+          "Δ_CA^Ns = 1000, Δ_CA^Wa = 2500, Δ_CA^It = 1300, Δ_CA^E = 1200, Δ_CA^Gv = 3000",
+          "Δ_CA^Ns = 1200, Δ_CA^Wa = 2500, Δ_CA^It = 1300, Δ_CA^E = 1200, Δ_CA^Gv = 1300",
+          "Δ_CA^Ns = 500, Δ_CA^Wa = 3000, Δ_CA^It = 300, Δ_CA^E = 2700, Δ_CA^Gv = 1000",
+          "Δ_CA^Ns = 300, Δ_CA^Wa = 4500, Δ_CA^It = 2000, Δ_CA^E = 2500, Δ_CA^Gv = 200"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 46,
+        "text": "Marja de profitabilitate a cheltuielilor aferente cifrei de afaceri s-a modificat de la 15% în perioada de bază, la 10% în perioada curentă. Aceasta poate semnifica:",
+        "options": [
+          "Cheltuielile aferente cifrei de afaceri au crescut mai mult decât profitul aferent cifrei de afaceri;",
+          "Cheltuielile aferente cifrei de afaceri au crescut în același ritm cu profitul aferent cifrei de afaceri;",
+          "Cheltuielile aferente cifrei de afaceri au crescut într-un ritm inferior profitului aferent cifrei de afaceri;",
+          "Creșterea marjei de profitabilitate a cheltuielilor aferente cifrei de afaceri;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 47,
+        "text": "Rentabilitatea exprimă:",
+        "options": [
+          "Eficiența generală a activității comerciale a întreprinderii;",
+          "Veniturile totale realizate de întreprindere;",
+          "Capacitatea unei întreprinderi de a realiza profit;",
+          "Raportul dintre eforturile depuse și rezultatele obținute."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 48,
+        "text": "Când cota de impozit pe profit este egală cu zero, care este corelația între rata rentabilității economice (Re), rata medie a dobânzii la creditele contractate (Rd) și rata rentabilității financiare (Rf), pentru a acționa efectul pozitiv de levier financiar?",
+        "options": [
+          "Rf > Rd > Re;",
+          "Rf > Re > Rd;",
+          "Rd > Re > Rf;",
+          "Rd > Rf > Re;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 49,
+        "text": "Indicele profitului = 106%; Indicele veniturilor = 103%. Aceasta semnifică:",
+        "options": [
+          "Au crescut veniturile și au crescut cheltuielile la 1000 lei venituri;",
+          "Au scăzut veniturile și a crescut profitul;",
+          "Au crescut veniturile și au scăzut cheltuielile la 1000 lei venituri;",
+          "Au scăzut veniturile și au scăzut cheltuielile la 1000 lei venituri;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 50,
+        "text": "Cheltuielile de exploatare cuprind:",
+        "options": [
+          "Cheltuielile cu dobânzile;",
+          "Cheltuielile cu diferențele nefavorabile de curs valutar;",
+          "Cheltuielile cu materiile prime și materialele;",
+          "Cheltuielile cu impozitul pe profit;"
+        ],
+        "answerIndex": 2
+      }
+    ]
   }
 ];
