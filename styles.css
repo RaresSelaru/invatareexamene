@@ -121,6 +121,14 @@ button {
   flex: 0 0 auto;
 }
 
+.topbar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  min-width: 0;
+}
+
 .subject-menu {
   display: grid;
   min-height: calc(100svh - 118px);
@@ -296,9 +304,10 @@ h1 {
 
 .workspace[data-pack-id^="examen-licenta"] #questionTitle {
   max-width: 100%;
-  font-size: clamp(1.12rem, 1.55vw, 1.42rem);
-  line-height: 1.22;
-  font-weight: 850;
+  font-size: var(--license-title-desktop-font, 1.18rem);
+  line-height: var(--license-title-line, 1.28);
+  font-weight: 760;
+  text-align: var(--license-title-align, left);
 }
 
 h2 {
@@ -321,10 +330,14 @@ h2 {
 }
 
 .question-status {
-  display: grid;
+  display: none;
   gap: 8px;
   justify-items: end;
   min-width: clamp(124px, 14vw, 180px);
+}
+
+body[data-pack-id] .question-status {
+  display: grid;
 }
 
 .progress-track {
@@ -409,7 +422,7 @@ h2 {
 .workspace[data-pack-id^="examen-licenta"] .data-table {
   min-width: 0;
   table-layout: auto;
-  font-size: 0.86rem;
+  font-size: 0.84rem;
 }
 
 .workspace[data-pack-id^="examen-licenta"] .data-table th,
@@ -420,17 +433,17 @@ h2 {
 }
 
 .workspace[data-pack-id^="examen-licenta"] .question-after-text {
-  font-size: 0.92rem;
-  line-height: 1.28;
+  font-size: 0.94rem;
+  line-height: 1.3;
 }
 
 .workspace[data-pack-id^="examen-licenta"] .answer-option {
-  min-height: 54px;
+  min-height: 58px;
 }
 
 .workspace[data-pack-id^="examen-licenta"] .answer-text {
-  font-size: 0.96rem;
-  line-height: 1.22;
+  font-size: 0.98rem;
+  line-height: 1.28;
 }
 
 .question-after-text {
@@ -1054,12 +1067,12 @@ body.modal-open {
   }
 
   .workspace[data-pack-id^="examen-licenta"] .quiz-panel {
-    padding: 16px;
+    padding: 20px;
   }
 
   .workspace[data-pack-id^="examen-licenta"] #questionTitle {
-    font-size: clamp(0.98rem, 1.25vw, 1.16rem);
-    line-height: 1.18;
+    font-size: var(--license-title-desktop-font, 1.08rem);
+    line-height: var(--license-title-line, 1.26);
   }
 
   .workspace[data-pack-id^="examen-licenta"] .question-extras {
@@ -1067,7 +1080,7 @@ body.modal-open {
   }
 
   .workspace[data-pack-id^="examen-licenta"] .data-table {
-    font-size: 0.78rem;
+    font-size: 0.8rem;
   }
 
   .workspace[data-pack-id^="examen-licenta"] .data-table th,
@@ -1076,24 +1089,24 @@ body.modal-open {
   }
 
   .workspace[data-pack-id^="examen-licenta"] .answer-list {
-    gap: 7px;
+    gap: 8px;
   }
 
   .workspace[data-pack-id^="examen-licenta"] .answer-option {
-    grid-template-columns: 32px minmax(0, 1fr);
-    min-height: 44px;
-    padding: 6px 8px;
+    grid-template-columns: 34px minmax(0, 1fr);
+    min-height: 50px;
+    padding: 8px 10px;
   }
 
   .workspace[data-pack-id^="examen-licenta"] .answer-letter {
-    width: 28px;
-    height: 28px;
-    font-size: 0.82rem;
+    width: 30px;
+    height: 30px;
+    font-size: 0.84rem;
   }
 
   .workspace[data-pack-id^="examen-licenta"] .answer-text {
-    font-size: 0.84rem;
-    line-height: 1.16;
+    font-size: 0.92rem;
+    line-height: 1.22;
   }
 
   .workspace[data-question-density="long"] .quiz-panel,
@@ -1104,10 +1117,7 @@ body.modal-open {
   .workspace[data-question-density="long"] #questionTitle,
   .workspace[data-question-density="dense"] #questionTitle {
     max-width: 100%;
-    max-height: 32svh;
-    overflow: auto;
-    padding-right: 4px;
-    scrollbar-width: thin;
+    overflow: visible;
   }
 
   .workspace[data-question-density="long"] #questionTitle {
@@ -1116,7 +1126,6 @@ body.modal-open {
   }
 
   .workspace[data-question-density="dense"] #questionTitle {
-    max-height: 36svh;
     font-size: clamp(0.92rem, 1.15vw, 1.08rem);
     line-height: 1.16;
   }
@@ -1474,17 +1483,13 @@ body.modal-open {
   body[data-question-density="long"] #questionTitle,
   body[data-question-density="dense"] #questionTitle {
     max-width: 100%;
-    max-height: 30svh;
-    overflow: auto;
-    padding-right: 4px;
+    overflow: visible;
+    padding-right: 0;
     font-size: clamp(0.88rem, 3.7vw, 1.02rem);
     line-height: 1.15;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
   }
 
   body[data-question-density="dense"] #questionTitle {
-    max-height: 36svh;
     font-size: clamp(0.78rem, 3.25vw, 0.9rem);
     line-height: 1.13;
   }
@@ -1511,21 +1516,19 @@ body.modal-open {
   body[data-question-density="long"] .question-extras,
   body[data-question-density="dense"] .question-extras {
     flex: 0 1 auto;
-    max-height: 22svh;
-    overflow: auto;
+    max-height: none;
+    overflow: visible;
     margin: 0 0 8px;
-    -webkit-overflow-scrolling: touch;
   }
 
   body[data-question-density="long"] .answer-list,
   body[data-question-density="dense"] .answer-list {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     align-content: start;
     gap: 7px;
     min-height: 0;
-    overflow: auto;
+    overflow: visible;
     padding-right: 2px;
-    -webkit-overflow-scrolling: touch;
   }
 
   body[data-question-density="long"] .answer-option,
@@ -1647,13 +1650,10 @@ body.modal-open {
 
   body[data-pack-id^="examen-licenta"] #questionTitle {
     max-width: 100%;
-    max-height: 27svh;
-    overflow: auto;
-    padding-right: 3px;
-    font-size: clamp(0.78rem, 3.25vw, 0.94rem);
-    line-height: 1.12;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
+    overflow: visible;
+    padding-right: 0;
+    font-size: var(--license-title-mobile-font, 0.94rem);
+    line-height: var(--license-title-line, 1.18);
   }
 
   body[data-pack-id^="examen-licenta"] .question-count {
@@ -1674,10 +1674,9 @@ body.modal-open {
 
   body[data-pack-id^="examen-licenta"] .question-extras {
     flex: 0 1 auto;
-    max-height: 22svh;
-    overflow: auto;
+    max-height: none;
+    overflow: visible;
     margin: 0 0 7px;
-    -webkit-overflow-scrolling: touch;
   }
 
   body[data-pack-id^="examen-licenta"] .data-table {
@@ -1692,37 +1691,36 @@ body.modal-open {
   }
 
   body[data-pack-id^="examen-licenta"] .question-after-text {
-    font-size: 0.78rem;
-    line-height: 1.16;
+    font-size: 0.82rem;
+    line-height: 1.2;
   }
 
   body[data-pack-id^="examen-licenta"] .answer-list {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     align-content: start;
     gap: 6px;
     min-height: 0;
-    overflow: auto;
+    overflow: visible;
     padding-right: 2px;
-    -webkit-overflow-scrolling: touch;
   }
 
   body[data-pack-id^="examen-licenta"] .answer-option {
-    grid-template-columns: 28px minmax(0, 1fr);
-    min-height: 38px;
-    gap: 6px;
-    padding: 5px 7px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    min-height: 52px;
+    gap: 7px;
+    padding: 7px 9px;
   }
 
   body[data-pack-id^="examen-licenta"] .answer-letter {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border-radius: 7px;
-    font-size: 0.76rem;
+    font-size: 0.8rem;
   }
 
   body[data-pack-id^="examen-licenta"] .answer-text {
-    font-size: 0.76rem;
-    line-height: 1.12;
+    font-size: 0.88rem;
+    line-height: 1.2;
   }
 
   body[data-pack-id^="examen-licenta"] .quiz-actions {
@@ -1738,18 +1736,333 @@ body.modal-open {
     padding: 0 8px;
     font-size: 0.86rem;
   }
+
+  body:not(.menu-open)[data-pack-id] {
+    --fit-panel-pad: 10px;
+    --fit-title-font: 1rem;
+    --fit-title-line: 1.14;
+    --fit-after-font: 0.82rem;
+    --fit-table-font: 0.72rem;
+    --fit-answer-font: 0.88rem;
+    --fit-answer-line: 1.15;
+    --fit-answer-min: 43px;
+    --fit-letter-size: 28px;
+    --fit-action-height: 42px;
+    --fit-gap: 7px;
+    --fit-option-gap: 7px;
+    --fit-option-pad-y: 6px;
+    --fit-option-pad-x: 8px;
+  }
+
+  body:not(.menu-open)[data-question-density="long"] {
+    --fit-title-font: 0.92rem;
+    --fit-after-font: 0.78rem;
+    --fit-table-font: 0.68rem;
+    --fit-answer-font: 0.82rem;
+    --fit-answer-min: 40px;
+  }
+
+  body:not(.menu-open)[data-question-density="dense"] {
+    --fit-title-font: 0.78rem;
+    --fit-title-line: 1.1;
+    --fit-after-font: 0.72rem;
+    --fit-table-font: 0.62rem;
+    --fit-answer-font: 0.76rem;
+    --fit-answer-line: 1.1;
+    --fit-answer-min: 36px;
+    --fit-letter-size: 25px;
+    --fit-action-height: 38px;
+    --fit-gap: 5px;
+    --fit-option-gap: 5px;
+    --fit-option-pad-y: 5px;
+    --fit-option-pad-x: 7px;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] {
+    --fit-panel-pad: 10px;
+    --fit-title-font: 0.94rem;
+    --fit-title-line: 1.18;
+    --fit-after-font: 0.82rem;
+    --fit-table-font: 0.72rem;
+    --fit-answer-font: 0.88rem;
+    --fit-answer-line: 1.2;
+    --fit-answer-min: 52px;
+    --fit-letter-size: 28px;
+    --fit-action-height: 40px;
+    --fit-action-font: 0.9rem;
+    --fit-action-pad-x: 9px;
+    --fit-gap: 7px;
+    --fit-option-gap: 7px;
+    --fit-option-pad-y: 7px;
+    --fit-option-pad-x: 9px;
+    --license-answer-stack-height: 250px;
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-panel {
+    height: var(--mobile-quiz-height, calc(100svh - 58px));
+    overflow: hidden;
+    padding: var(--fit-panel-pad);
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-topline {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--fit-topline-gap, 8px);
+  }
+
+  body:not(.menu-open)[data-pack-id] #questionTitle {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+    font-size: var(--fit-title-font);
+    line-height: var(--fit-title-line);
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-status {
+    gap: var(--fit-status-gap, 4px);
+    min-width: var(--fit-status-width, 50px);
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-count {
+    gap: 3px;
+    font-size: var(--fit-count-font, 0.72rem);
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-count span:first-child {
+    font-size: var(--fit-count-current-font, 1rem);
+  }
+
+  body:not(.menu-open)[data-pack-id] .progress-track {
+    height: var(--fit-progress-height, 5px);
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-extras {
+    max-height: none;
+    overflow: visible;
+    gap: var(--fit-gap);
+    margin: 0 0 var(--fit-gap);
+  }
+
+  body:not(.menu-open)[data-pack-id] .table-wrap {
+    overflow-x: auto;
+  }
+
+  body:not(.menu-open)[data-pack-id] .data-table {
+    font-size: var(--fit-table-font);
+  }
+
+  body:not(.menu-open)[data-pack-id] .data-table th,
+  body:not(.menu-open)[data-pack-id] .data-table td {
+    padding: var(--fit-table-pad-y, 4px) var(--fit-table-pad-x, 5px);
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-after-text {
+    font-size: var(--fit-after-font);
+    line-height: 1.12;
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-list {
+    flex: 0 1 auto;
+    gap: var(--fit-gap);
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-option {
+    grid-template-columns: var(--fit-letter-size) minmax(0, 1fr);
+    gap: var(--fit-option-gap);
+    min-height: var(--fit-answer-min);
+    padding: var(--fit-option-pad-y) var(--fit-option-pad-x);
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-letter {
+    width: var(--fit-letter-size);
+    height: var(--fit-letter-size);
+    border-radius: var(--fit-letter-radius, 7px);
+    font-size: var(--fit-letter-font, 0.76rem);
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-text {
+    font-size: var(--fit-answer-font);
+    line-height: var(--fit-answer-line);
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-actions {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: var(--fit-gap);
+    margin-top: auto;
+  }
+
+  body:not(.menu-open)[data-pack-id] .primary-button,
+  body:not(.menu-open)[data-pack-id] .ghost-button {
+    min-height: var(--fit-action-height);
+    padding: 0 var(--fit-action-pad-x, 8px);
+    font-size: var(--fit-action-font, 0.86rem);
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar {
+    position: relative;
+    z-index: 2;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar-controls {
+    margin-left: auto;
+    gap: 8px;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar .question-status {
+    order: 1;
+    min-width: 70px;
+    gap: 4px;
+    justify-items: end;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar-action {
+    order: 2;
+    width: auto;
+    min-height: 42px;
+    padding: 0 12px;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar .question-count {
+    min-width: 0;
+    font-size: 0.78rem;
+    justify-content: flex-end;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar .question-count span:first-child {
+    font-size: 1.1rem;
+  }
+
+  body:not(.menu-open)[data-pack-id] .topbar .progress-track {
+    width: 68px;
+    height: 6px;
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-panel {
+    position: relative;
+    display: block;
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-topline {
+    display: block;
+  }
+
+  body:not(.menu-open)[data-pack-id] .question-extras:empty {
+    display: none;
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-list {
+    position: absolute;
+    top: var(--fixed-answer-top, 46%);
+    right: var(--fit-panel-pad);
+    left: var(--fit-panel-pad);
+    display: grid;
+    grid-template-rows: repeat(var(--answer-count, 4), minmax(0, 1fr));
+    align-content: stretch;
+  }
+
+  body:not(.menu-open)[data-pack-id] .answer-option {
+    height: 100%;
+    min-height: 0;
+  }
+
+  body:not(.menu-open)[data-pack-id] .quiz-actions {
+    position: absolute;
+    right: var(--fit-panel-pad);
+    bottom: var(--fit-panel-pad);
+    left: var(--fit-panel-pad);
+    display: grid;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .quiz-panel {
+    display: flex;
+    position: relative;
+    height: calc(100svh - 58px);
+    min-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--fit-panel-pad);
+    padding-bottom: calc(var(--fit-panel-pad) + var(--fit-action-height) + var(--license-answer-stack-height, 250px) + 14px);
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .quiz-topline {
+    display: grid;
+    flex: 0 0 auto;
+    min-height: 0;
+    margin: auto 0;
+    place-items: center;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .quiz-panel:has(.question-extras:not(:empty)) .quiz-topline {
+    margin-bottom: 0;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] #questionTitle {
+    max-height: 40svh;
+    overflow: auto;
+    padding-right: 4px;
+    font-size: var(--license-title-mobile-font, 0.94rem);
+    line-height: var(--license-title-line, 1.18);
+    text-align: var(--license-title-align, center);
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .question-extras {
+    flex: 0 1 auto;
+    max-height: 24svh;
+    overflow: auto;
+    margin: var(--fit-gap) 0 auto;
+    padding-right: 2px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .answer-list {
+    position: absolute;
+    top: auto;
+    right: var(--fit-panel-pad);
+    bottom: calc(var(--fit-panel-pad) + var(--fit-action-height) + var(--fit-gap));
+    left: var(--fit-panel-pad);
+    display: grid;
+    grid-template-rows: none;
+    grid-auto-rows: minmax(var(--fit-answer-min), max-content);
+    max-height: var(--license-answer-stack-height, 250px);
+    overflow: auto;
+    gap: var(--fit-gap);
+    padding-right: 2px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .answer-option {
+    height: auto;
+    min-height: var(--fit-answer-min);
+  }
+
+  body:not(.menu-open)[data-pack-id^="examen-licenta"] .quiz-actions {
+    position: absolute;
+    right: var(--fit-panel-pad);
+    bottom: var(--fit-panel-pad);
+    left: var(--fit-panel-pad);
+    display: grid;
+    flex: 0 0 auto;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 680px) and (max-height: 720px) {
   body[data-question-density="long"] #questionTitle,
   body[data-question-density="dense"] #questionTitle {
-    max-height: 34svh;
     font-size: clamp(0.78rem, 3.25vw, 0.9rem);
     line-height: 1.12;
   }
 
   body[data-question-density="dense"] #questionTitle {
-    max-height: 38svh;
     font-size: clamp(0.72rem, 3vw, 0.84rem);
   }
 

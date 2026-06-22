@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Grile | Antrenor de învățare</title>
-    <link rel="stylesheet" href="styles.css?v=20260622-licenta-mobile-controls">
+    <link rel="stylesheet" href="styles.css?v=20260622-license-title-bump">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
     <script src="data/grile.js?v=20260622-aef" defer></script>
-    <script src="app.js?v=20260622-licenta-mobile-controls" defer></script>
+    <script src="app.js?v=20260622-license-title-bump" defer></script>
   </head>
   <body>
     <div class="app-shell">
@@ -20,10 +20,22 @@
           </div>
         </div>
 
-        <button class="ghost-button topbar-action hidden" id="subjectMenuButton" type="button">
-          <i data-lucide="layout-list" aria-hidden="true"></i>
-          Materii
-        </button>
+        <div class="topbar-controls">
+          <div class="question-status" aria-label="Progres">
+            <div class="question-count" aria-live="polite">
+              <span id="currentNumber">0</span>
+              <span>/</span>
+              <span id="totalNumber">0</span>
+            </div>
+            <div class="progress-track" aria-hidden="true">
+              <span id="progressFill"></span>
+            </div>
+          </div>
+          <button class="ghost-button topbar-action hidden" id="subjectMenuButton" type="button">
+            <i data-lucide="layout-list" aria-hidden="true"></i>
+            Materii
+          </button>
+        </div>
       </header>
 
       <section class="subject-menu" id="subjectMenu" aria-labelledby="subjectMenuTitle">
@@ -44,16 +56,6 @@
           <div class="quiz-topline">
             <div>
               <h1 id="questionTitle">Se încarcă grilele...</h1>
-            </div>
-            <div class="question-status">
-              <div class="question-count" aria-live="polite">
-                <span id="currentNumber">0</span>
-                <span>/</span>
-                <span id="totalNumber">0</span>
-              </div>
-              <div class="progress-track" aria-hidden="true">
-                <span id="progressFill"></span>
-              </div>
             </div>
           </div>
 

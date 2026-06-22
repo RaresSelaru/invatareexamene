@@ -8,6 +8,7 @@
     subjectCards: document.querySelector("#subjectCards"),
     subjectMenuButton: document.querySelector("#subjectMenuButton"),
     quizWorkspace: document.querySelector("#quizWorkspace"),
+    quizPanel: document.querySelector(".quiz-panel"),
     questionTitle: document.querySelector("#questionTitle"),
     currentNumber: document.querySelector("#currentNumber"),
     totalNumber: document.querySelector("#totalNumber"),
@@ -43,6 +44,15 @@
     optionOrders: new Map(),
     progress: {},
   };
+  let fitFrame = null;
+
+  function isMobileQuiz() {
+    return window.matchMedia("(max-width: 680px)").matches;
+  }
+
+  function isLicenseExamPack() {
+    return state.packId.startsWith("examen-licenta");
+  }
 
   function storageKey(packId) {
     return `grile-progress:v1:${packId}`;
@@ -281,6 +291,7 @@
     elements.quizWorkspace.classList.add("hidden");
     delete document.body.dataset.packId;
     clearQuestionDensity();
+    clearLicenseQuestionLayout();
     delete elements.quizWorkspace.dataset.packId;
     elements.subjectMenuButton.classList.add("hidden");
     closeResetModal(false);
@@ -316,6 +327,7 @@
 
   function renderEmpty() {
     clearQuestionDensity();
+    clearLicenseQuestionLayout();
     elements.questionTitle.textContent = "Nu am găsit grile în data/grile.js";
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
@@ -329,6 +341,7 @@
   function renderNoQuestions(pack) {
     const modeLabel = state.mode === "missed" ? "greșite" : "neștiute";
     clearQuestionDensity();
+    clearLicenseQuestionLayout();
     elements.questionTitle.textContent = `Nu există întrebări ${modeLabel}`;
     elements.currentNumber.textContent = "0";
     elements.totalNumber.textContent = "0";
@@ -340,6 +353,7 @@
     renderStats();
     renderMap();
     refreshIcons();
+    scheduleQuestionFit();
   }
 
   function renderQuestion() {
@@ -359,7 +373,12 @@
     const multiAnswer = isMultiAnswer(question);
     const progressPercent = ((state.cursor + 1) / state.queue.length) * 100;
 
-    setQuestionDensity(questionDensity(question));
+    if (isLicenseExamPack()) {
+      clearQuestionDensity();
+    } else {
+      setQuestionDensity(questionDensity(question));
+    }
+    elements.quizWorkspace.style.setProperty("--answer-count", String(question.options.length));
     elements.questionTitle.textContent = question.text;
     elements.currentNumber.textContent = String(state.cursor + 1);
     elements.totalNumber.textContent = String(state.queue.length);
@@ -397,6 +416,12 @@
       elements.answers.appendChild(button);
     });
 
+    if (isLicenseExamPack()) {
+      applyLicenseQuestionLayout(question);
+    } else {
+      clearLicenseQuestionLayout();
+    }
+
     state.answered = false;
     state.selectedOriginalIndex = null;
     state.selectedOriginalIndexes = [];
@@ -404,6 +429,7 @@
     renderStats();
     renderMap();
     refreshIcons();
+    scheduleQuestionFit();
   }
 
   function questionDensity(question) {
@@ -428,13 +454,11 @@
     }
     document.body.dataset.questionDensity = density;
     elements.quizWorkspace.dataset.questionDensity = density;
-    elements.questionTitle.tabIndex = 0;
   }
 
   function clearQuestionDensity() {
     delete document.body.dataset.questionDensity;
     delete elements.quizWorkspace.dataset.questionDensity;
-    elements.questionTitle.removeAttribute("tabindex");
   }
 
   function resetQuestionScroll() {
@@ -443,12 +467,246 @@
     elements.answers.scrollTop = 0;
   }
 
-  function scrollQuizIntoView() {
-    if (window.matchMedia("(max-width: 680px)").matches) {
-      elements.quizWorkspace.scrollIntoView({ block: "start" });
+  function clearQuestionFit() {
+    [
+      "--mobile-quiz-height",
+      "--fit-panel-pad",
+      "--fit-title-font",
+      "--fit-title-line",
+      "--fit-after-font",
+      "--fit-table-font",
+      "--fit-answer-font",
+      "--fit-answer-line",
+      "--fit-answer-min",
+      "--fit-letter-size",
+      "--fit-letter-radius",
+      "--fit-letter-font",
+      "--fit-action-height",
+      "--fit-action-font",
+      "--fit-action-pad-x",
+      "--fit-gap",
+      "--fit-topline-gap",
+      "--fit-status-gap",
+      "--fit-status-width",
+      "--fit-count-font",
+      "--fit-count-current-font",
+      "--fit-progress-height",
+      "--fit-option-gap",
+      "--fit-option-pad-y",
+      "--fit-option-pad-x",
+      "--fit-table-pad-y",
+      "--fit-table-pad-x",
+      "--fixed-answer-top",
+    ].forEach((property) => {
+      elements.quizWorkspace.style.removeProperty(property);
+    });
+  }
+
+  function clearLicenseQuestionLayout() {
+    [
+      "--license-title-mobile-font",
+      "--license-title-desktop-font",
+      "--license-title-line",
+      "--license-title-align",
+      "--license-answer-stack-height",
+    ].forEach((property) => {
+      elements.quizWorkspace.style.removeProperty(property);
+    });
+  }
+
+  function syncLicenseAnswerStackHeight() {
+    if (!isLicenseExamPack() || !elements.answers || !elements.quizPanel) {
+      return;
+    }
+    const panelHeight = elements.quizPanel.clientHeight || window.innerHeight;
+    const maxHeight = Math.max(230, panelHeight * 0.48);
+    const answerHeight = Math.min(elements.answers.scrollHeight || 0, maxHeight);
+    elements.quizWorkspace.style.setProperty("--license-answer-stack-height", `${Math.ceil(answerHeight)}px`);
+  }
+
+  function applyLicenseQuestionLayout(question) {
+    const text = `${question.text || ""}\n${question.textAfterTables || ""}`;
+    const textLength = text.trim().length;
+    const tableTextLength = Array.isArray(question.tables)
+      ? question.tables.reduce((total, table) => {
+          const headers = Array.isArray(table.headers) ? table.headers.join(" ") : "";
+          const rows = Array.isArray(table.rows) ? table.rows.flat().join(" ") : "";
+          return total + headers.length + rows.length;
+        }, 0)
+      : 0;
+    const hasTables = tableTextLength > 0;
+
+    let mobileFont = 1.11;
+    let desktopFont = 1.27;
+    let lineHeight = 1.16;
+    let align = "center";
+
+    if (hasTables || textLength > 620) {
+      mobileFont = 0.93;
+      desktopFont = 1.07;
+      lineHeight = 1.18;
+      align = "left";
+    } else if (textLength > 420) {
+      mobileFont = 0.97;
+      desktopFont = 1.11;
+      lineHeight = 1.18;
+      align = "left";
+    } else if (textLength > 240) {
+      mobileFont = 1.01;
+      desktopFont = 1.15;
+      lineHeight = 1.18;
+      align = "left";
+    } else if (textLength > 140) {
+      mobileFont = 1.07;
+      desktopFont = 1.21;
+      lineHeight = 1.17;
+    }
+
+    elements.quizWorkspace.style.setProperty("--license-title-mobile-font", `${mobileFont}rem`);
+    elements.quizWorkspace.style.setProperty("--license-title-desktop-font", `${desktopFont}rem`);
+    elements.quizWorkspace.style.setProperty("--license-title-line", String(lineHeight));
+    elements.quizWorkspace.style.setProperty("--license-title-align", align);
+    syncLicenseAnswerStackHeight();
+  }
+
+  function mobileFitConfig() {
+    const density = elements.quizWorkspace.dataset.questionDensity || "normal";
+    const config = {
+      answerTopRatio: 0.46,
+      panelPad: 10,
+      titleFont: 19,
+      titleLine: 1.12,
+      afterFont: 13.12,
+      tableFont: 11.52,
+      answerFont: 15.2,
+      answerLine: 1.15,
+      answerMin: 52,
+      letterSize: 30,
+      actionHeight: 42,
+      gap: 8,
+      optionGap: 7,
+      optionPadY: 7,
+      optionPadX: 10,
+    };
+
+    if (density === "long") {
+      Object.assign(config, {
+        titleFont: 18,
+        afterFont: 12.48,
+        tableFont: 10.88,
+        answerFont: 15,
+        answerMin: 52,
+      });
+    }
+    if (density === "dense") {
+      Object.assign(config, {
+        titleFont: 17,
+        titleLine: 1.08,
+        afterFont: 11.52,
+        tableFont: 9.92,
+        answerFont: 14.4,
+        answerLine: 1.1,
+        answerMin: 50,
+        letterSize: 28,
+        actionHeight: 38,
+        gap: 7,
+        optionGap: 6,
+        optionPadY: 6,
+        optionPadX: 9,
+      });
+    }
+    return config;
+  }
+
+  function setFitPx(property, value, minValue) {
+    elements.quizWorkspace.style.setProperty(property, `${Math.max(minValue, value).toFixed(2)}px`);
+  }
+
+  function applyQuestionFit(scale) {
+    const config = mobileFitConfig();
+    const panelHeight = elements.quizPanel.clientHeight || window.innerHeight;
+    const answerTop = Math.max(210, panelHeight * config.answerTopRatio);
+    setFitPx("--fit-panel-pad", config.panelPad * scale, 4);
+    setFitPx("--fit-title-font", config.titleFont * scale, 6.4);
+    elements.quizWorkspace.style.setProperty("--fit-title-line", String(config.titleLine));
+    setFitPx("--fit-after-font", config.afterFont * scale, 7);
+    setFitPx("--fit-table-font", config.tableFont * scale, 6);
+    setFitPx("--fit-answer-font", config.answerFont * scale, 7.6);
+    elements.quizWorkspace.style.setProperty("--fit-answer-line", String(config.answerLine));
+    setFitPx("--fit-answer-min", config.answerMin * scale, 25);
+    setFitPx("--fit-letter-size", config.letterSize * scale, 17);
+    setFitPx("--fit-letter-radius", 7 * scale, 5);
+    setFitPx("--fit-letter-font", 12.16 * scale, 7);
+    setFitPx("--fit-action-height", config.actionHeight * scale, 29);
+    setFitPx("--fit-action-font", 13.76 * scale, 8);
+    setFitPx("--fit-action-pad-x", 8 * scale, 4);
+    setFitPx("--fit-gap", config.gap * scale, 3);
+    setFitPx("--fit-topline-gap", 8 * scale, 3);
+    setFitPx("--fit-status-gap", 4 * scale, 2);
+    setFitPx("--fit-status-width", 50 * scale, 34);
+    setFitPx("--fit-count-font", 11.52 * scale, 8);
+    setFitPx("--fit-count-current-font", 16 * scale, 10);
+    setFitPx("--fit-progress-height", 5 * scale, 3);
+    setFitPx("--fit-option-gap", config.optionGap * scale, 3);
+    setFitPx("--fit-option-pad-y", config.optionPadY * scale, 3);
+    setFitPx("--fit-option-pad-x", config.optionPadX * scale, 4);
+    setFitPx("--fit-table-pad-y", 4 * scale, 2);
+    setFitPx("--fit-table-pad-x", 5 * scale, 3);
+    setFitPx("--fixed-answer-top", answerTop, 190);
+  }
+
+  function fitQuestionToViewport() {
+    if (!state.started || isLicenseExamPack() || !isMobileQuiz() || !elements.quizPanel) {
+      clearQuestionFit();
+      return;
+    }
+
+    const panelTop = elements.quizPanel.getBoundingClientRect().top;
+    const availableHeight = Math.max(420, window.innerHeight - panelTop - 5);
+    elements.quizWorkspace.style.setProperty("--mobile-quiz-height", `${availableHeight}px`);
+
+    const scales = [1.45, 1.36, 1.28, 1.2, 1.12, 1.04, 1, 0.96, 0.92, 0.88, 0.84, 0.8, 0.76, 0.72, 0.68, 0.64, 0.6, 0.56, 0.52, 0.48, 0.44];
+    for (const scale of scales) {
+      applyQuestionFit(scale);
+      const answerTop = elements.answers.getBoundingClientRect().top;
+      const actionsTop = elements.nextButton.closest(".quiz-actions").getBoundingClientRect().top;
+      const questionBottom = Math.max(
+        elements.questionTitle.getBoundingClientRect().bottom,
+        elements.questionExtras.children.length ? elements.questionExtras.getBoundingClientRect().bottom : 0
+      );
+      const answersBottom = elements.answers.getBoundingClientRect().bottom;
+      const questionFits = questionBottom <= answerTop - 8;
+      const answersFit = answersBottom <= actionsTop - 8;
+      const panelFits = elements.quizPanel.scrollHeight <= elements.quizPanel.clientHeight + 1;
+      if (questionFits && answersFit && panelFits) {
+        return;
+      }
     }
   }
 
+  function scheduleQuestionFit() {
+    clearQuestionFit();
+    if (fitFrame) {
+      window.cancelAnimationFrame(fitFrame);
+      fitFrame = null;
+    }
+    if (isLicenseExamPack()) {
+      syncLicenseAnswerStackHeight();
+      return;
+    }
+    if (!isMobileQuiz()) {
+      return;
+    }
+    window.scrollTo(0, 0);
+    fitQuestionToViewport();
+    fitFrame = window.requestAnimationFrame(() => {
+      fitQuestionToViewport();
+      fitFrame = window.requestAnimationFrame(() => {
+        fitQuestionToViewport();
+        fitFrame = null;
+      });
+    });
+  }
 
   function renderQuestionExtras(question) {
     elements.questionExtras.innerHTML = "";
@@ -676,7 +934,6 @@
         }
         state.emptyFilter = false;
         renderQuestion();
-        scrollQuizIntoView();
       });
       elements.questionMap.appendChild(button);
     });
@@ -747,6 +1004,7 @@
     });
 
     document.addEventListener("keydown", handleKeyDown);
+    window.addEventListener("resize", scheduleQuestionFit);
 
     elements.resetButton.addEventListener("click", () => {
       openResetModal();
