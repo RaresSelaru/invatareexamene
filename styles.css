@@ -1573,17 +1573,16 @@ body.modal-open {
   }
 
   body[data-pack-id^="examen-licenta"] {
-    overflow: hidden;
+    overflow: auto;
   }
 
   body[data-pack-id^="examen-licenta"] .app-shell {
-    display: flex;
+    display: block;
     width: min(100% - 10px, 1180px);
-    height: 100svh;
-    min-height: 0;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 8px 0;
+    min-height: 100svh;
+    height: auto;
+    overflow: visible;
+    padding: 8px 0 22px;
   }
 
   body[data-pack-id^="examen-licenta"] .topbar {
@@ -1621,14 +1620,13 @@ body.modal-open {
 
   body[data-pack-id^="examen-licenta"] .workspace {
     display: block;
-    flex: 1 1 auto;
     min-height: 0;
-    overflow: hidden;
+    overflow: visible;
   }
 
   body[data-pack-id^="examen-licenta"] .quiz-panel {
     display: flex;
-    height: 100%;
+    height: calc(100svh - 58px);
     min-height: 0;
     overflow: hidden;
     flex-direction: column;
@@ -1636,7 +1634,8 @@ body.modal-open {
   }
 
   body[data-pack-id^="examen-licenta"] .control-panel {
-    display: none;
+    display: grid;
+    margin-top: 10px;
   }
 
   body[data-pack-id^="examen-licenta"] .quiz-topline {

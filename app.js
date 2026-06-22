@@ -284,6 +284,7 @@
     delete elements.quizWorkspace.dataset.packId;
     elements.subjectMenuButton.classList.add("hidden");
     closeResetModal(false);
+    window.scrollTo(0, 0);
     refreshIcons();
   }
 
@@ -299,6 +300,7 @@
     elements.quizWorkspace.classList.remove("hidden");
     elements.subjectMenuButton.classList.remove("hidden");
     buildQueue();
+    window.scrollTo(0, 0);
     renderQuestion();
   }
 
