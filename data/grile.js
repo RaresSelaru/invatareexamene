@@ -6904,5 +6904,1027 @@ window.QUIZ_PACKS = [
         "answerIndex": 2
       }
     ]
+  },
+  {
+    "id": "examen-licenta-managementul-serviciilor",
+    "title": "Managementul Serviciilor",
+    "subject": "Managementul Serviciilor",
+    "source": "grile_c8aec93e71310ee49e9781c611cc88c5.docx",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Sfera serviciilor corespunde cărui sector al economiei?",
+        "options": [
+          "Sectorul primar;",
+          "Sectorul secundar;",
+          "Sectorul terțiar;",
+          "Sectorul cuaternar"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 2,
+        "text": "Cum au fost prezentate serviciile în viziunea de marketing?",
+        "options": [
+          "Prin caracterul lor imperial;",
+          "Prin abordarea „rezultatului obținut”;",
+          "Un amalgam al efectelor obținute ca urmare consumului unor resurse destinate sa acopere nevoi specifice;",
+          "Prin dezbatarea caracterului muncii productive și neproductive."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 3,
+        "text": "Faptul că prestarea serviciilor are loc în același timp cu consumul reprezintă",
+        "options": [
+          "Intangibilitate;",
+          "Inseparabilitate;",
+          "Perisabilitate;",
+          "Variabilitate."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "text": "Eliminarea dificultăţilor cu distribuţia fizică a serviciilor, cu manipularea, depozitarea şi cheltuielile legate de aceste operaţiuni reprezintă:",
+        "options": [
+          "consecință a intangibilității;",
+          "reacție comportamentală generată de inseparabilitate;",
+          "Un avantaj al perisabilității;",
+          "manifestare a variabilității."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 5,
+        "text": "Dificultatea definirii serviciilor provine din:",
+        "options": [
+          "Absența substanței materiale;",
+          "Prezența substanței materiale;",
+          "Gama foarte strânsă de activități pe care le înglobează;",
+          "Caracterul tranzacționabil al serviciilor"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 6,
+        "text": "Care din următoarele aspecte reprezintă o reacție a consumatorilor la caracterul intangibil al serviciilor?",
+        "options": [
+          "tind să reducă complexitatea serviciilor oferite;",
+          "dezvoltă comunicarea directă cu consumatorii;",
+          "folosesc prețul ca reper pentru definirea calității.",
+          "se preocupă de diferențierea calității serviciilor."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 7,
+        "text": "Care din următoarele aspecte reprezintă o reacție managerială la caracterul intangibil al serviciilor?",
+        "options": [
+          "sesizează că se confruntă cu un risc;",
+          "dezvoltă comunicarea directă cu consumatorii;",
+          "au dificultăți în evaluarea serviciilor concurente;",
+          "folosesc prețul ca reper pentru definirea calității."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "text": "Care din următoarele aspecte reprezintă o reacție comportamentală a consumatorilor la caracterul inseparabil al serviciilor?",
+        "options": [
+          "efectuarea de eforturi în direcția decalării consumului față de producție;",
+          "dezvoltarea de acțiuni de control a calității inseparabilității;",
+          "conștientizarea rolului lor de co-producători (servucție);",
+          "ameliorarea sistemului de livrare pentru micșorarea dependenței față de consumatori"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 9,
+        "text": "Care din următoarele aspecte reprezintă o reacție comportamentală a producătorilor la caracterul inseparabil al serviciilor?",
+        "options": [
+          "dezvoltarea de acțiuni de control a calității inseparabilității;",
+          "conștientizarea rolului lor de co-producători (servucție);",
+          "poziționarea, în unele cazuri, în rolul de co-consumatori pentru același serviciu alături de alți consumatori;",
+          "dezvoltarea unei reacții de dependență față de anumiți producători;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 10,
+        "text": "Incapacitatea serviciilor de a fi stocate pentru un consum ulterior, reprezintă caracteristica serviciilor:",
+        "options": [
+          "Intangibilitate;",
+          "Inseparabilitate;",
+          "Perisabilitate;",
+          "Imposibilitatea apropierii."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 11,
+        "text": "Dependența de persoana prestatorului, reprezintă caracteristica serviciilor:",
+        "options": [
+          "Imposibilitatea apropierii;",
+          "Inseparabilitate;",
+          "Perisabilitate;",
+          "Variabilitate."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 12,
+        "text": "Serviciile de închiriere a unor bunuri materiale sunt o categorie inclusă în:",
+        "options": [
+          "clasificarea teoreticienilor",
+          "clasificarea practicienilor",
+          "clasificarea serviciilor în funcţie de conţinut, natură şi caracteristici:",
+          "clasificarea serviciilor lui Ph. Kotler (1986)"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 13,
+        "text": "Având în vedere clasificarea servicii materiale/servicii imateriale, serviciul de consultanță în afaceri se încadrează în care categorie?",
+        "options": [
+          "Servicii materiale;",
+          "Servicii de producție;",
+          "Servicii marfă;",
+          "Servicii pure, imateriale."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 14,
+        "text": "Clasificarea serviciilor în funcție de conținut, natură și caracteristici implică următoarele tipuri de servicii:",
+        "options": [
+          "Servicii bancare, servicii medicale, servicii turistice;",
+          "Servicii marfă, servicii non marfă;",
+          "Servicii noi, servicii complementare, servicii tradiționale",
+          "Servicii de închiriere a unor bunuri materiale, servicii care presupun adăugarea de valoare, servicii care nu sunt încorporate într-un bun material;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 15,
+        "text": "Serviciile de medicină dentară sunt servicii:",
+        "options": [
+          "Care presupun utilizarea echipamentelor automate;",
+          "Care presupun utilizarea personalului necalificat;",
+          "Care presupun utilizarea echipamentelor mânuite de personal calificat;",
+          "Care presupun adăugarea de valoare unu bun material"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 16,
+        "text": "Având în vedere gradul de variabilitate al serviciilor, distingem următoarele categorii de servicii;",
+        "options": [
+          "Servicii standardizate, servicii individualizate;",
+          "Servicii relaționale, servicii la distanță",
+          "Servicii periodice, servicii ocazionale;",
+          "Servicii continue, ciclice și sezoniere."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 17,
+        "text": "Luând în considerare felul în care se manifestă cererea pentru servicii, distingem următoarele categorii de servicii;",
+        "options": [
+          "Servicii standardizate, servicii individualizate;",
+          "Servicii relaționale, servicii la distanță",
+          "Servicii periodice, servicii ocazionale;",
+          "Servicii continue, ciclice și sezoniere."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 18,
+        "text": "În funcție de modalitatea de „distribuire” a serviciilor, distingem:",
+        "options": [
+          "Servicii periodice, servicii ocazionale;",
+          "Servicii marfă, servicii non-marfă;",
+          "Servicii de producție, servicii de consum",
+          "Servicii standardizate, servicii individualizate;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "text": "Obiectivele generale ale întreprinderii de servicii se referă la:",
+        "options": [
+          "scopul (misiunea) întreprinderii și corespund unei perioade lungi de timp",
+          "diferitele funcțiuni ale întreprinderii (producție, comercială, resurse umane, financiar contabilă și cercetare-dezvoltare).",
+          "diferite compartimente sau subdiviziuni organizatorice ale întreprinderii",
+          "obiectivele pe termen foarte scurt, sub un an"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 20,
+        "text": "Obiectivele specifice ale întreprinderii de servicii se referă la:",
+        "options": [
+          "scopul (misiunea) întreprinderii și corespund unei perioade lungi de timp",
+          "diferitele funcțiuni ale întreprinderii (producție, comercială, resurse umane, financiar contabilă și cercetare-dezvoltare).",
+          "diferite compartimente sau subdiviziuni organizatorice ale întreprinderii",
+          "obiectivele pe termen foarte scurt, sub un an"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 21,
+        "text": "Condiția de bază a funcționării oricărei întreprinderi – indiferent de profil, dimensiune, formă de proprietate – o constituie:",
+        "options": [
+          "Obiectul de activitate",
+          "Asigurarea cu resurse",
+          "Managementul",
+          "profitul"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 22,
+        "text": "Care din urmatoarele elemente NU reprezintă o trăsătură a întreprinderii de servicii privite ca un sistem?",
+        "options": [
+          "Sistem profitabil",
+          "Sistem social",
+          "Sistem tehnico-productiv",
+          "Sistem economic"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 23,
+        "text": "Ansamblul activităților menite să concure la realizarea obiectivelor din domeniul stabilirii legăturilor întreprinderii cu mediul ambiant, în vederea identificării consumatorilor și utilizatorilor produselor și serviciilor oferite de întreprindere, pe de o parte, și asigurarea resurselor materiale necesare fabricării produselor sau prestării serviciilor, pe de altă parte, reprezintă",
+        "options": [
+          "Funcțiunea comercială",
+          "Funcțiunea de cercetare dezvoltare",
+          "Funcțiunea de producție",
+          "Funcțiunea de resurse umane"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 24,
+        "text": "Ansamblul activităților care se desfășoară în cadrul întreprinderii în vederea realizării obiectivelor din domeniul producerii de noi idei și transformării lor în acțiuni utile dezvoltării în viitor a întreprinderii, reprezintă:",
+        "options": [
+          "Funcțiunea comercială",
+          "Funcțiunea de cercetare dezvoltare",
+          "Funcțiunea de producție",
+          "Funcțiunea de resurse umane"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 25,
+        "text": "Care din urmatoarele elemente reprezintă o componenta a micromediului:",
+        "options": [
+          "Factorii politici",
+          "Factorii legislativi",
+          "Furnizorii de mărfuri",
+          "Factorii demografici"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 26,
+        "text": "Care din urmatoarele elemente reprezintă o componenta a macromediului?",
+        "options": [
+          "Mediul juridic",
+          "Gospodăriile familiale",
+          "Intermediarii",
+          "Clienții"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 27,
+        "text": "Faptul ca managementul serviciilor valorifica experienta reprezintă o caracteristica a mangementului ca",
+        "options": [
+          "Arta",
+          "Stiinta",
+          "Practica",
+          "Domeniu de studiu"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 28,
+        "text": "Faptul ca managementul serviciilor orienteaza gandirea si actiunea spre adaptare si creativitate reprezintă o caracteristica a mangementului ca",
+        "options": [
+          "Arta",
+          "Stiinta",
+          "Practica",
+          "Domeniu de studiu"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 29,
+        "text": "Armonizarea și sincronizarea acțiunilor individuale și colective din cadrul întreprinderii de servicii și orientarea acestora spre îndeplinirea obiectivelor, în condiții de profitabilitate maximă reprezintă:",
+        "options": [
+          "Functia de previziune",
+          "Functia de organizare",
+          "Functia de coordonare",
+          "Functia de control-evaluare"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 30,
+        "text": "Stabilirea resurselor necesare si elaborarea instructiunilor pentru realizarea sarcinilor este un element al:",
+        "options": [
+          "Functiei de previziune",
+          "Functiei de organizare",
+          "Functiei de coordonare",
+          "Functiei de antrenare"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 31,
+        "text": "Ratiunea principala pentru care clientul se adreseaza firmei reprezintă:",
+        "options": [
+          "Serviciul de baza",
+          "Serviciul periferic",
+          "Serviciul complementar",
+          "Serviciul alternativ"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 32,
+        "text": "Valoarea serviciilor legate de achiziţionarea de licenţe sau know-how, plata făcându-se sub forma unei cote procentuale din cifra de afaceri obţinută cu licenţa achiziţionat reprezintă:",
+        "options": [
+          "Tariful serviciului;",
+          "Costul serviciului;",
+          "Pretul serviciului;",
+          "Redeventa"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 33,
+        "text": "Capacitatea funcţională sau organizatorică a furnizilor de servicii de a satisface cerinţele pieţei reprezintă",
+        "options": [
+          "Oferta de servicii",
+          "Cererea de servicii",
+          "Valoarea adaugata din servicii",
+          "Cererea de servicii pentru organizatii"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 34,
+        "text": "Nevoia solvabilă de servicii care se manifestă pe piaţă reprezintă:",
+        "options": [
+          "Oferta de servicii",
+          "Cererea de servicii",
+          "Valoarea adaugata din servicii",
+          "Oferta de servicii pentru organizatii"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 35,
+        "text": "Care din urmatoarele elemente NU reprezintă o trasatura a cererii pentru servicii pentru populatie",
+        "options": [
+          "Cererea de servicii pentru populatie trebuie cunoscută în condiţii de probabilitate, risc şi incertitudine",
+          "Cererea de servicii pentru populatie este extrem de diversă şi variabilă în timp şi spaţiu",
+          "Cererea de servicii pentru populatie prezintă o elasticitate ridicată în funcţie de venit şi de tarife",
+          "Cererea de servicii pentru populatie nu este influentata de aspecte psiho-emotionale, fiind bazata pe ratiuni stiintifice"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 36,
+        "text": "Care din urmatoarele elemente NU reprezintă o particularitate a organizarii:",
+        "options": [
+          "este procesul unei folosiri metodice a tuturor resurselor unei organizații de servicii în cadrul subsistemului de management;",
+          "pune accentul pe îndeplinirea obiectivelor;",
+          "nu asigura delegarea rationala a responsabilitatilor",
+          "Definește legăturile dintre elementele structurii organizagorice, dar și între întreprindere și mediul ambiant;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 37,
+        "text": "Care din urmatoarele NU reprezintă un principiu al organizarii",
+        "options": [
+          "Economia de resurse umane",
+          "Economia de legaturi",
+          "Economia financiara",
+          "Flexibilitatea in organizare"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 38,
+        "text": "Stabilirea principalelor procese necesare realizării ansamblului de obiective ale unei organizații/întreprinderii de servicii reprezintă",
+        "options": [
+          "Organizarea procesuala",
+          "Organizarea structurala",
+          "Organizarea geografica",
+          "Organizarea pe produs"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 39,
+        "text": "Elaborarea structurii organizatorice, ca ansamblu al persoanelor, subdiviziunilor organizatorice şi a relaţiilor care se stabilesc între acestea în vederea realizării obiectivelor organizației/firmei de servicii reprezintă",
+        "options": [
+          "Organizarea procesuala",
+          "Organizarea structurala",
+          "Organizarea geografica",
+          "Organziarea pe produs"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 40,
+        "text": "Ansamblul activităţilor omogene şi/sau complementare desfăşurate de un grup de persoane specializate, în scopul realizării obiectivelor derivate din procese de muncă caracteristice misiunii organizației/firmei reprezintă",
+        "options": [
+          "Funcțiunea",
+          "Activitatea",
+          "Atributia",
+          "Sarcina"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 41,
+        "text": "Ansamblul atribuţiilor omogene pe care le îndeplineşte un grup de persoane specializate într-un domeniu mai restrâns, cu scopul îndeplinirii obiectivelor",
+        "options": [
+          "Funcțiunea",
+          "Activitatea",
+          "Atributia",
+          "Sarcina"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 42,
+        "text": "Ansamblul sarcinilor executate periodic de un grup de persoane care au cunoştinţe specifice unui domeniu restrâns şi care contribuie la realizarea unui obiectiv specific",
+        "options": [
+          "Funcțiunea",
+          "Activitatea",
+          "Atributia",
+          "Sarcina"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 43,
+        "text": "Componenta de bază a unui proces de muncă simplu sau complex, desfăşurat pentru realizarea unui obiectiv individual",
+        "options": [
+          "Funcțiunea",
+          "Activitatea",
+          "Atributia",
+          "Sarcina"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 44,
+        "text": "Comerțul este considerat un sector de servicii:",
+        "options": [
+          "Cu creștere lentă",
+          "Cu creștere moderată",
+          "Cu creștere explozivă",
+          "Fără creștere"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 45,
+        "text": "Serviciile de sănătate sunt considerate un sector de servicii",
+        "options": [
+          "Cu creștere lentă",
+          "Cu creștere moderată",
+          "Cu creștere explozivă",
+          "Fără creștere"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 46,
+        "text": "Serviciile de telecomunicații sunt sector de servicii",
+        "options": [
+          "Cu creștere lentă",
+          "Cu creștere moderată",
+          "Cu creștere explozivă",
+          "Fără creștere"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 47,
+        "text": "Creaţia materială sau spirituală care rezultă din efortul fizic şi intelectual al lucratorului din servicii reprezintă",
+        "options": [
+          "Sensul fiziologic al muncii",
+          "Sensul economic al muncii",
+          "Sensul psihologic al muncii",
+          "Sensul sociologic al muncii"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 48,
+        "text": "Serviciul de tehnică dentară reprezintă:",
+        "options": [
+          "Un serviciu pe bază de personal nespecializat",
+          "Un serviciu pe bază de personal specializat",
+          "Un serviciu pe bază de personal calificat",
+          "Un serviciu pe bază de echipament realizat cu personal puțin calificat"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 49,
+        "text": "Serviciul de curățenie reprezintă",
+        "options": [
+          "Un serviciu pe bază de personal nespecializat",
+          "Un serviciu pe bază de personal specializat",
+          "Un serviciu pe bază de echipament automatizat",
+          "Un serviciu pe bază de echipament realizat cu personal puțin calificat"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 50,
+        "text": "Serviciul de arhitectură",
+        "options": [
+          "Un serviciu pe bază de personal nespecializat",
+          "Un serviciu pe bază de personal specializat",
+          "Un serviciu pe bază de personal calificat",
+          "Un serviciu pe bază de echipament realizat cu personal puțin calificat"
+        ],
+        "answerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "examen-licenta-managementul-aprovizionarii",
+    "title": "Managementul Aprovizionării",
+    "subject": "Managementul Aprovizionării",
+    "source": "Grile examen_c7f65d8b2ce11674ccafa0a2c28c7f0e.pdf",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Creșterea vitezei de rotație a capitalului circulant este determinată de:",
+        "options": [
+          "creșterea nivelului stocurilor de producție;",
+          "creșterea normelor de consum;",
+          "reducerea numărului de rotații;",
+          "reducerea consumului mediu zilnic;",
+          "creșterea cifrei de afaceri."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 2,
+        "text": "Factorii cu influenţă indirectă asupra stocurilor de producţie sunt:",
+        "options": [
+          "condiţiile naturale de climă;",
+          "normele de consum;",
+          "periodicitatea fabricaţiei;",
+          "capacitatea de depozitare;",
+          "proprietăţile fizico-chimice."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 3,
+        "text": "Parametrii de timp care intervin în procesul de stocare sunt:",
+        "options": [
+          "durata de condiţionare;",
+          "durata de comandă-aprovizionare;",
+          "durata de transport intern;",
+          "lotul de livrare;",
+          "perioada de iarnă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "text": "Intervalul între două reaprovizionări succesive de la furnizor trebuie să fie:",
+        "options": [
+          "egal cu durata perioadei de gestiune;",
+          "mai mare decât intervalul de reluare a producției;",
+          "mai mic decât intervalul de reluare a producţiei;",
+          "mai mare decât durata perioadei de gestiune;",
+          "egal cu durata perioadei de condiționare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 5,
+        "text": "Consumul mediu zilnic se stabileşte raportând:",
+        "options": [
+          "necesarul de aprovizionat la numărul de zile calendaristice ale perioadei de gestiune;",
+          "necesarul total la numărul de zile calendaristice;",
+          "necesarul de consum la numărul de zile calendaristice;",
+          "volumul producţiei la producţie medie zilnică;",
+          "volumul producţiei la numărul de zile calendaristice."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 6,
+        "text": "Intervalul mediu dintre două aprovizionări succesive reprezintă expresia în zile a:",
+        "options": [
+          "stocului de iarnă;",
+          "stocului de siguranţă;",
+          "stocului curent;",
+          "stocului pentru transportul intern;",
+          "stocului total pentru producţie."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 7,
+        "text": "Frecvenţa livrărilor se stabileşte în funcţie de:",
+        "options": [
+          "cifra de afaceri;",
+          "productivitatea muncii;",
+          "natura resurselor materiale;",
+          "costul de producţie;",
+          "rentabilitatea firmei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 8,
+        "text": "Periodicitatea fabricaţiei la producători condiţionează:",
+        "options": [
+          "gradul de utilizare a resurselor materiale;",
+          "mărimea stocului de condiţionare;",
+          "cifra de afaceri;",
+          "intervalul minim de aprovizionare;",
+          "stocul preliminat la începutul perioadei de gestiune."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 9,
+        "text": "Formarea stocurilor de iarnă este impusă de factorii:",
+        "options": [
+          "proprietăţile fizico-chimice ale resurselor materiale;",
+          "cantitatea minimă de livrare;",
+          "condiţiile naturale de climă;",
+          "capacitatea mijloacelor de transport;",
+          "capacitatea de producţie."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 10,
+        "text": "Cantitatea minimă care poate fi comandată are ca efecte:",
+        "options": [
+          "defavorizarea solicitanţilor de cantităţi mici;",
+          "creşterea numărului clienţilor;",
+          "reducerea importurilor de resurse materiale;",
+          "creşterea cifrei de afaceri;",
+          "creşterea profitului."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 11,
+        "text": "Capacitatea de transport a mijloacelor folosite condiţionează mărimea stocurilor în cazul resurselor materiale:",
+        "options": [
+          "aduse din import;",
+          "deficitare;",
+          "cu mişcare lentă;",
+          "fără mişcare;",
+          "disponibile."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 12,
+        "text": "Proprietăţile fizico-chimice ale resurselor materiale influenţează procesului de stocare astfel:",
+        "options": [
+          "limitează structura resurselor materiale din stoc;",
+          "limitează durata de stocare în timp;",
+          "limitează capacitatea de depozitare;",
+          "sporeşte volumul stocurilor de resurse materiale disponibile;",
+          "limitează utilizarea raţională a capacităţii de depozitare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 13,
+        "text": "Capacitatea de depozitare disponibilă limitează:",
+        "options": [
+          "volumul programat al producţiei;",
+          "necesarul total de resurse materiale;",
+          "cantitatea de materiale ce poate fi depozitată la un moment dat;",
+          "necesarul de aprovizionat;",
+          "capacitatea de producţie a firmei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 14,
+        "text": "Formarea stocurilor pentru transportul intern este impusă de:",
+        "options": [
+          "dispersia teritorială a subunităţilor de producţie;",
+          "capacitatea mijloacelor de transport folosite;",
+          "capacitatea de producţie;",
+          "periodicitatea producţiei la furnizor;",
+          "proprietăţile fizico-chimice ale materialelor."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 15,
+        "text": "Stocul de siguranţă are rolul de a:",
+        "options": [
+          "asigura consumul pe termen de livrare;",
+          "asigura consumul între două aprovizionări succesive;",
+          "preîntâmpina întreruperea alimentării cu resurse materiale a procesului de producţie;",
+          "asigura folosirea raţională a resurselor materiale;",
+          "creşte gradul de utilizare productivă a materialelor."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 16,
+        "text": "Stocul de condiţionare se constituie pentru:",
+        "options": [
+          "aprovizionarea consumului în intervalul dintre două aprovizionări succesive;",
+          "asigurarea consumului pe perioada de iarnă;",
+          "evitarea neîntreruperii aprovizionării;",
+          "pregătirea prealabilă a resurselor în vederea consumului;",
+          "alimentarea subunităţilor de producţie dispersate teritorial."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 17,
+        "text": "Potrivit metodei statistice mărimea stocului curent se stabileşte utilizând relaţiile:",
+        "options": [
+          "Scr = Npl / Cmz;",
+          "Scr = Σ Iefi / Cmz;",
+          "Scr = Na / Σ Iefi;",
+          "Scr = (Cmz · Ī) / Na;",
+          "Scr = Cmz · Ī."
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 18,
+        "text": "Potrivit metodei devierii medii mărimea stocului de siguranţă se determină utilizând relaţiile:",
+        "options": [
+          "Sg = (Σᵢ₌₁ⁿ dᵢqᵢ) / (Σᵢ₌₁ⁿ qᵢ);",
+          "Sg = Σ Iefi / ni;",
+          "Sg = Cmz · d̄;",
+          "Sg = Cmz · Ī;",
+          "S'g = Cmz · ni."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 19,
+        "text": "Elementul funcţional ce caracterizează un proces de stocare este:",
+        "options": [
+          "volumul producţiei;",
+          "cifra de afaceri;",
+          "consumul mediu zilnic;",
+          "lotul de livrare;",
+          "normele de consum."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 20,
+        "text": "Costurile de stocare cuprind:",
+        "options": [
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "cheltuielile de transport al lotului de materiale;",
+          "dobânzile bancare pentru creditarea cumpărării şi stocării materialelor;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori;",
+          "costurile aferente lipsei de materiale în stoc."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 21,
+        "text": "Costul cumpărării reprezintă:",
+        "options": [
+          "cheltuielile de transport al lotului de materiale;",
+          "cheltuielile cu deplasarea delegaţilor la furnizori;",
+          "cheltuielile ocazionate de lansarea comenzii;",
+          "costurile aferente lipsei de materiale în stoc;",
+          "valoarea cantităţii de resurse achiziţionate."
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 22,
+        "text": "Echilibrul între necesităţi şi resurse este asigurat de relaţia:",
+        "options": [
+          "Nₐ + Nₚₗ = Sₚî + Sₛf + Aᵣᵢ;",
+          "Nₐ + Sₛf = Nₚₗ + Sₚî + Aᵣᵢ;",
+          "Nₚₗ + Sₛf = Nₐ + Sₚî + Aᵣᵢ;",
+          "Nₚₗ + Aᵣᵢ = Nₐ + Sₛf + Sₚî;",
+          "Nₚₗ + Aᵣᵢ + Sₚî = Nₐ + Sₛf."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 23,
+        "text": "Necesarul de aprovizionat se stabileşte potrivit relaţiei:",
+        "options": [
+          "Nₐ = Nₚₗ + Sₛf + Sₚî + Aᵣᵢ;",
+          "Nₐ = Nₚₗ + Sₛf - Sₚî + Aᵣᵢ;",
+          "Nₐ = Nₚₗ + Sₛf - Sₚî - Aᵣᵢ;",
+          "Nₐ = Nₜₚ₁ + Sₛf - Aᵣᵢ;",
+          "Nₐ = Nₚₗ - Sₛf - Aᵣᵢ."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 24,
+        "text": "Stocul de resurse materiale de la sfârşitul perioadei de gestiune asigură:",
+        "options": [
+          "stabilirea limitei maxime de consum de resurse materiale;",
+          "creşterea gradului de utilizare a capacităţii de producţie;",
+          "creşterea gradului de utilizare a forţei de muncă;",
+          "desfăşurarea normală a procesului de producţie;",
+          "creşterea gradului de utilizare a resurselor materiale."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 25,
+        "text": "Stocul preliminat de la începutul perioadei de gestiune asigură:",
+        "options": [
+          "stabilirea necesarului total de resurse materiale;",
+          "identificarea căilor de reducere a consumurilor de materiale;",
+          "calculul stocului de la sfârşitul perioadei de gestiune;",
+          "calculul consumului mediu zilnic;",
+          "stabilirea necesarului de aprovizionat."
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 26,
+        "text": "Corecţia necesarului de aprovizionat se realizează în situaţia:",
+        "options": [
+          "Sₚî = Sₛf",
+          "Sₚî = Sᵣ",
+          "Sₚî > Sᵣ",
+          "Sₚî > Sₛf",
+          "Sₚî < Sₛf"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 27,
+        "text": "Indicatorul care exprimă sursele de acoperire a necesităţilor de consum este:",
+        "options": [
+          "cererea totală de resurse materiale;",
+          "comenzile în curs de sosire;",
+          "stocul la sfârşitul perioadei de gestiune;",
+          "stocul total de producţie;",
+          "stocul preliminat de la începutul perioadei de gestiune."
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 28,
+        "text": "Indicatorul care exprimă necesităţile de resurse materiale este:",
+        "options": [
+          "necesarul de aprovizionat;",
+          "alte resurse interne;",
+          "stocul la sfârşitul perioadei de gestiune;",
+          "stocul total de producţie;",
+          "stocul preliminat de la începutul perioadei de gestiune."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 29,
+        "text": "În cazul în care stocul preliminat de resurse materiale este mai mare decât stocul identificat în urma inventarierii la începutul perioadei de gestiune se va proceda la:",
+        "options": [
+          "corectarea necesarului de aprovizionat în sensul reducerii acestuia;",
+          "corectarea necesarului de aprovizionat în sensul majorării acestuia;",
+          "renunţarea la cantitatea de resurse ce depăşeşte necesităţile;",
+          "valorificarea disponibilului de resurse;",
+          "emiterea de oferte suplimentare de produse."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 30,
+        "text": "Pentru metoda coeficienţilor dinamici se utilizează relaţia:",
+        "options": [
+          "Nₚₗ = Qₚₗ(K₁ + K₂);",
+          "Nₚₗ = Qₚₗ(K₁ - K₂);",
+          "Nₚₗ = Qₚₗ · K₁ · K₂;",
+          "Nₚₗ = C · K₁ · K₂;",
+          "Nₚₗ = C · K₁(1 - K₂)."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 31,
+        "text": "Necesarul de aprovizionat stă la baza determinării:",
+        "options": [
+          "stocului de producție;",
+          "stocului curent;",
+          "lotului de livrare;",
+          "cifrei de afaceri;",
+          "costului de producție."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 32,
+        "text": "Când stocul preliminat de resurse materiale este mai mic decât stocul identificat în urma inventarierii, se va proceda la:",
+        "options": [
+          "corectarea necesarului de aprovizionat în sensul reducerii acestuia;",
+          "corectarea necesarului de aprovizionat în sensul majorării acestuia;",
+          "emiterea de oferte suplimentare de produse;",
+          "achiziționarea de cantități suplimentare;",
+          "necesarul de aprovizionat rămâne nemodificat."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 33,
+        "text": "Momentul calendaristic de declanşare a acţiunii de aprovizionare se stabilește în funcție de:",
+        "options": [
+          "durata de comandă-aprovizionare;",
+          "intervalul de timp între două aprovizionării succesive;",
+          "Stocul de producție valoric;",
+          "stocul de producție în zile;",
+          "Perioada de gestiune luată în calcul."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 34,
+        "text": "Stocul la sfârșitul perioadei de gestiune exprimă:",
+        "options": [
+          "produsele existente în stoc;",
+          "necesitățile de resurse materiale;",
+          "sursele de acoperire a necesităților;",
+          "lipsa produselor în stoc;",
+          "mărimea lotului de livrare."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 35,
+        "text": "În cadrul perioadei de gestiune, desfășurarea normală a procesului de producție este asigurată de:",
+        "options": [
+          "stocul curent;",
+          "stocul de producție;",
+          "stocul la sfârșitul perioadei de gestiune;",
+          "stocul preliminat la începutul perioadei de gestiune;",
+          "stocul de siguranță."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 36,
+        "text": "Relația de calcul a stocului preliminat de resurse materiale este următoarea:",
+        "options": [
+          "Sₚî = Sₑ + I + C;",
+          "Sₚî = Sₑ - I - C;",
+          "Sₚî = Sₑ + I - C;",
+          "Sₚî = Sₑ · I - C;",
+          "Sₚî = Sₑ - C(1 - I)."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 37,
+        "text": "Potrivit metodei de calcul direct, necesarul planificat se determină cu relația:",
+        "options": [
+          "Nₚₗ = C · K₁ · K₂;",
+          "Nₚₗ = Nc · Qₚₗ;",
+          "Nₚₗ = Nc + Qₚₗ;",
+          "Nₚₗ = Qₚₗ · K₁ · K₂;",
+          "Nₚₗ = Qₚₗ(K₁ + K₂)."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 38,
+        "text": "Corelația dintre stocul de producție și viteza de rotaţie a capitalului circulant este evidențiată de relația:",
+        "options": [
+          "Vrz = Nₚₗᵥ / (Sₚᵥ · 360);",
+          "Vrz = (Nₚₗᵥ · 360) / Sₚᵥ;",
+          "Vrz = 360 / (Nₚₗᵥ · Sₚᵥ);",
+          "Vrz = (Sₚᵥ · 360) / Nₚₗᵥ;",
+          "Vrz = (Nₚₗᵥ / Sₚᵥ) · 360."
+        ],
+        "answerIndex": 3
+      }
+    ]
   }
 ];
