@@ -7926,5 +7926,1167 @@ window.QUIZ_PACKS = [
         "answerIndex": 3
       }
     ]
+  },
+  {
+    "id": "examen-licenta-creditarea-intreprinderii",
+    "title": "Creditarea Întreprinderii",
+    "subject": "Creditarea Întreprinderii",
+    "source": "Cerințe minimale - Creditarea Întreprinderii - ID_aafb0feaf7a3cdbf1fa9c596dd66869d.pdf",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Ansamblul coerent al diverselor categorii de bănci cu capital autohton sau străin, de stat sau privat, precum și combinații ale acestora, ce își desfășoară activitatea pe teritoriul unei bănci desemnează:",
+        "options": [
+          "sistemul financiar",
+          "sistemul monetar",
+          "sistemul bancar",
+          "sistemul de plăți"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 2,
+        "text": "Instituțiile bancare care realizează majoritatea operațiunilor bancare utilizând o gamă diversificată de produse și servicii bancare, respectiv, atragerea de depozite, gestiunea mijloacelor de plată, acordarea de credite pe termen scurt, etc., poartă denumirea de:",
+        "options": [
+          "bănci de afaceri",
+          "bănci comerciale",
+          "bănci cooperatiste",
+          "bănci străine"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 3,
+        "text": "O instituție de credit este o entitate a cărei activitate constă în:",
+        "options": [
+          "atragerea de depozite sau alte fonduri rambursabile de la public",
+          "atragerea de fonduri nerambursabile",
+          "acordarea de credite în cont propriu",
+          "acordarea de credite în numele clienților"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Sucursala:",
+        "options": [
+          "asigură coordonarea activității instituției de credit în ansamblul său, prin aplicarea corectă a legilor, hotărârilor şi a tuturor actelor normative ce guvernează activitatea acesteia",
+          "este o unitate operațională fără personalitate juridică, înființată la inițiativa unei instituții de credit, care realizează toate sau unele din activitățile pentru care instituția de credit a primit autorizație grupate în operațiuni de mandat sau de comision",
+          "se înființează la inițiativa instituției de credit derulând operațiuni fie de mandat fie de comision sau, în anumite situații, ambele categorii de operațiuni",
+          "niciun răspuns nu este corect"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 5,
+        "text": "Printre factorii care influențează comportamentul clientului (în calitate de cumpărător) în relațiile cu banca se numără:",
+        "options": [
+          "calitatea serviciilor",
+          "valoarea percepută a serviciilor",
+          "ușurința reperării băncii",
+          "toate răspunsurile sunt corecte"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 6,
+        "text": "Ansamblul de instrumente, proceduri bancare și sisteme de fonduri cu scopul facilitării circulației monetare poartă denumirea de:",
+        "options": [
+          "sistem bancar",
+          "sistem financiar",
+          "sistem de plăți",
+          "sistem monetar"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 7,
+        "text": "Documentele (pe suport hârtie sau suport electronic) prin intermediul cărora se sting datoriile între două contrapartide (una care plătește și cealaltă care este beneficiarul banilor), reprezintă:",
+        "options": [
+          "instrumentele de transfer",
+          "instrumentele de plată",
+          "instrumentele financiare",
+          "instrumentele bancare"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "text": "Viramentul reprezintă o modalitate de plată care constă:",
+        "options": [
+          "în depunerea de numerar într-un cont",
+          "într-o simplă operaţiune scriptică de mişcare a sumelor dintr-un cont în alt cont",
+          "în transferul de sume dintr-un cont în altul",
+          "retragerea de numerar dintr-un cont"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Dispoziția necondiționată, dată de către emitentul acestuia unei societăți bancare receptoare de a pune la dispoziția unui beneficiar o sumă de bani la o anumită dată poartă denumirea de:",
+        "options": [
+          "cec",
+          "cambie",
+          "ordin de plată",
+          "bilet la ordin"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 10,
+        "text": "Printre caracteristicile ordinului de plată se numără:",
+        "options": [
+          "ordinul de plată nu este revocabil",
+          "depozitul bancar este absolut necesar",
+          "relația de plată nu este declanșată neapărat ca urmare a unei obligații asumate sau a unei datorii preexistente",
+          "operaţiunea este pornită la iniţierea plătitorului"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Instrumentul de plată care constă într-un ordin scris dat de un client băncii sale, prin care cere acesteia să plătească o anumită sumă de bani fie lui, fie unei persoane specificată de client, poartă denumirea de:",
+        "options": [
+          "cec",
+          "cambie",
+          "ordin de plată",
+          "bilet la ordin"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 12,
+        "text": "Persoanele puse în legătură de cec sunt:",
+        "options": [
+          "emitentul și beneficiarul",
+          "subscriitorul și beneficiarul",
+          "trăgătorul și beneficiarul",
+          "trăgătorul, trasul și beneficiarul"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 13,
+        "text": "Cecul care se plătește numai persoanei menționate pe acesta, cu sau fără clauza „la ordin”, poartă denumirea de:",
+        "options": [
+          "cec certificat",
+          "cec barat",
+          "cec nominativ",
+          "cec la purtător"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 14,
+        "text": "Cecul în cazul căruia emitentul nu mai poate retrage din contul său suma înscrisă pe acesta până la expirarea perioadei de prezentare, poartă denumirea de:",
+        "options": [
+          "cec certificat",
+          "cec barat",
+          "cec nominativ",
+          "cec la purtător"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 15,
+        "text": "Instrumentul de plată ce exprimă obligația asumată de un debitor de a plăti la vedere sau la scadență o sumă de bani în favoarea unui beneficiar, poartă denumirea de:",
+        "options": [
+          "cec",
+          "cambie",
+          "ordin de plată",
+          "bilet la ordin"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 16,
+        "text": "Scontarea cambiei:",
+        "options": [
+          "presupune acordul necondiționat al trasului de a plăti la scadență suma înscrisă pe cambie, trebuie scrisă, fie pe față, fie pe verso și trebuie să poarte semnătura trasului",
+          "transferarea către o altă persoană, printr-o declarație scrisă și subscrisă, a tuturor drepturilor care decurg din titlul astfel redactat și completat",
+          "presupune vânzarea unei cambii către o bancă în scopul obținerii de lichidități înainte de scadența acesteia",
+          "reprezintă acțiunea întreprinsă de posesorul unei cambii în cazul refuzului trasului de a accepta plata în ziua scadenței"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 17,
+        "text": "Avalul:",
+        "options": [
+          "este un angajament asumat de către o persoană, alta decât trăgătorul, trasul sau giranții, de a garanta plata cambiei",
+          "transferarea către o altă persoană, printr-o declarație scrisă și subscrisă, a tuturor drepturilor care decurg din titlul astfel redactat și completat",
+          "presupune vânzarea unei cambii către o bancă în scopul obținerii de lichidități înainte de scadența acesteia",
+          "reprezintă acțiunea întreprinsă de posesorul unei cambii în cazul refuzului trasului de a accepta plata în ziua scadenței"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 18,
+        "text": "Biletul la ordin pune în legătură următoarele persoane:",
+        "options": [
+          "emitentul și beneficiarul",
+          "subscriitorul, trasul și beneficiarul",
+          "trăgătorul și beneficiarul",
+          "trăgătorul, trasul și beneficiarul"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "text": "Creditul reprezintă:",
+        "options": [
+          "orice angajament de plată a unei sume de bani în schimbul dreptului la rambursare a sumei plătite, precum și la plata unor dobânzi sau a altor cheltuieli legate de această sumă",
+          "remunerarea băncii pentru riscul asumat",
+          "orice prelungire a scadenței unei datorii și orice angajament de achiziționare a unui titlu care încorporează o creanță sau a altui drept la plata unei sume de bani",
+          "operațiunea prin care banca garantează, la cererea clientului, că va onora obligațiile de plată ale acestuia către un terț, în urma unei solicitări de plată ale terțului, în anumite condiții"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Clientul băncii reprezintă:",
+        "options": [
+          "un grup de persoane fizice sau juridice care acționează împreună",
+          "orice persoană sau grup de persoane fizice sau juridice față de care o instituție de credit are o expunere și care sunt legate economic între ele",
+          "orice agent economic cu care instituția de credit a negociat o tranzacție și orice persoană care beneficiază de serviciile oferite de aceasta",
+          "un client care beneficiază de un credit din partea băncii"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 21,
+        "text": "Prețul creditului reprezintă:",
+        "options": [
+          "orice angajament de plată a unei sume de bani în schimbul dreptului la rambursare a sumei plătite, precum și la plata unor dobânzi sau a altor cheltuieli legate de această sumă",
+          "remunerarea băncii pentru riscul asumat și se stabilește de către fiecare instituție de credit, prin negociere cu clientul",
+          "orice prelungire a scadenței unei datorii și orice angajament de achiziționare a unui titlu care încorporează o creanță sau a altui drept la plata unei sume de bani",
+          "operațiunea prin care banca garantează, la cererea clientului, că va onora obligațiile de plată ale acestuia către un terț, în urma unei solicitări de plată ale terțului, în anumite condiții"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 22,
+        "text": "Creditele pe termen scurt reflectă operațiunile de împrumut a unor sume de bani pe o perioadă care nu poate depăși:",
+        "options": [
+          "6 luni",
+          "12 luni",
+          "24 luni",
+          "40 luni"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 23,
+        "text": "Perioada de timp în care creditul se angajează cuprinde:",
+        "options": [
+          "intervalul de timp în care sumele împrumutate clienților trebuie restituite integral băncii",
+          "perioada de la o dată, stabilită prin contract, de punere a creditului la dispoziția împrumutatului și până la angajarea integrală a creditului",
+          "intervalul de timp în care beneficiarul de credite nu este obligat să restituie băncii sume din împrumuturile primite, împrumutatul achitând doar dobânzile datorate și comisioanele și taxele aferente",
+          "intervalul de timp dintre angajarea integrală a creditului și data primei rate scadente"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 24,
+        "text": "Perioada de întârziere cuprinde:",
+        "options": [
+          "intervalul de timp în care beneficiarul de credite nu este obligat să restituie băncii sume din împrumuturile primite, împrumutatul achitând doar dobânzile datorate și comisioanele și taxele aferente",
+          "intervalul de timp în care sumele împrumutate clienților trebuie restituite integral băncii",
+          "intervalul de timp de la scadența creditului până la recuperarea efectivă a acestuia, inclusiv prin executarea silită sau lichidarea judiciară a debitorului",
+          "intervalul de timp dintre angajarea integrală a creditului și data primei rate scadente"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 25,
+        "text": "Băncile au la dispoziție o serie de surse de informare, de la clienți putând obține următoarele informații:",
+        "options": [
+          "planuri de afaceri, studii de fezabilitate, rapoarte tehnice, financiare, comerciale etc., dacă este cazul",
+          "informaţii financiare provenite din situaţiile financiare încheiate sau din alte programe/planuri financiare",
+          "rulaje şi alte situaţii interne (ale conturilor bancare)",
+          "informații cu privire la eventualele întârzieri la plată"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Printre sursele exterioare, obligatoriu de consultat și care influențează semnificativ decizia de creditare se numără:",
+        "options": [
+          "site-ul Ministerului Finanţelor",
+          "Centrala Incidentelor de Plată",
+          "referinţe din partea furnizorilor, clienţilor, mijloacelor mass media",
+          "Centrala Riscurilor de Credit"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 27,
+        "text": "În vederea luării deciziei de creditare, băncile au la dispoziție o serie de surse de informare. Printre informațiile obținute din surse interne ale instituției de credit se numără:",
+        "options": [
+          "informații despre piață și concurență (poziția clientului pe piață)",
+          "organigrama firmei",
+          "cererea de deschidere a contului",
+          "informații juridice (dosarul juridic al clientului)"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 28,
+        "text": "Centrala Riscului de Credit este un centru de colectare de informații, unde se colectează date la care au acces instituțiile de credit și instituțiile financiare nebancare din România. Printre aceste date se numără:",
+        "options": [
+          "informații financiare provenite din situațiile financiare încheiate sau din alte programe/planuri financiare",
+          "informații de risc bancar, respectiv data despre creditele și angajamentele asumate de bănci față de client persoană fizică sau juridică",
+          "informații despre fraudele cu carduri, săvârșite de posesorii de carduri de credit și de debit",
+          "informații despre piață și concurență (poziția clientului pe piață)"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Printre documentele solicitate de bancă în vederea analizei activelor se numără:",
+        "options": [
+          "situația imobilizărilor corporale",
+          "situația creanțelor",
+          "situația contractelor de leasing",
+          "situația contractelor încheiate cu clienți"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Garanțiile reale sunt mijloace de garantare a obligațiunilor prin afectarea unui bun al debitorului în vederea asigurării execuției obligației asumate iar în categoria acestora intră:",
+        "options": [
+          "ipoteca",
+          "cesiunea drepturilor de încasare dintr-un contract comercial",
+          "avalul",
+          "asigurarea riscului de neplată a ratelor și/sau dobânzilor la o societate de asigurare agreată"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 31,
+        "text": "Garanțiile personale sunt mijloace juridice de garantare a obligațiilor prin care una sau mai multe persoane se angajează printr-un contract accesoriu încheiat cu creditorul să plătească datora debitorul în cazul în care acesta nu o va plăti, iar în categoria acestora intră:",
+        "options": [
+          "cesiunea drepturilor de încasare ce rezultă din depunerea unui acreditiv confirmat",
+          "cesiunea drepturilor de încasare dintr-un contract comercial",
+          "gajul",
+          "fidejusiunea"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 32,
+        "text": "Pentru a fi acceptate de către bancă, garanțiile trebuie să îndeplinească cumulativ o serie de condiții. Care din condițiile de mai jos nu se înscriu în condițiile solicitate de bancă?",
+        "options": [
+          "existența piețelor de desfacere sau de potențiali cumpărători pentru bunurile propuse drept garanție",
+          "bunurile să nu se afle în proprietatea solicitantului sau a girantului",
+          "bunurile propuse a fi luate în garanție trebuie să fie în stare bună de funcționare",
+          "bunurile propuse a fi luate în garanție trebuie să se încadreze în uzura maximă admisă de normele tehnice în vigoare privind evaluarea activelor fixe"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 33,
+        "text": "Dimensiunea cantitativă a analizei creditului:",
+        "options": [
+          "presupune determinarea scopului real al contractării împrumutului,",
+          "presupune colectarea și actualizarea tuturor informațiilor referitoare la responsabilitatea financiară a debitorului",
+          "vizează identificarea riscurilor cu care se poate confrunta debitorul",
+          "are la bază o serie de activități specifice de colectare, precum și interpretare a tuturor informațiilor referitoare la client, la care banca are acces"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 34,
+        "text": "Bonitatea reprezintă performanța financiară a agenților economici și se determină, pornind de la:",
+        "options": [
+          "bilanțul contabil și contul de profit și pierdere",
+          "ultimele trei situații financiare și ultima balanță de verificare",
+          "bilanțul contabil și balanța de verificare",
+          "contul de profit și pierdere și ultima balanță de verificare"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 35,
+        "text": "Lichiditatea reprezintă capacitatea unui agent economic de a face față datoriilor sale:",
+        "options": [
+          "pe termen scurt",
+          "pe termen mediu",
+          "pe termen lung",
+          "toate răspunsurile sunt corecte"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 36,
+        "text": "Agentul economic, pentru a desfășura o activitate cât mai normală, trebuie să se asigure ca durata medie de plată a furnizorilor să fie:",
+        "options": [
+          "mai mică decât durata de încasare a clienților",
+          "egală cu durata de încasare a clienților",
+          "mai mare decât durata de încasare a clienților",
+          "niciun răspuns nu este corect"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 37,
+        "text": "Analiza nefinanciară contribuie la evaluarea cât mai reală a riscului de creditare și presupune luarea în considerare a două categorii de factori nefinanciari: interni și externi. Printre factorii externi se numără:",
+        "options": [
+          "domeniul de activitate",
+          "conducerea activității (managementul)",
+          "activitatea clientului",
+          "dependența agentului economic de piețele de desfacere"
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 38,
+        "text": "„Categoria B” de performanță caracterizează performanța economico-financiară a agentului economic ca fiind:",
+        "options": [
+          "performanțele financiare sunt satisfăcătoare, dar au o evidentă tendință de înrăutățire",
+          "performanțele financiare arată pierderi și există perspective clare că nu pot fi plătite nici ratele, nici dobânzile",
+          "performanțele financiare sunt scăzute și cu o evidentă ciclitate, la intervale scurte de timp",
+          "performanțele financiare sunt bune sau foarte bune, dar nu pot menține acest nivel într-o perspectivă mai îndelungată"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 39,
+        "text": "Pentru a beneficia de credite, agenții economici trebuie să îndeplinească o serie de condiții, printre care:",
+        "options": [
+          "sa nu aibă datorii restante, mai vechi de 12 luni, la bugetul de stat",
+          "să nu aibă popriri pe conturile deschise la banca finanțatoare",
+          "să fie înregistrat la Registrul Insolvenței",
+          "să nu aibă întârzieri la plată"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 40,
+        "text": "Rambursarea creditelor pentru capital de lucru se face:",
+        "options": [
+          "la termenele și în sumele stabilite prin contractul de credit, din disponibilitățile existente în contul curent și din încasările zilnice",
+          "în tranșe egale lunare",
+          "exclusiv la sfârșitul perioadei de creditare",
+          "niciun răspuns nu este corect."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 41,
+        "text": "Principalele caracteristici ale liniei de credit sunt:",
+        "options": [
+          "se acordă pe o perioadă de 90 zile, 180 zile sau cel mult 12 luni",
+          "se acordă pe o perioadă de 90 zile cu posibilitatea de prelungire pe noi perioade de 90 zile, dar fără a se depăși 12 luni",
+          "se acordă pentru creditarea de ansamblu a activității curente de aprovizionare, producție, desfacere sau pentru finanțarea unor proiecte contract",
+          "se acordă pentru completarea surselor proprii, necesare acoperirii cheltuielilor prevăzute în proiectele de investiții"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 42,
+        "text": "Creditele acordate pentru finanțarea unor nevoi ale agenților economici cu activitate ciclică, pentru acoperirea stocurilor și cheltuielilor rezultate din primirea de la furnizori a unor materii prime şi materiale în avans faţă de termenele din contracte, întreruperea producţiei din motive justificate, lipsa mijloacelor de transport, etc., prin cont separat de împrumut, poartă denumirea de:",
+        "options": [
+          "credite pentru stocuri și cheltuieli sezoniere",
+          "credite pentru produse cu ciclu lung de fabricație",
+          "credite de factoring",
+          "credite pentru mărfuri vândute cu plata în rate"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 43,
+        "text": "Modalitatea de finanțare prin care o bancă cumpără cu sau fără regres creanțe materializate în efecte de comerț sau acreditive irevocabile cu plata la termen, cu condiția ca lucrările, serviciile sau marfa să fi fost executate sau livrate poartă denumirea de:",
+        "options": [
+          "factoring",
+          "scontare",
+          "aval",
+          "leasing"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 44,
+        "text": "Principalele caracteristici ale creditelor pentru investiții pe termen scurt (până la un an) sunt:",
+        "options": [
+          "este o modalitate de finanțare a nevoilor de trezorerie pe termen scurt ale agenților economici și care funcționează după sistemul revolving",
+          "se acordă pentru finanțarea a cel mult 85% din valoarea totală a investiției, diferența de cel puțin 15% reprezentând aportul propriu al agentului economic",
+          "se acordă pentru aprovizionări cu stocuri de materii prime și materiale, mărfuri, subansamble, piese de schimb, etc.",
+          "se acordă pentru acoperirea temporară a decalajului dintre resursele proprii şi cheltuielile pentru investiţii ale agenţilor economici"
+        ],
+        "answerIndexes": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": 45,
+        "text": "Scrisoarea de garanție bancară:",
+        "options": [
+          "este o garanție prin care un terț sau o bancă, în calitate de avalist, se obligă să plătească la scadență o parte sau toată suma menționată pe un titlu (cambie, bilet la ordin) în cazul în care suma nu este plătită de debitorul garantat",
+          "se acordă în baza contractelor de export, a acreditivelor de export irevocabile si confirmate, scrisori de garanție necondiționate sau efecte de comerț avalizate de o bancă",
+          "reprezintă angajamentul unei bănci de a plăti, în locul clientului, în cazul în care acesta nu o face direct, o anumită sumă de bani în lei sau în valută, la un anumit termen și în anumite condiții",
+          "reprezintă angajamentul unei bănci, în baza instrucțiunilor unui client al său, de a plăti o sumă unui beneficiar, contra prezentării de documente conforme, care să ateste prestația efectuată"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 46,
+        "text": "Creditele punte (bridge loan):",
+        "options": [
+          "este o garanție prin care un terț sau o bancă, în calitate de avalist, se obligă să plătească la scadență o parte sau toată suma menționată pe un titlu (cambie, bilet la ordin) în cazul în care suma nu este plătită de debitorul garantat",
+          "se acordă în baza contractelor de export, a acreditivelor de export irevocabile si confirmate, scrisori de garanție necondiționate sau efecte de comerț avalizate de o bancă",
+          "reprezintă o operațiune de finanțare pe termen scurt, sub forma unui credit pe termen scurt cu surse sigure de rambursare și care este utilizate pentru finanțări de proiecte, operațiuni de achiziții-fuziuni de valori importante, etc",
+          "reprezintă angajamentul unei bănci, în baza instrucțiunilor unui client al său, de a plăti o sumă unui beneficiar, contra prezentării de documente conforme, care să ateste prestația efectuată"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 47,
+        "text": "Leasingul financiar este o operațiune de leasing care îndeplinește una sau mai multe condiții, printre care:",
+        "options": [
+          "riscurile și beneficiile aferente dreptului de proprietate nu trec asupra utilizatorului din momentul încheierii contractului de leasing",
+          "părțile au prevăzut expres că, la expirarea contractului de leasing, se transferă utilizatorului, dreptul de proprietate asupra bunului",
+          "perioada de folosire a bunului în sistem de leasing acoperă cel puțin 70% din durata normală de utilizare a bunului, chiar dacă în final dreptul de proprietate nu este transferat",
+          "niciuna din condițiile enumerate"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 48,
+        "text": "Societatea Beta SRL, așa cum rezultă din indicatorii de bonitate și din evaluarea performanțelor economico-financiare și a serviciului datoriei, se încadrează în categoria B de performanță. Firma are un capital social de 197.250 lei, o cifră de afaceri de 605.473 lei și o durată medie de încasare a clienților de 16 zile. Să se stabilească dacă societatea Beta SRL poate să beneficieze de credite sub forma liniei de credit și să se determine, dacă este cazul, volumul liniei de credit pentru creditarea de ansamblu a activității curente pe o perioadă de 12 luni:",
+        "options": [
+          "societatea nu poate beneficia de credite sub forma liniei de credit",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 26.910 lei",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 53.820 lei",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 80.730 lei"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 49,
+        "text": "Pentru asigurarea resurselor necesare derulării în bune condiţii a procesului de producţie şi realizării obligaţiilor contractuale, societatea ABC SRL intenţionează să obţină de la banca sa o linie de credit pentru 12 luni. La sfârşitul anului 2023 firma a realizat următorii indicatori: - vânzări de mărfuri - 4.569.019 lei; - producţia vândută - 758.593 lei; - clienţi şi conturi asimilate la sfarsitul perioadei de raportare: 785.652 lei; - clienţi şi conturi asimilate la începutul perioadei de raportare: 534.507 lei. Ştiind că pentru creditele aprobate anterior ABC SRL a fost înregistrată în categoria de performanţă \"A\", cu un serviciu al datoriei \"Bun\", să se determine suma maximă ce poate fi primită sub forma liniei de credit.",
+        "options": [
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 5.327.612 lei",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 651.158 lei",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 1.623.945 lei",
+          "societatea poarte beneficia de credite sub forma liniei de credit, iar volumul liniei de credit poate fi de maximum 318.938 lei"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 50,
+        "text": "Societatea XYZ SRL deţine o cambie în valoare de 100 mii lei, emisă la data de 12 februarie, având scadenţa la 29 iunie 2023. În data de 31 mai 2023 firma prezintă titlul la banca la care îşi are deschis contul, în vederea scontării. Ştiind că taxa scontului este de 15%, să se stabilească suma totală de care a beneficiat clientul în urma scontării titlului.",
+        "options": [
+          "82.535,32 lei",
+          "85.000 lei",
+          "91.642,86 lei",
+          "98.791,67 lei"
+        ],
+        "answerIndex": 3
+      }
+    ]
+  },
+  {
+    "id": "examen-licenta-bazele-contabilitatii-nota-5",
+    "title": "Bazele contabilității - Nota 5",
+    "subject": "Bazele contabilității",
+    "source": "Grile Nota 5 Bazele contabilitatii pdffff.pdf",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Avansurile acordate personalului sunt:",
+        "options": [
+          "creanţe ale entităţii faţă de angajaţi pentru avansurile acordate în cursul lunii din drepturile salariale;",
+          "creanţe ale entităţii faţă de angajaţi pentru avansurile acordate in cursul lunii din ajutoarele materiale;",
+          "creanţe ale angajaţilor faţă de entitate pentru munca prestată si ajutoare materiale;"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Contabilitatea întreprinderii se aplică de către:",
+        "options": [
+          "entităţile care îşi acoperă cheltuielile din venituri proprii şi realizează profit, pe principul gestiunii economice;",
+          "toate entităţile care îşi acoperă cheltuielile din contribuţii obligatorii si facultative ale membrilor;",
+          "regiile autonome şi societăţile comerciale."
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Potrivit concepţiei juridice obiectul de studiu al contabilităţii este reprezentat de:",
+        "options": [
+          "drepturile şi obligaţiile unei persoane fizice sau juridice în corelaţie cu obiectele la care se referă;",
+          "bunurile economice deţinute de o persoană fizică sau juridică folosite pentru producţie si prestarea de servicii;",
+          "numai bunurile şi obligaţiile unei persoane fizice sau juridice."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 4,
+        "text": "Cheltuielile de constituire se referă la:",
+        "options": [
+          "cheltuielile privind achiziţionarea activelor imobilizate,circulante şi pasivelor entităţii;",
+          "cheltuielile privind înfiinţarea entităţilor economice, de natura taxelor de înscriere şi înmatriculare ş.a.;",
+          "taxele de inscriere si înmatriculare pentru mijloacele de transport ale entităţii."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 5,
+        "text": "Noţiunea de activ desemnează:",
+        "options": [
+          "provenienţa resurselor entităţii şi drepturile acesteia faţă de terţi;",
+          "utilizarea resurselor entităţii sau bunurile economice ca obiecte de drepturi de proprietate;",
+          "obligaţiile cu valoare economică generate de aprovizionarea cu bunuri;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 6,
+        "text": "În structura imobilizărilor financiare se regăsesc următoarele:",
+        "options": [
+          "împrumuturile acordate pe termen lung terţilor, pe bază de contract;",
+          "acţiunile achiziţionate de la terţi în vederea revânzării pentru obţinerea unui câştig pe termen scurt;",
+          "acţiunile achiziţionate de la terţi în scopul exercitării unui control sau unei influenţe notabile asupra acestora;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Reţinerea impozitului pe dividende se înregistrează prin formula contabilă:",
+        "options": [
+          "457 „Dividende de plată” = 447 „Fonduri speciale – taxe şi vărsăminte asimilate”;",
+          "457 „Dividende de plată” = 446 „Alte impozite, taxe şi vărsăminte asimilate”.",
+          "635 „Cheltuieli cu alte impozite, taxe şi vărsăminte asimilate” = 446 „Alte impozite, taxe şi vărsăminte asimilate”;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "text": "Capitalul social al entităţii este reprezentat de:",
+        "options": [
+          "sumele obţinute de entitate prin emisiunea si vanzarea de actiuni si obligaţiuni;",
+          "sumele împrumutate de la terţi ca aport in numerar si/sau in natura;",
+          "aportul în numerar şi/sau în natură subscris de către acţionari sau asociaţi atât la constituirea societăţii cât şi la majorarea acestuia;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 9,
+        "text": "Realizarea capitalului social vărsat ca urmare a depunerii aportului subscris anterior determină:",
+        "options": [
+          "creşterea bunului economic primit ca aport, creşterea capitalului social vărsat şi o modificare de structură în pasiv;",
+          "creşterea creanţelor entităţii, creşterea capitalului social vărsat şi o modificare de volum în sensul majorării;",
+          "scăderea capitalului social nevărsat, creşterea capitalului social vărsat şi o modificare de structură în pasiv;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 10,
+        "text": "Veniturile sunt definite prin:",
+        "options": [
+          "creşteri de active şi scăderi de datorii;",
+          "micsorarea capitalurilor proprii prin distribuiri catre proprietari;",
+          "majorarea capitalurilor proprii."
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Documentele contabile se delimitează pe următoarele categorii semnificative:",
+        "options": [
+          "documente justificative, registre contabile şi documente de sinteză şi raportare;",
+          "registre contabile, documente statistice si situatii financiare de raportare periodica;",
+          "documente operaţionale şi documente de evidenţă economica."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 12,
+        "text": "Denumirea contului:",
+        "options": [
+          "este similară sau, atunci când este posibil, se identifică cu denumirea elementelor patrimoniale pentru care se utilizează;",
+          "este determinată de conţinutul şi denumirea elementului a cărui evidenţă o asigură;",
+          "este legată direct de explicaţia descriptiva si contabila a operatiilor înregistrate;"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Dubla înregistrare constă în:",
+        "options": [
+          "modificarea concomitentă a cel puţin două posturi bilanţiere din activ în sensul majorării lor respectiv micsorarii lor;",
+          "înregistrarea repetată, de cel puţin două ori, a unei operaţii economice şi financiare in activ si pasiv;",
+          "înregistrarea simultană a unei operaţii economice şi financiare în debitul unui cont şi în creditul altui cont;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 14,
+        "text": "Etapele analizei contabile sunt:",
+        "options": [
+          "natura operaţiei, modificările bilanţiere, conturile corespondente şi aplicarea regulilor de funcţionare ale conturilor;",
+          "natura operaţiei, modificările bilanţiere, conturile corespondente, aplicarea regulilor de funcţionare ale conturilor şi stabilirea formulei contabile;",
+          "natura operaţiei, modificările bilanţiere, aplicarea regulilor de funcţionare ale conturilor, stabilirea formulei contabile şi conturile corespondente;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "text": "În cazul formulei contabile “Materii prime” = “Furnizori” 2.000:",
+        "options": [
+          "suma de 2.000 lei reprezintă soldul final al celor două conturi.",
+          "contul “Furnizori” se creditează;",
+          "formula contabilă este simplă;"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Formulele contabile de stornare în negru:",
+        "options": [
+          "sunt adesea utilizate in activitatea practica si nu stabilesc corespondenţe nereale între conturi;",
+          "anulează o formulă contabilă, întocmită anterior greşit, prin inversarea acesteia;",
+          "anulează prin repetare formule contabile întocmite anterior greşit."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 17,
+        "text": "Conturile monofuncţionale sunt cele care:",
+        "options": [
+          "sunt conturi de baza si isi exercita numai funcţia contabilă;",
+          "respectă integral fie regulile de funcţionare ale conturilor de activ, fie pe cele ale conturilor de pasiv;",
+          "prezintă un singur fel de sold final, debitor sau creditor."
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Dezvoltarea în analitic a unui cont sintetic:",
+        "options": [
+          "depinde de funcţia contabilă a contului sintetic si se dezvolta dupa o anumita metodologie;",
+          "se stabileşte la nivelul întreprinderii în funcţie de necesarul de informaţii pentru factorii de decizie;",
+          "este identică pentru toţi agenţii economici si serveste managementul entitatii in cauza;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 19,
+        "text": "Din categoria erorilor de fond fac parte:",
+        "options": [
+          "erorile de întocmire a balanţei de verificare si implicit a bilantului contabil;",
+          "erorile de prelucrare a datelor din conturi;",
+          "erorile de înregistrare în registrul jurnal;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 20,
+        "text": "Subscrierea aporturilor la capitalul social cu ocazia infiintarii societatii comerciale se înregistrează:",
+        "options": [
+          "în debitul contului 456 “Decontări cu acţionarii/asociaţii privind capitalul” şi creditul contului 1012 “Capital subscris vărsat”, pentru că are loc o modificare bilanţieră de volum în sensul creşterii;",
+          "în debitul contului 456 “Decontări cu acţionarii/asociaţii privind capitalul” şi creditul contului 1011 “Capital subscris nevărsat”, pentru că se produce o modificare bilanţieră de volum în sensul creşterii.",
+          "în debitul contului 1011 “Capital subscris nevărsat” şi creditul contului 1012 “Capital subscris vărsat”, care sunt de pasiv si are loc o modificare de structura in pasiv;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 21,
+        "text": "Situaţiile financiare anuale simplificate conţin:",
+        "options": [
+          "bilanţul prescurtat, situaţia fluxurilor de trezorerie şi notele explicative;",
+          "bilanţul prescurtat, contul de profit şi pierdere şi notele explicative;",
+          "contul de profit şi pierdere, situaţia modificărilor capitalului propriu şi notele explicative;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 22,
+        "text": "Cheltuieli de constituire achitate în numerar se înregistrează cu formula contabilă: 201 “Cheltuieli de constituire” = 5311 “Casa în lei”, deoarece:",
+        "options": [
+          "contul 201 este de activ, este afectat în sensul scăderii şi se aplică regula a treia de funcţionare a conturilor, iar contul 5311 este de activ dar creşte şi se aplică regula a doua de funcţionare a conturilor;",
+          "a avut loc o modificare bilanţieră de structură în activ, postul bilanţier majorat fiind “Cheltuieli de constituire”;",
+          "contul 201 este de activ, creşte şi se aplică regula a doua de funcţionare a conturilor, iar contul 5311 este de activ, scade şi se aplică regula a treia de funcţionare a conturilor;"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Consumul de materii prime se înregistrează:",
+        "options": [
+          "în debitul contului 601 “Cheltuieli cu materiile prime” pentru că creşte şi se aplică regula a doua de funcţionare a conturilor.",
+          "în debitul contului 601 “Cheltuieli cu materiile prime” pentru că este de pasiv şi în creditul contului 301 “Materii prime” pentru că este de activ;",
+          "în creditul contului 301 “Materii prime” pentru că este afectat în sensul scăderii şi se aplică regula a treia de funcţionare a conturilor;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Pentru a înregistra avansuri plătite furnizorilor de combustibil:",
+        "options": [
+          "se debitează contul 542 “Avansuri de trezorerie” pentru că este de activ şi se aplică regula a doua de funcţionare a conturilor;",
+          "se creditează contul 419 “Clienţi-creditori” pentru că este de pasiv şi se aplică regula a doua de funcţionare a conturilor;",
+          "se debitează contul 409 “Furnizori-debitori” pentru că este de activ şi se aplică regula a doua de funcţionare a conturilor."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 25,
+        "text": "Prin formula contabilă 627 “Cheltuieli cu serviciile bancare şi asimilate” = 5121 “Conturi la bănci în lei” se reflectă:",
+        "options": [
+          "comisioanele reţinute de bancă din contul curent al entitatii economice pentru serviciile prestate;",
+          "penalităţi plătite băncii pentru rambursarea cu întârziere a creditelor sipentru operatiuni bancare;",
+          "rate restante aferente creditelor bancare, rambursate."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 26,
+        "text": "Trăsătura caracteristică sau de bază a metodei contabilităţii este reprezentată de:",
+        "options": [
+          "calculele efectuate prin intermediul conturilor care permit determinarea stării şi mişcării fiecărui element patrimonial, precum şi rezultatele financiare obţinute;",
+          "dubla inregistrare a patrimoniului apartinand unei entitati economice din punct de vedere juridic;",
+          "dubla reprezentare sau reflectare sub dublu aspect a existenţei şi mişcării patrimoniului fiecărei entităţi economice."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 27,
+        "text": "Trăsătura caracteristică sau de bază a metodei contabilităţii este reprezentată de:",
+        "options": [
+          "activitatea de evidenţă propriu-zisă;",
+          "dubla reprezentare sau reflectare sub dublu aspect a existenţei şi mişcării patrimoniului fiecărei entităţi economice şi sociale;",
+          "reprezentarea patrimoniului concomitent din punct de vedere economic şi al obligaţiilor."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 28,
+        "text": "Avansurile de trezorerie semnifică:",
+        "options": [
+          "disponibil acordat în numerar administratorilor sau unor angajaţi în scopul rezolvării de probleme ale entităţii;",
+          "active circulante de trezorerie;",
+          "sume acordate firmelor la care se deţin acţiuni."
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Veniturile reprezintă valorile încasate sau de încasat provenite din:",
+        "options": [
+          "consumuri de stocuri;",
+          "livrări de bunuri, executări de lucrări şi prestări de servicii către terţi;",
+          "câştiguri obţinute din vânzarea de active."
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Cheltuielile sunt definite prin:",
+        "options": [
+          "diminuarea capitalurilor proprii;",
+          "scăderi de active şi creşteri de datorii;",
+          "creşteri ale beneficiilor economice."
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 31,
+        "text": "Sunt considerate documente justificative următoarele:",
+        "options": [
+          "documentele în care se consemnează orice operaţie ce afectează patrimoniul entităţii acolo şi atunci când a avut loc;",
+          "registrul jurnal, registrul inventar şi cartea mare;",
+          "situaţiile financiare anuale."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 32,
+        "text": "Dintre elementele componente ale contului fac parte:",
+        "options": [
+          "total sume;",
+          "forma unilaterala si bilaterala a contului;",
+          "explicaţia operaţiei înregistrate."
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 33,
+        "text": "În debitul conturilor se înregistrează:",
+        "options": [
+          "creşteri de active şi scăderi de pasive;",
+          "existentul aferent elementelor de activ;",
+          "sume ce se referă numai la elemente ce cresc."
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 34,
+        "text": "Imobilizările corporale ale entităţii se caracterizează prin următoarele:",
+        "options": [
+          "utilizarea pe parcursul unei perioade mai mari de un an şi depăşirea unei limite de valoare minimă stabilită prin hotărâre a Guvernului;",
+          "valori stabilite individual prin hotărâre de Guvern şi utilizate la mai multe circuite economice;",
+          "valori mari şi utilizare limitată la câteva circuite economice;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 35,
+        "text": "Rulajele creditoare ale conturilor de pasiv sunt formate din:",
+        "options": [
+          "total sume creditoare diminuate cu soldul iniţial creditor;",
+          "existentul înscris în credit la care se adaugă totalitatea sumelor înregistrate în credit în cursul perioadei;",
+          "valorile obţinute prin adunarea tuturor sumelor înregistrate în credit în cursul perioadei;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 36,
+        "text": "Contul 404 “Furnizori de imobilizări” prezintă la începutul lunii martie un sold iniţial de 2.000 lei. În cursul lunii martie se înregistrează două achiziţii de imobilizări în valoare de 1.600 lei şi 700 lei şi trei plăţi în contul furnizorilor de imobilizări în valoare de 900 lei, 1.800 lei şi 700 lei. Soldul final al contului 404 “Furnizori de imobilizări” este:",
+        "options": [
+          "900 lei;",
+          "4.300 lei;",
+          "1.300 lei;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 37,
+        "text": "Următoarele elemente se încadrează în categoria produse:",
+        "options": [
+          "bunurile si serviciile care au parcurs o parte din fazele procesului de fabricatie si sunt utilizate în activitatea de producţie;",
+          "bunurile care au parcurs integral fazele procesului de fabricaţie putând fi depozitate în vederea livrării sau expediate direct clienţilor;",
+          "valoarea bunurilor livrate către terţi sau vandute prin magazinele proprii de desfacere."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 38,
+        "text": "Etapele analizei contabile sunt:",
+        "options": [
+          "natura operaţiei, modificările bilanţiere, aplicarea regulilor de funcţionare ale conturilor, stabilirea formulei contabile şi conturile corespondente;",
+          "natura operaţiei, modificările bilanţiere, conturile corespondente, aplicarea regulilor de funcţionare ale conturilor şi stabilirea formulei contabile;",
+          "conturile corespondente, modificările bilanţiere, aplicarea regulilor de funcţionare ale conturilor şi stabilirea formulei contabile."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 39,
+        "text": "Formula contabilă “Conturi la bănci în lei” = “Credite bancare pe termen lung” 80.000:",
+        "options": [
+          "este o formulă contabilă simplă;",
+          "este o formulă contabilă de rectificare in rosu;",
+          "are suma înscrisă în negru;"
+        ],
+        "answerIndexes": [
+          0,
+          2
+        ]
+      },
+      {
+        "id": 40,
+        "text": "Conturile analitice:",
+        "options": [
+          "sunt cele utilizate pentru inregistrarea operatiilor economico-financiare in cadrul analizei contabile;",
+          "se utilizează în scopul urmăririi detaliate a elementelor înregistrate în conturile sintetice;",
+          "sunt considerate conturi dezvoltătoare;"
+        ],
+        "answerIndexes": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 41,
+        "text": "În funcţie de conţinutul lor economic conturile se delimitează astfel:",
+        "options": [
+          "conturi cu funcţie contabilă de activ şi conturi cu funcţie contabilă de pasiv;",
+          "conturi de bilanţ, conturi de procese economice, conturi de ordine şi evidenţă şi conturi de gestiune;",
+          "conturi sintetice şi conturi analitice;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 42,
+        "text": "Noţiunea de activ desemnează:",
+        "options": [
+          "provenienţa resurselor entităţii şi drepturile acesteia faţă de terţi;",
+          "drepturi si obligatii cu valoare economică generate de aprovizionarea cu bunuri;",
+          "utilizarea resurselor entităţii sau bunurile economice ca obiecte de drepturi de proprietate."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 43,
+        "text": "Mărfuri în valoare de 1.500 lei constatate lipsă la inventariere se înregistrează prin formula contabilă:",
+        "options": [
+          "371 „Mărfuri” = 6582 „Donaţii acordate” 1.500 lei;",
+          "6587,,Cheltuieli privind calamitatile si alte evenimente similare” = 371 „Mărfuri” 1.500 lei;",
+          "607 „Cheltuieli privind mărfurile” = 371 „Mărfuri” 1.500 lei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 44,
+        "text": "Sumele încasate ca avans de la clienţi pentru livrări ulterioare de bunuri reprezintă:",
+        "options": [
+          "creanţe comerciale;",
+          "datorii fata de creditori diversi;",
+          "datorii comerciale;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 45,
+        "text": "Capitalul social al entităţii este reprezentat de:",
+        "options": [
+          "aportul în numerar şi/sau în natură subscris de către acţionari sau asociaţi atât la constituirea societăţii cât şi la majorarea acestuia;",
+          "sumele lăsate de acţionari la dispoziţia entităţii;",
+          "sumele împrumutate de la terţi;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 46,
+        "text": "Încasarea prin virament a creanţei faţă de un debitor divers determină:",
+        "options": [
+          "creşterea disponibilităţilor băneşti din contul de la bancă, scăderea creanţelor entităţii şi o modificare de structură în pasiv;",
+          "creşterea disponibilităţilor băneşti din contul de la bancă, scăderea datoriilor entităţii şi o modificare de structură în pasiv.",
+          "creşterea disponibilităţilor băneşti din contul de la bancă, scăderea creanţelor entităţii şi o modificare de structură în activ;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 47,
+        "text": "Care din afirmaţiile de mai jos sunt adevărate?",
+        "options": [
+          "contul 371 “Mărfuri” este cont de stocuri cu functie contabila de activ;",
+          "contul 301 “Materii prime” se debitează prin creditul contului 601 “Cheltuieli cu materiile prime” pentru a reflecta materii prime constatate plus la inventariere;",
+          "formula contabilă 345 “Produse finite” = 711 “Venituri aferente costurilor stocurilor de produse” reflectă plus la inventar de materiale de natura obiectelor de inventar;"
+        ],
+        "answerIndexes": [
+          0,
+          1
+        ]
+      },
+      {
+        "id": 48,
+        "text": "Formulele contabile de stornare în roşu:",
+        "options": [
+          "presupun inversarea formulei contabile curente cu suma in chenar;",
+          "presupun repetarea formulei contabile greşite, cu sumele înscrise în roşu.",
+          "anulează prin inversare formule contabile întocmite anterior greşit;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 49,
+        "text": "Valoarea neamortizată a construcţiilor scoase din evidenţa entităţii ca urmare a cedării se înregistrează prin formula contabilă:",
+        "options": [
+          "212 “Construcţii” = 6583 “Cheltuieli privind activele cedate şi alte operaţii de capital”;",
+          "6583 “Cheltuieli privind activele cedate şi alte operaţii de capital” = 212 “Construcţii”.",
+          "281 “Amortizări privind imobilizările corporale” = 212 “Construcţii”;."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 50,
+        "text": "Registrele principale reţinute de Legea contabilităţii sunt:",
+        "options": [
+          "fişa de cont maestru-şah şi fişa de cont pentru operaţii diverse;",
+          "registrul jurnal, registrul inventar şi cartea mare;",
+          "contul, bilanţul şi balanţa de verificare."
+        ],
+        "answerIndex": 1
+      }
+    ]
   }
 ];
