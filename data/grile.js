@@ -3735,8 +3735,8 @@ window.QUIZ_PACKS = [
   },
   {
     "id": "examen-licenta",
-    "title": "Examen Licenta",
-    "subject": "Examen Licenta",
+    "title": "Examen Licenta MG 🔥",
+    "subject": "Examen Licenta MG 🔥",
     "source": "TESTE GRILĂ_discipline fundamentale_2026 + TESTE GRILĂ_discipline Specialitate MG_2026",
     "questions": [
       {
