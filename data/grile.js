@@ -9448,5 +9448,1269 @@ window.QUIZ_PACKS = [
         "answerIndex": 1
       }
     ]
+  },
+  {
+    "id": "examen-licenta-eai",
+    "title": "Examen Licenta EAI",
+    "subject": "Examen Licenta EAI",
+    "source": "TESTE GRILĂ_discipline fundamentale_2026 + TESTE GRILĂ_discipline specialitate_EAI_RO_2026",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Gruparea angajaților pe subdiviziuni organizatorice (departamente, servicii, secții, ateliere etc.), în funcție de sarcinile pe care aceștia le execută, reprezintă o activitate specifică funcției",
+        "options": [
+          "previziune",
+          "organizare",
+          "antrenare",
+          "control-evaluare"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "text": "Funcția de coordonare cuprinde un ansamblu de activități prin care se asigură:",
+        "options": [
+          "armonizarea și sincronizarea acțiunilor individuale și colective din cadrul întreprinderii",
+          "extrapolarea tendințelor prezente în activitatea întreprinderii",
+          "reconsiderarea factorilor care îi motivează pe salariații întreprinderii",
+          "eliminarea cauzelor care au condus la performanțe sub standardele stabilite inițial"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "text": "Sfera de autoritate reprezintă:",
+        "options": [
+          "gradul de îndeplinire a sarcinilor de către manager",
+          "numărul de persoane sau de compartimente subordonate nemijlocit de către un manager;",
+          "cantitatea de muncă pe care trebuie să o depună un manager",
+          "competențele pe care le deține un manager în domeniul postului ocupat"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "text": "Îndeplinirea corespunzătoare a funcției de antrenare presupune, în principal:",
+        "options": [
+          "înțelegerea de către manageri a rolului și particularităților factorului uman din întreprindere",
+          "manageri cu pregătire profesională deosebită în domeniul de activitate în care activează",
+          "controlul exercitat de către manageri asupra tuturor acțiunilor subordonaților",
+          "un sistem de motivare bazat în principal pe sancțiuni"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 5,
+        "text": "Domnul Krath Biro, Directorul economic al S.C. PROMOB-S.A., în reuniunea avută cu subordonații săi, a fost de părere că „… decizia deja abordată a fost posibilă deoarece am știut să înlăturăm improvizația și rutina, dar și datorită încadrării în perioada optimă de operaționalizare”. Analizați opinia directorului economic și recunoașteți la care cerințe de raționalitate a deciziei s-a referit directorul economic:",
+        "options": [
+          "fundamentarea științifică și oportunitatea;",
+          "oportunitatea și conținutul complet",
+          "claritatea, concizia și caracterul necontradictoriu",
+          "împuternicirea și fundamentarea științifică"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 6,
+        "text": "Cerința ca o decizie să fie împuternicită se referă la faptul că:",
+        "options": [
+          "este adoptată de cel în ale cărui sarcini este înscrisă în mod expres",
+          "este adoptată de către un specialist",
+          "este în concordanță cu obiectivele întreprinderii",
+          "este adoptată la nivelul managementului de vârf"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 7,
+        "text": "O firmă dorește să achiziționeze un nou utilaj de producție. Pe piață sunt identificați trei furnizori pentru acest tip de utilaj: ALPHA (F₁), BETA (F₂) și GAMA (F₃). Criteriile după care se va adopta decizia de cumpărare sunt: C₁ - prețul de achiziție; C₂ - garanția acordată de producător; C₃ - durata de recuperare a investiției. Criteriile au aceeași importanță (nu se vor folosi coeficienți de importanță în calcule). Particularitățile celor trei utilaje, în funcție de criteriile de comparație stabilite, sunt sintetizate în următorul tabel:",
+        "options": [
+          "F₁ și ordinea de preferință F₁, F₂, F₃",
+          "F₂ și ordinea de preferință F₂, F₁, F₃",
+          "F₃ și ordinea de preferință F₃, F₁, F₂",
+          "F₁ și ordinea de preferință F₁, F₃, F₂"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "C₁ (mii lei)",
+              "C₂ (ani)",
+              "C₃ (ani)"
+            ],
+            "rows": [
+              [
+                "F₁",
+                "600",
+                "8",
+                "6"
+              ],
+              [
+                "F₂",
+                "1.200",
+                "10",
+                "9"
+              ],
+              [
+                "F₃",
+                "800",
+                "6",
+                "5"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând metoda utilității globale rezultă că decizia optimă și ordinea de preferință a variantelor decizionale sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 8,
+        "text": "* Un producător de bere dorește să introducă în fabricație pentru sezonul estival 2024 un nou sortiment. Managerul companiei încearcă să ia o decizie cu privire la cantitățile ce se vor produce: V₁ - cantitate mare; V₂ - cantitate medie; V₃ - cantitate mică. La nivelul firmei nu există date exacte privind cererea pentru acest produs nou, dar specialiștii în marketing și vânzări au conturat 3 scenarii posibile: S₁ - cerere mare (6-7 luni „calde”); S₂ - cerere medie (4-5 luni „calde”); S₃ - cerere mică (o vară „scurtă”). Situația profitului (în mii lei) pentru fiecare dintre situațiile posibile este redată în tabelul de mai jos:",
+        "options": [
+          "V₁ și ordinea de preferință V₁, V₂, V₃",
+          "V₂ și ordinea de preferință V₂, V₁, V₃",
+          "V₃ și ordinea de preferință V₃, V₁, V₂",
+          "V₃ și ordinea de preferință V₃, V₂, V₁"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "",
+              "S₁",
+              "S₂",
+              "S₃"
+            ],
+            "rows": [
+              [
+                "V₁",
+                "88",
+                "53",
+                "20"
+              ],
+              [
+                "V₂",
+                "75",
+                "66",
+                "32"
+              ],
+              [
+                "V₃",
+                "57",
+                "50",
+                "39"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Aplicând regula pesimistă rezultă că varianta optimă și ordinea de preferință a variantelor sunt:",
+        "answerIndex": 3
+      },
+      {
+        "id": 9,
+        "text": "Marian Dragu este supervizorul unei echipe de vânzări. În activitatea sa de conducere el încurajează frecvent angajații să-și exprime liber opiniile și ține cont de ele în formularea obiectivelor echipei, le apreciază acțiunile creative și stimulează colaborarea. Atmosfera în echipă este bună și angajații sunt foarte implicați în realizarea obiectivelor companiei. În funcție de modul de manifestare a autorității manageriale, se poate spune că Marian Dragu are un stil de management:",
+        "options": [
+          "autoritar",
+          "democrat",
+          "permisiv",
+          "manipulativ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "text": "Reprezintă elementele ”cele mai vizibile” ale unei culturi organizaționale:",
+        "options": [
+          "semnele",
+          "miturile",
+          "tabuurile",
+          "percepțiile salariaților cu privire la structura puterii în organizație"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 11,
+        "text": "Imobilizările corporale ale entităţii se caracterizează prin următoarele:",
+        "options": [
+          "valori mari şi utilizare limitată la câteva circuite economice;",
+          "valori stabilite individual prin hotărâre de Guvern şi utilizare la mai multe circuite economice;",
+          "utilizarea pe parcursul unei perioade mai mari de un an şi depăşirea unei limite de valoare minimă stabilită prin hotărâre a Guvernului;",
+          "includerea în cadrul activelor cu lichiditate crescută;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 12,
+        "text": "Datoriile entităţii provenite din cumpărări de stocuri şi servicii sunt reflectate cu elementul patrimonial de pasiv:",
+        "options": [
+          "credite bancare pe termen lung;",
+          "sume datorate acţionarilor/asociaţilor;",
+          "furnizori;",
+          "clienţi-creditori."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 13,
+        "text": "Plata din disponibilul de la bancă a unei obligaţii comerciale provenite din aprovizionarea cu materii prime determină:",
+        "options": [
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, scăderea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;",
+          "scăderea disponibilului din contul de la bancă şi a creanţei faţă de furnizor şi o modificare de structură în activ;",
+          "scăderea disponibilului din contul de la bancă, creșterea obligaţiilor entităţii şi o modificare de volum în sensul diminuării;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 14,
+        "text": "Plata cu numerar a salariilor cuvenite angajaților determină:",
+        "options": [
+          "scăderea numerarului din casierie, creşterea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "scăderea numerarului din casierie, scăderea datoriei față de salariați şi o modificare de volum în sensul diminuării;",
+          "creșterea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul majorării;",
+          "scăderea numerarului din casierie, creşterea creanțelor salariaților şi o modificare de volum în sensul diminuării."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "text": "În debitul conturilor se înregistrează:",
+        "options": [
+          "sume ce se referă numai la elemente ce cresc;",
+          "creşteri de active şi scăderi de pasive;",
+          "sume ce se referă numai la elemente ce scad;",
+          "scăderi de active şi creşteri de pasive."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 16,
+        "text": "Formulele contabile de stornare în negru:",
+        "options": [
+          "anulează o formulă contabilă, întocmită anterior greşit, prin inversarea acesteia;",
+          "nu denaturează rulajul conturilor mărindu-l artificial",
+          "nu stabileşte corespondenţe nereale între conturi;",
+          "anulează prin repetare formule contabile întocmite anterior greşit."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 17,
+        "text": "Rulajele debitoare ale conturilor de activ sunt formate din:",
+        "options": [
+          "existentul înscris în debit la care se adaugă totalitatea sumelor înregistrate în debit în cursul perioadei;",
+          "soldul iniţial debitor la care se adaugă soldul final creditor;",
+          "total sume debitoare diminuate cu total sume creditoare.",
+          "valorile obţinute prin adunarea tuturor sumelor înregistrate în debit în cursul perioadei."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 18,
+        "text": "În partea dreaptă (creditul) a unei formule contabile se înscriu:",
+        "options": [
+          "conturi care reflectă creşteri ale elementelor de pasiv;",
+          "conturi care reflectă scăderi ale elementelor de pasiv;",
+          "conturi care reflectă creşteri ale elementelor de activ;",
+          "conturi care reflectă creşteri ale elementelor de pasiv şi ale elementelor de activ."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "text": "Contul 5121 „Conturi la bănci în lei” oferă următoarele informaţii: sold iniţial 700 lei, total sume creditoare 2.000 lei şi sold final 3.000 lei. Rulajul debitor aferent contului 5121 „Conturi la bănci în lei” este:",
+        "options": [
+          "1.000 lei;",
+          "1.700 lei;",
+          "4.300 lei;",
+          "1.800 lei."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 20,
+        "text": "* Contul 404 „Furnizori de imobilizări” prezintă la începutul lunii martie un sold iniţial de 2.000 lei. În cursul lunii martie se înregistrează două achiziţii de imobilizări în valoare de 1.600 lei şi 700 lei şi trei plăţi în contul furnizorilor de imobilizări în valoare de 900 lei, 1.800 lei şi 700 lei. Soldul final al contului 404 „Furnizori de imobilizări” este:",
+        "options": [
+          "900 lei;",
+          "4.300 lei;",
+          "1.300 lei;",
+          "7.700 lei."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 21,
+        "text": "Precizaţi care dintre următoarele relaţii este corectă:",
+        "options": [
+          "PNB = PIN + PIB.",
+          "PIB = PGB + Consumul intermediar (Ci);",
+          "PIN = PIB – Amortizare (A);",
+          "PNN = PIN + VN – Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 22,
+        "text": "Precizaţi care dintre următoarele relaţii este incorectă:",
+        "options": [
+          "PIB = PGB - Consumul intermediar (Cᵢ);",
+          "PIN = ∑VANᵢ;",
+          "PNN = PNB + Amortizare (A);",
+          "PIB = PIN + Amortizare (A);"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 23,
+        "text": "Produsului intern brut (PIB) se calculează în modul următor:",
+        "options": [
+          "PIB = PIN – Amortizare (A);",
+          "PIB = ∑VABᵢ;",
+          "PIB = PGB + Consumul intermediar (Cᵢ);",
+          "PIB = PNB – PNN;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 24,
+        "text": "În perioada recesiunii economice, măsurile de politică bugetară cu caracter anticiclic presupun:",
+        "options": [
+          "menținerea sau creșterea ponderii cheltuielilor publice în PIB;",
+          "creșterea gradului de fiscalitate;",
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 25,
+        "text": "În faza de creștere economică prelungită, politicile economice anticiclice urmăresc:",
+        "options": [
+          "reducerea gradului de fiscalitate;",
+          "menținerea sau reducerea ponderii cheltuielilor publice în PIB;",
+          "scăderea ratei dobânzii de politică monetară",
+          "creșterea ponderii cheltuielilor publice în PIB;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 26,
+        "text": "În faza de recesiune/criză economică, politicile economice anticiclice presupun:",
+        "options": [
+          "scăderea ponderii cheltuielilor publice în PIB;",
+          "creșterea ratei dobânzii de politică monetară;",
+          "menținerea sau reducerea gradului de fiscalitate;",
+          "reducerea volumului creditului în economie;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 27,
+        "text": "Inflaţia prin cerere apare ca urmare:",
+        "options": [
+          "a scăderii cererii agregate, într-un ritm mai mare decât oferta agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mic decât oferta agregată;",
+          "a creşterii ofertei agregate, în acelaşi ritm cu cererea agregată;",
+          "a creşterii cererii agregate, într-un ritm mai mare decât oferta agregată;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 28,
+        "text": "Factorii care determină creşterea costurilor şi pot deveni cauze ale inflaţiei prin costuri sunt:",
+        "options": [
+          "creşterea salariilor într-un ritm superior creşterii productivităţii muncii;",
+          "scăderea prețurilor la materii prime și materiale;",
+          "presiunea fiscală scăzută, în special cea privind impozitele indirecte;",
+          "evoluţia salariilor într-o dinamică cel mult egală cu cea a productivităţii muncii;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 29,
+        "text": "* Se cunosc următoarele date referitoare la dinamica prețurilor bunurilor de consum, în decursul unui an:",
+        "options": [
+          "108,4% şi 8,4%",
+          "104,8% şi 4,8%",
+          "105,3% şi 5,3%",
+          "103,5% şi 3,5%"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Bunuri economice de consum",
+              "Ponderea cheltuielilor în totalul consumului",
+              "Indicii specifici ai prețurilor/tarifelor"
+            ],
+            "rows": [
+              [
+                "Alimentare",
+                "65%",
+                "105%"
+              ],
+              [
+                "Nealimentare",
+                "25%",
+                "103%"
+              ],
+              [
+                "Servicii",
+                "10%",
+                "108%"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Indicele prețurilor bunurilor de consum (IPC) pe ansamblul economiei și rata inflației (Ri), în anul respectiv, au fost:",
+        "answerIndex": 1
+      },
+      {
+        "id": 30,
+        "text": "Nivelul şomajului se determină astfel:",
+        "options": [
+          "în mărime absolută, ca diferență între populația activă și numărul total al şomerilor;",
+          "în mărime absolută, exprimată prin numărul celor ocupaţi și neocupați;",
+          "în mărime relativă, exprimată ca raport procentual între numărul total al şomerilor şi populaţia activă;",
+          "în mărime relativă, calculată ca raport procentual între populaţia activă şi numărul total al şomerilor;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 31,
+        "text": "Capitalul total, după modalitățile de folosinţă, se materializează în:",
+        "options": [
+          "capital social; datorii; active imobilizate; active circulante;",
+          "capital social, datorii pe termen lung și datorii pe termen scurt;",
+          "capital permanent; datorii pe termen scurt și datorii pe termen lung;",
+          "active imobilizate și active circulante;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 32,
+        "text": "Capitalul propriu al întreprinderii se constituie prin:",
+        "options": [
+          "însumarea capitalului social cu datoriile pe termen scurt;",
+          "însumarea capitalului permanent cu datoriile pe termen lung;",
+          "însumarea capitalului social cu grupa primelor de capital, rezervelor și rezultatelor;",
+          "scăderea din capitalul total a datoriilor pe termen lung;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 33,
+        "text": "Activele imobilizate cuprind următoarele componente:",
+        "options": [
+          "imobilizări necorporale, imobilizări corporale și stocuri;",
+          "imobilizări necorporale, imobilizări corporale, imobilizări financiare;",
+          "imobilizări necorporale, imobilizări financiare, stocuri și creanțe;",
+          "stocuri, creanţe, investiții pe termen scurt, casa și conturi la bănci;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 34,
+        "text": "* La o firmă se cunosc următoarele date:",
+        "options": [
+          "25.000 lei;",
+          "23.000 lei;",
+          "40.000 lei;",
+          "45.000 lei;"
+        ],
+        "tables": [
+          {
+            "headers": [
+              "Indicator",
+              "Valoare"
+            ],
+            "rows": [
+              [
+                "capitalul social",
+                "90.000 lei"
+              ],
+              [
+                "capitalul propriu",
+                "105.000 lei"
+              ],
+              [
+                "datoriile pe termen scurt",
+                "53.000 lei"
+              ],
+              [
+                "datoriile pe termen lung",
+                "70.000 lei"
+              ],
+              [
+                "active imobilizate nete",
+                "135.000 lei"
+              ],
+              [
+                "active circulante",
+                "93.000 lei"
+              ]
+            ]
+          }
+        ],
+        "textAfterTables": "Valoarea fondului de rulment net va fi:",
+        "answerIndex": 2
+      },
+      {
+        "id": 35,
+        "text": "Obligațiunile sunt titluri de valoare care exprimă:",
+        "options": [
+          "creanţa emitentului asupra activelor deținătorilor;",
+          "angajamentul emitentului de a plăti dobânda şi de a rambursa împrumutul;",
+          "obligația deținătorilor de a rambursa împrumutul și de a plăti dobânda;",
+          "dreptul de proprietate asupra unei părți din capitalul social;"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 36,
+        "text": "Printre elementele tehnice ale obligațiunilor se regăsesc:",
+        "options": [
+          "prețul de emisiune, anuitatea, dobânda;",
+          "valoarea nominală, anuitatea, dividendele;",
+          "termenul de rambursare, dobânda, drepturile de atribuire;",
+          "valoarea nominală, dobânda, drepturile de subscriere, drepturile de atribuire;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 37,
+        "text": "Valoarea actualizată netă (VAN) se stabileşte ca:",
+        "options": [
+          "diferenţă între suma cash flow-urilor actualizate şi capitalul investit;",
+          "sumă între cash flow-urile actualizate şi capitalul investit;",
+          "raport între suma cash flow-urilor actualizate şi capitalul total;",
+          "diferenţă între suma cash flow-urilor actualizate şi amortisment;"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 38,
+        "text": "Amortizarea accelerată presupune:",
+        "options": [
+          "aplicarea cotei de amortizare liniară la valoarea fiscală de la data intrării în patrimoniu a mijlocului fix amortizabil;",
+          "multiplicarea cotei liniare cu coeficientul prevăzut de lege și aplicarea acestei cote la valoarea contabilă a mijlocului fix;",
+          "pentru primul an de utilizare, amortizarea nu poate depăşi 50% din valoarea fiscală de la data intrării în patrimoniu a mijlocului fix;",
+          "determinarea unor amortismente anuale constante pe întreaga durată de utilizare amijlocului fix;"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 39,
+        "text": "Accelerarea vitezei de rotaţie a activelor circulante presupune:",
+        "options": [
+          "reducerea coeficientului vitezei de rotaţie;",
+          "creşterea vitezei de rotaţie în zile și reducerea duratei în zile a unei rotaţii;",
+          "reducerea numărului de rotaţii;",
+          "creşterea coeficientului vitezei de rotaţie;"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 40,
+        "text": "Rata rentabilităţii financiare exprimă:",
+        "options": [
+          "capacitatea firmelor de a realiza profit brut pe baza capitalurilor permanente;",
+          "capacitatea firmelor de a realiza profit net pe baza capitalurilor proprii;",
+          "capacitatea firmelor de a realiza profit din exploatare pe baza activului economic;",
+          "capacitatea firmelor de a realiza profit pe baza capitalului angajat; I. 5. INFORMATICĂ ECONOMICĂ"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 41,
+        "text": "Ce format de export al foilor de calcul Excel vă oferă următoarele avantajele: documentele vor arăta la fel pe majoritatea calculatoarelor, se păstrează fonturile, formatările, la fel ca documentul original, respectiv conținutul nu poate fi ușor modificat?",
+        "options": [
+          "XLS;",
+          "TXT (tab delimited);",
+          "CSV (comma delimited);",
+          "PDF/XPS"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 42,
+        "text": "Care este opțiunea care oferă posibilitatea repetării liniilor din antetul tabelului pentru fiecare pagină de document:",
+        "options": [
+          "Rows to repeat at top;",
+          "Column to repeat at top;",
+          "Print area",
+          "Header/Footer"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 43,
+        "text": "Care din următoarele opțiuni ale comenzii Paste Special transformă coloanele de date copiate în rânduri sau invers?",
+        "options": [
+          "Formulas;",
+          "Transpose;",
+          "Formats;",
+          "Values."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 44,
+        "text": "Se efectuează următoarele operațiuni: în celula C1 se scrie valoarea 1, se selectează celulele C1 până la C5, accesați butonul Fill, comanda Series…, iar caseta de dialog Series, selectați Columns, alegeți, din lista Type, tipul seriei Growth; tastați 2 în caseta de text Step, apoi apăsați butonul Ok. Ce valoare veți avea în celula C5?",
+        "options": [
+          "16;",
+          "15;",
+          "5",
+          "9"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 45,
+        "text": "În cazul sortării, în fereastra de configurare a criteriilor de ordonare, opțiunea My data has headers va fi selectată dacă:",
+        "options": [
+          "lista de sortat are pe prima linie specificațiile de antet;",
+          "lista de sortat nu are antet;",
+          "antetul listei intră o ordonarea datelor;",
+          "activează linie de total în listă."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 46,
+        "text": "Celula H10 conține formula = B10+$C$10. Se copiază această formulă în celula J10. Care va fi conținutul intern al celulei J10?",
+        "options": [
+          "= D10+$C$10;",
+          "= C10+$C$10;",
+          "= B10+$C$10;",
+          "= C10+$D$10."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 47,
+        "text": "Funcția NOW() returnează:",
+        "options": [
+          "data curentă;",
+          "data și ora curentă;",
+          "locația curentă;",
+          "ora curentă."
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 48,
+        "text": "Celula A1 conține un singur caracter, „C”. Care este rezultatul funcției =FIND(A1;„ABCDE”;1)?",
+        "options": [
+          "1",
+          "5",
+          "3",
+          "0"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 49,
+        "text": "Care este rezultatul funcției =MID(„ABCDE”;3;2)?",
+        "options": [
+          "„C”;",
+          "„CDE”;",
+          "„DE”;",
+          "„CD”."
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 50,
+        "text": "Funcția de căutare vectorială are sintaxa: LOOKUP(lookup_value, lookup_vector, result_vector) Ce reprezintă parametrul lookup_vector?",
+        "options": [
+          "vectorul care furnizează rezultatul căutării;",
+          "valoarea căutată de funcție în vector;",
+          "domeniul format dintr-un singur rând sau coloană și care conține valoarea căutată;",
+          "vectorul căutat de funcție."
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 51,
+        "text": "Obiectivele PAC sunt:",
+        "options": [
+          "să ofere populaţiei europene preturi rezonabile pentru produsele agricole",
+          "să confirme impactul sectorului agricol al micilor ferme asupra economiei şi a politicii regionale",
+          "unitatea pieţelor industriale",
+          "salvgardarea valorilor comune",
+          "promovarea cooperării internaţionale"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 52,
+        "text": "Cate state numarau Comunitatile Europene in 1982:",
+        "options": [
+          "3 state",
+          "6 state",
+          "9 state",
+          "10 state",
+          "12 state"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 53,
+        "text": "Care sunt condiţiile necesare pentru funcţionarea Uniunii Vamale?",
+        "options": [
+          "existenţa TVA comun;",
+          "existenţa frontierelor fiscale;",
+          "existenţa unor reguli diferenţiate privind desfăşurarea concurenţei;",
+          "existenţa restricţiilor cantitative în comerţul reciproc;",
+          "armonizarea legislaţiilor vamale naţionale."
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 54,
+        "text": "Sistemul taxelor de restituire (sau al subvenţiilor la export):",
+        "options": [
+          "se practică în situaţiile când producţia agricolă internă nu asigură necesarul pentru consum şi se apelează la importuri;",
+          "se practică în situaţiile când se fac exporturi de produse agricole la preţuri mai mari decât cele comunitare;",
+          "se practică în situaţiile când în comerţul cu produse agricole se operează şi cu bariere netarifare;",
+          "se practică în situaţiile când produsele agricole comunitare se exportă în terţe ţări la preţuri mai mici decât comunitare;",
+          "se calculează ca diferenţă între preţul comunitar, mai mare, şi preţul de export mai mic."
+        ],
+        "answerIndexes": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": 55,
+        "text": "La nivelul Uniunii Europene principalul organism decizional este:",
+        "options": [
+          "Parlamentul European",
+          "Comisia Europeană",
+          "Consiliul Uniunii Europene",
+          "Comitetul Regiunilor",
+          "Curtea de Conturi"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 56,
+        "text": "Comunitatea Economică Europeană:",
+        "options": [
+          "a fost creată în baza Tratatului de la Roma",
+          "are la bază planul Schuman",
+          "a urmărit crearea Uniunii Economice",
+          "a urmărit crearea Pietei Unice",
+          "are la bază planul Marshall"
+        ],
+        "answerIndexes": [
+          0,
+          3
+        ]
+      },
+      {
+        "id": 57,
+        "text": "Care din următoarele ţări sunt membri fondatori ai Uniunii Europene?",
+        "options": [
+          "Irlanda",
+          "Marea Britanie",
+          "Olanda",
+          "Danemarca",
+          "Italia"
+        ],
+        "answerIndexes": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": 58,
+        "text": "Care dintre enumerările de mai jos se constituie în cauze ale integrării economice?",
+        "options": [
+          "limitele şi restricţiile impuse de graniţele naţionale",
+          "necesitatea dezvoltării fiecărei ţări strict în interiorul graniţelor naţionale",
+          "necesitatea păstrării în cadrul naţional a valorilor şi tradiţiilor naţionale",
+          "necesitatea apărării de intenţiile de penetrare a firmelor multinaţionale",
+          "creşterea gradului de concentrare a producţiei şi capitalului şi capacitatea redusă a pieţelor naţionale."
+        ],
+        "answerIndexes": [
+          0,
+          4
+        ]
+      },
+      {
+        "id": 59,
+        "text": "Piaţa Comună prezintă următoarele caracteristici:",
+        "options": [
+          "politica monetară comună",
+          "moneda unică",
+          "armonizarea politicilor comune",
+          "tarif vamal extern foarte mic",
+          "cele patru libertăţi fundamentale"
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 60,
+        "text": "Principiile PAC sunt:",
+        "options": [
+          "unitatea pieţelor, preferinţa comunitară şi solidaritatea financiară",
+          "unitatea pieţelor şi solidaritatea financiară",
+          "dezvoltarea pieţelor, securitatea aprovizionării şi solidaritatea financiară",
+          "unitatea pieţelor",
+          "preferinţa comunitară şi solidaritatea financiară"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 61,
+        "text": "Sunt considerate țări cu nivel mediu de dezvoltare sau nou industrializate:",
+        "options": [
+          "Canada",
+          "Bulgaria",
+          "Australia",
+          "Taiwan",
+          "Japonia"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 62,
+        "text": "Economia naţională înseamnă:",
+        "options": [
+          "un stat centralizat",
+          "ţările lumii luate în ansamblu",
+          "schimb reciproc de activităţi economice între membrii unei comunităţi pe teritoriul unui stat",
+          "totalitatea ramurilor de activitate economică ale unei ţări aflate în interdependenţă",
+          "relaţiile comerciale dintre ţara A şi B"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 63,
+        "text": "Identificaţi motivele pentru care economia internațională ca sistem de relaţii dintre state nu este o entitate:",
+        "options": [
+          "economia internațională are o populaţie proprie",
+          "economia internațională are un capital propriu",
+          "indicatorii sintetici nu pot fi însumaţi",
+          "economia internațională nu are un teritoriu propriu",
+          "economia internațională este condusă prin legi mondiale"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 64,
+        "text": "Echilibrul economiei internaționale ca sistem de relaţii dintre state presupune:",
+        "options": [
+          "exportul şi importul fiecărei ţări să fie egale",
+          "ţările să nu apeleze la credite din exterior",
+          "suma preţurilor mărfurilor oferite pe piaţa externă să corespundă sumei lichidităţilor internaţionale pentru plata lor",
+          "investiţiile unei ţări în străinătate să fie egale cu investiţiile străine în ţara respectivă;",
+          "aplicarea de taxe vamale similare în comerţul dintre ţări"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 65,
+        "text": "Nu fac parte din comerţul invizibil:",
+        "options": [
+          "serviciile bancare internaţionale",
+          "transporturile internaţionale",
+          "turismul internaţional",
+          "schimburile cu brevete",
+          "schimburile cu produse energetice"
+        ],
+        "answerIndex": 4
+      },
+      {
+        "id": 66,
+        "text": "Avantajul absolut în cadrul modelului Adam Smith este dat de:",
+        "options": [
+          "diferenţa de productivitate la produsele X şi Y în ţara A",
+          "diferenţa de productivitate la produsele X şi Y în ţara B",
+          "egalitatea productivităţii la produsul X între ţările A şi B",
+          "diferenţa de productivitate la produsul Y între ţările A şi B",
+          "egalitatea productivităţii la produsele X şi Y între ţara A şi ţara B"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 67,
+        "text": "Costul oportun reprezintă:",
+        "options": [
+          "costul cel mai scăzut cu care poate fi fabricat un produs",
+          "cantitatea dintr-un produs la care ţara trebuie să renunţe pentru a produce o cantitate suplimentară din alt produs",
+          "costul care permite vânzarea produsului pe piaţa externă;",
+          "costul care permite vânzarea produsului pe piaţa internă",
+          "costul care poate fi acoperit din preţul de vânzare al produselor"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 68,
+        "text": "O zonă de comerţ liber presupune:",
+        "options": [
+          "desfiinţarea taxelor vamale şi a restricţiilor cantitative între ţările membre",
+          "aplicarea la importul din ţările terţe a celui mai mic tarif naţional al ţărilor membre",
+          "aplicarea la importul din ţările terţe a unui tarif extern comun",
+          "acordarea de preferinţe vamale la importul din ţările în curs de dezvoltare",
+          "acordarea de preferinţe vamale reciproce între ţările în curs de dezvoltare"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 69,
+        "text": "Anumite definiţii ale companiilor multinaţionale pornesc de la criterii structurale cum ar fi:",
+        "options": [
+          "valoarea absolută a profiturilor",
+          "valoarea relativă a producţiei",
+          "numărul de ţări în care firma operează",
+          "valoarea absolută a vânzărilor",
+          "numărul de salariaţi implicaţi în activitatea inter-naţională a companiei"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 70,
+        "text": "Într-o economie autarhică:",
+        "options": [
+          "PIB = consum + achiziţii guvernamentale + investiţii;",
+          "PIB = consum + achiziţii guvernamentale + investiţii + exportul net;",
+          "PIB = consum + achiziţii guvernamentale",
+          "investiţii > economii;",
+          "investiţii < economii."
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 71,
+        "text": "* Efectul impunerii unei taxe vamale este reprezentat astfel: valoarea distorsiunii de producție este de 25 mil. euro, valoarea distorsiunii de comerț este de 19 mil. euro, iar câștigul pentru raportul de schimb ca urmare a influențării în sensul scăderii prețului de import este de 18 milioane euro. Costul net al tarifului este în acest caz:",
+        "options": [
+          "62 mil. euro",
+          "26 mil. euro",
+          "22 mil. euro",
+          "10 mil. euro"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 72,
+        "text": "Între mijloacele de stimulare a exporturilor se regăsesc:",
+        "options": [
+          "negocierea și încheierea de tratate comerciale",
+          "primele directe de export",
+          "centrele de comerț exterior",
+          "reprezentarea oficială în străinătate"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 73,
+        "text": "Taxa vamală este:",
+        "options": [
+          "un impozit indirect perceput asupra mărfurilor importate",
+          "un impozit direct perceput asupra mărfurilor importate",
+          "un impozit indirect perceput asupra mărfurilor exportate",
+          "un impozit direct perceput asupra mărfurilor exportate"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 74,
+        "text": "În cazul în care guvernele acordă subvenţii, producătorii vor exporta produsele până la punctul în care:",
+        "options": [
+          "preţul intern devine egal cu costul de producţie",
+          "preţul extern devine egal cu costul de producţie",
+          "preţul extern depăşeşte preţul intern cu volumul subvenţiei",
+          "preţul intern depăşeşte preţul extern cu volumul subvenţiei"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 75,
+        "text": "Între principiile pe baza cărora funcționează OMC se regăsesc:",
+        "options": [
+          "regula tratamentului naţional",
+          "protejarea economiei naţionale prin contingente vamale",
+          "neconsolidarea taxelor vamale",
+          "protejarea industriilor naţionale prin standarde de calitate"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 76,
+        "text": "După modul de stabilire de către stat, taxele vamale pot fi:",
+        "options": [
+          "ad-valorem",
+          "specifice",
+          "preferențiale",
+          "de tranzit"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 77,
+        "text": "Obiectivul de bază al OMC este:",
+        "options": [
+          "acordarea de asistenţă financiară",
+          "de a supraveghea comerțul internațional între țările dezvoltate și cele în curs de dezvoltare",
+          "crearea condițiilor de pace",
+          "de a crea un sistem de comerţ liberal şi deschis"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 78,
+        "text": "Între mijloacele de promovare a exporturilor se regăsesc:",
+        "options": [
+          "participarea la târguri şi expoziţii internaţionale",
+          "subvențiile directe la export",
+          "subvențiile indirecte la export",
+          "deprecierea monetară"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 79,
+        "text": "Deşi din punct de vedere teoretic argumentul infant industry este convingător, în lumea reală apar o serie de probleme:",
+        "options": [
+          "redistribuirea veniturilor ar trebui realizată prin măsuri de politică fiscală şi bugetară",
+          "după maturizarea unei industrii este imposibil din punct de vedere social să se renunţe la protecţie",
+          "costul social al protecţiei şi câştigul din dezvoltarea industriei protejate sunt foarte dificil dacă nu imposibil de comensurat, pentru a determina avantajul net pentru economie",
+          "protecţia unui produs intensiv în muncă duce la reducerea producţiei acelui produs şi, în consecinţă, la preţuri relativ mai mari pentru muncă"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 80,
+        "text": "* Care este nivelul de protecție efectivă (taxa vamală efectivă) pentru pantofii de piele, știind că prețul fără taxă vamală al unei perechi de pantofi este de 200 $ și că pentru pielea necesară realizării perechii de pantofi, prețul fară taxă vamală este de 150 $, iar în tarif, taxa vamală la import pentru pantofi de piele este de 20%, iar pentru piele este 10%?",
+        "options": [
+          "20%",
+          "25%",
+          "50%",
+          "10%"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 81,
+        "text": "Acordul General pentru Tarife şi Comerţ (GATT) a fost semnat:",
+        "options": [
+          "22 iulie 1944",
+          "30 octombrie 1947",
+          "01 decembrie 2009",
+          "24 octombrie 1945"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 82,
+        "text": "Principiile care stau la baza GATT sunt următoarele:",
+        "options": [
+          "promovarea cooperării monetare internaţionale",
+          "maximizarea oportunităţilor de comerţ, investiţii şi a oportunităţilor de dezvoltare a ţărilor în curs de dezvoltare",
+          "oferirea ţărilor membre de credite pe termen scurt şi mijlociu, în vederea reducerii dezechilibrelor temporare din balanţele de plăţi",
+          "acordarea reciprocă şi necondiţionată în relaţia dintre statele semnatare, a clauzei naţiunii celei mai favorizate"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 83,
+        "text": "Atât prin textul Acordului, cât şi prin activitatea defăşurată de la înfiinţare, GATT a admis unele adaptări şi modificări de reguli şi principii:",
+        "options": [
+          "admiterea creării de zone de comerţ liber şi de uniuni vamale",
+          "promovarea stabilităţii cursurilor valutare şi evitarea devalorizărilor monetare, ca mijloc de concurenţă international",
+          "supravegherea politicilor financiar-valutare",
+          "facilităţi de finanţare compensatorii"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 84,
+        "text": "În cadrul cărei runde de negocieri multilaterale s-a înfiinţat Organizaţia Mondială a Comerţului?",
+        "options": [
+          "Runda Tokyo",
+          "Runda Geneva",
+          "Runda Uruguay",
+          "Runda Kennedy"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 85,
+        "text": "Fondul Monetar Internațional (FMI) este o organizație internațională cu 188 de state membre, având ca scop principal promovarea unei economii mondiale sănătoase. Prin ce tratat a fost constituită?",
+        "options": [
+          "Tratatul de la Paris",
+          "Tratatul de la Nisa",
+          "Tratatul de la Roma",
+          "Tratatul de la Bretton Woods"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 86,
+        "text": "Obiectivele FMI:",
+        "options": [
+          "tratamentul naţional privind impozitele şi reglementările interne",
+          "liberalizarea tranzitului",
+          "eliminarea generală a restricţiilor cantitative",
+          "oferirea ţărilor membre de credite pe termen scurt şi mijlociu, în vederea reducerii dezechilibrelor temporare din balanţele de plăţi"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 87,
+        "text": "Funcţiile FMI:",
+        "options": [
+          "negocierea de instrumente juridice internaţionale, multilaterale",
+          "supravegherea politicilor financiar-valutare",
+          "constituirea unui fond special pentru ajutor de urgenţă, în favoarea ţărilor cel mai puţin dezvoltate",
+          "instituirea sistemului de preferinţe vamale"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 88,
+        "text": "Organismele de conducere FMI sunt:",
+        "options": [
+          "Consiliul Guvernatorilor",
+          "Consiliul Economic și Social",
+          "Adunarea Generala",
+          "Consiliul de Tutelă"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 89,
+        "text": "Negocierile multilaterale în cadrul UNCTAD urmăresc, în principal, următoarele:",
+        "options": [
+          "formularea de principii şi politici în domeniul comerţului exterior şi problemele conexe ale dezvoltării",
+          "aranjamente stand-by",
+          "regimul general al naţiunii celei mai favorizate",
+          "restricţii pentru protejarea echilibrului balanţei de plăţi"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 90,
+        "text": "* Dintre rezultatele activităţii UNCTAD sunt de menţionat:",
+        "options": [
+          "utilizarea unei metodologii de evaluare vamală care să reflecte valoarea reală a mărfurilor, în scopul de a realiza funcţionarea corectă a taxelor vamale rezultate din negocierile multilaterale",
+          "instituirea sistemului de preferinţe vamale",
+          "tratamentul naţional privind impozitele şi reglementările interne",
+          "neadmiterea concurenţei neloiale, constând din practicarea de subvenţii şi preţuri de dumping la export"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 91,
+        "text": "Ce reprezintă tranzacţiile internationale?",
+        "options": [
+          "locul în care se întâlnesc cererile şi ofertele de produse, valori şi servicii din diferite state, supuse legilor economice obiective ale comerţului internaţional",
+          "este sistemul prin care ţările schimbă bunuri şi servicii",
+          "este o compensaţie globală, realizată la nivel de grupe de intreprinderi aparţinând uneia sau mai multor ramuri economice",
+          "operaţiuni planificate şi derulate în afara graniţelor ţării pentru a satisface obiectivele individuale şi colective ale operatorilor economici"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 92,
+        "text": "Ce reprezintă activitatea logisticã în tranzacţiile internaţionale?",
+        "options": [
+          "ansamblul de operaţiuni, metode, mijloace având ca scop sã permitã unei firme /entitãţi sã supravieţuiascã/ sã se dezvolte în mediul sãu existenţial (producţia, comercializarea produselor/serviciilor sale)",
+          "presupune faptul că producătorul îşi realizează prin compartimentele proprii fie exportul, fie importul de mărfuri şi servicii",
+          "procesul prin care o firmă permite alteia folosirea proprietăţilor sale intelectuale contra unei compensaţii",
+          "acordarea dreptului de către compania părinte altei companii existente, independenţa de a desfăşura afaceri într-o anumită manieră prescrisă"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 93,
+        "text": "Ce reprezintă negocierea în tranzacţiile internaţionale?",
+        "options": [
+          "repartizare de roluri între firme pentru mişcarea/ transferul mãrfurilor",
+          "a trata, discuta în vederea unui acord",
+          "procedurã care reglementeazã preţul de vânzare al bunurilor debitorului în beneficiul creditorilor sãi, în caz de vânzare forţatã sau amiabilã",
+          "acţiune de repartizare de bunuri între persoane"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 94,
+        "text": "Trăsături specifice tranzacţiei internaţionale:",
+        "options": [
+          "oferirea acelor soluţii de desfacere a produsului care să răspundă cel mai bine aşteptărilor clienţilor",
+          "încheierea de contracte adecvate între părţi, respectarea exigenţelor de securitate",
+          "organizarea fluxurilor fizice şi fluxurilor de informaţii, modul de a optimiza serviciul făcut clientelei",
+          "se consemnează/încheie „în scris“ sub forma unui acord/convenţii/contract commercial"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 95,
+        "text": "Avantajele licenţierii:",
+        "options": [
+          "este o formă de comerţ puţin costisitoare deoarece presupune o activitate de marketing relativ mai redusă şi un aparat comercial mai puţin numeros",
+          "baza juridică a operaţiunilor este creată, de regulă, prin două sau mai multe contracte, între care există o anumită legătură",
+          "diversificarea fondului de mărfuri pentru piaţă in cadrul regional, cu efecte benefice asupra consumatorilor, acest procedeu fiind şi un mijloc de testare a competitivităţii internaţionale a unor produse",
+          "constituie un mijloc prin intermediul căruia pieţele străine pot fi testate fără implicarea majoră a capitalului"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 96,
+        "text": "Franciza reprezintă:",
+        "options": [
+          "aranjamentele compensatorii prin care exportatorul se obligă contractual să contribuie la realizarea unor venituri în valută de către importator",
+          "un acord între două sau mai multe ţări pentru o compensare globală a fluxurilor de bunuri şi servicii reciproce pe o perioadă determinată de timp",
+          "acordarea dreptului de către compania părinte altei companii existente, independenţa de a desfăşura afaceri într-o anumită manieră prescrisă",
+          "schimburile de măfuri şi prestările de servicii în compensaţie între două sau mai multe firme din ţări diferite"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 97,
+        "text": "Cum se poate caracteriza oferta de export?",
+        "options": [
+          "oferta nu reprezinta un document de informare, de invitaţie la negocieri, de invitaţie la comandă",
+          "mijloceşte transferul de proprietate de la vânzător la cumpărător",
+          "acceptarea ei, în forma şi conţinutul în care a fost lansată, naşte obligaţii contractuale reciproce şi ferme",
+          "serveşte la efectuarea formalităţilor vamale"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 98,
+        "text": "Formele superioare ale francizei sunt:",
+        "options": [
+          "sistemul firma de comerţ exterior - banca importatorului",
+          "sistemul fabricant - en-grosist",
+          "sistemul expeditor - transportator",
+          "sistemul exportator - importator"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 99,
+        "text": "Elementele esenţiale din cadrul conţinutului ofertei:",
+        "options": [
+          "precizarea numărului comenzii în baza căreia se face livrarea, specificarea numelui şi adresei cărăuşului",
+          "forma juridică, tipul de activitate, numere de telefon, fax, adrese e-mail, numărul de înmatriculare în registrul comerţului pentru firma de comert exterior",
+          "jurisdicţia competentă în caz de litigii",
+          "condiţiile de expediţie"
+        ],
+        "answerIndex": 3
+      },
+      {
+        "id": 100,
+        "text": "* Precizaţi dezavantajele licenţierii:",
+        "options": [
+          "constituie un mijloc prin intermediul căruia pieţele străine pot fi testate fără implicarea majoră a capitalului",
+          "generând venituri, licenţierea oferă posibilitatea de exploatare a cercetării şi dezvoltării deja existente",
+          "în schimbul venitului obţinut din licenţă, licenţiatorul poate crea proprii săi concurenţi nu doar pe piaţa pentru care înţelegerea a fost făcută dar şi pe terţe pieţe",
+          "ajută la evitarea regulamentelor care prevalează în ţara gazdă"
+        ],
+        "answerIndex": 2
+      }
+    ]
   }
 ];
